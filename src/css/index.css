@@ -143,11 +143,15 @@ h3 {
 }
 
 .social-media a {
-  margin: 10px;
-  font-size: 2rem;
+  margin: 10px 30px 10px 30px;
+  font-size: 3rem;
   text-align: center;
   display: inline-block;
   color: var(--main-fonts-color);
+}
+
+.social-media span {
+  font-family: var(--main-font-family);
 }
 
 .social-media a i {
@@ -218,6 +222,10 @@ h3 {
 
 .card a {
   text-decoration: none;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .card .work-content:hover {

@@ -15,7 +15,7 @@ export default function Project() {
       <div className="work-box">
         <div className="work">
           {project.map((item) => {
-            return <ProjectCards key={item.id} />;
+            return <ProjectCards key={item.id} item={item} />;
           })}
         </div>
       </div>

@@ -20,7 +20,7 @@ export default function Contact() {
       </div>
       <div className="social-media">
         <a href="https://medium-ryan.tistory.com" target="blank">
-          <p>BLOG</p>
+          <span>BLOG</span>
         </a>
         <a href="https://github.com/mediumryan?tab=repositories" target="blank">
           <i className="fab fa-github"></i>

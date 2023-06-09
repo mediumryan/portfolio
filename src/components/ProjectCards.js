@@ -1,17 +1,11 @@
 import React from "react";
 
-export default function ProjectCards() {
+export default function ProjectCards({ item }) {
   return (
     <div className="card">
-      <img
-        className="work-img"
-        alt="React Project"
-        src="https://images.unsplash.com/photo-1518611507436-f9221403cca2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1225&q=80"
-      />
+      <img className="work-img" alt={item.title} src={item.image_path} />
       <a href="/" target="_blank">
-        <div className="work-content">
-          Lorem ipsum dolor sit amet consectetur.
-        </div>
+        <div className="work-content">{item.title}</div>
       </a>
     </div>
   );
