@@ -148,6 +148,7 @@ h3 {
   text-align: center;
   display: inline-block;
   color: var(--main-fonts-color);
+  transition: 300ms all;
 }
 
 .social-media span {
