@@ -22,7 +22,7 @@ export default function Contact() {
         <a href="https://medium-ryan.tistory.com" target="blank">
           <span>BLOG</span>
         </a>
-        <a href="https://github.com/mediumryan?tab=repositories" target="blank">
+        <a href="https://github.com/mediumryan" target="blank">
           <i className="fab fa-github"></i>
         </a>
       </div>

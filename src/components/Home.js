@@ -9,11 +9,21 @@ export default function Home() {
           Jonghyeok Lee
           <hr />
         </h3>
-        <p>29 , Living in Fukuoka-Yakuin</p>
-        <p>I am studying passionately to become a front-end developer.</p>
         <p>
-          And, I can currently use HTML, CSS, JavaScript, React JS, Git, etc.
-          for frontend development.
+          29 , Living in <span className="accent">Fukuoka-Yakuin.</span>
+        </p>
+        <p>
+          Majored in Tourism Japanese and{" "}
+          <span className="accent">Computer Science.</span>
+        </p>
+        <p>
+          I am studying passionately to become a{" "}
+          <span className="accent">front-end developer.</span>
+        </p>
+        <p>
+          And, I can currently use{" "}
+          <span className="accent">HTML, CSS, JavaScript, React, Git</span>,
+          etc. for front-end development.
         </p>
       </section>
     </div>

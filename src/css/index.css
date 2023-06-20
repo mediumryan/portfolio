@@ -3,11 +3,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 :root {
+  /* color */
   --main-background: #0b0c0f;
   --main-fonts-color: #fff;
   --main-decor-color: #00a9e2;
   --main-header-background: #21252e;
   --main-font-family: "Poppins", sans-serif;
+  /* font-size */
+  --font-size-large: 48px;
+  --font-size-medium-large: 36px;
+  --font-size-medium: 24px;
+  --font-size-small: 16px;
+  --font-size-micro: 10px;
 }
 
 .main_container {
@@ -15,6 +22,11 @@
   width: 100%;
   height: 100%;
   background: var(--main-background);
+}
+
+.accent {
+  color: var(--main-decor-color);
+  font-size: var(--font-size-medium);
 }
 
 /*────────────────── 
