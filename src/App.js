@@ -1,6 +1,6 @@
 import "./css/index.css";
 // import components
-import Navbar from "./components/Navbar";
+import TopHeader from "./components/TopHeader";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
@@ -8,7 +8,7 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div className="main_container">
-      <Navbar />
+      <TopHeader />
       <Home />
       <Project />
       <Contact />
