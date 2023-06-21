@@ -4,6 +4,7 @@ import TopHeader from "./components/TopHeader";
 import Home from "./components/Home";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }

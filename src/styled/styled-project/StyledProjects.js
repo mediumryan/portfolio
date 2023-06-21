@@ -15,7 +15,7 @@ export const ProjectContainer = styled.div`
   }
   p {
     font-family: var(--main-font-family);
-    font-size: var(--font-size-small);
+    font-size: var(--font-size-medium);
     padding: var(--padding-small);
   }
 `;
@@ -31,7 +31,7 @@ export const ProjectsBtnContainer = styled.div`
     border: none;
     border-radius: 10px;
     color: var(--main-fonts-color);
-    background: var(--main-decor-color);
+    background-color: var(--main-decor-color);
     cursor: pointer;
     -webkit-box-shadow: 10px 10px 28px 0px rgba(0, 169, 226, 0.75);
     -moz-box-shadow: 10px 10px 28px 0px rgba(0, 169, 226, 0.75);
