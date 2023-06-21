@@ -1,12 +1,17 @@
 import React from "react";
+// import styled-components
+import {
+  Cards,
+  CardsContent,
+} from "../styled/styled-project/StyledProjectsCards";
 
 export default function ProjectCards({ item }) {
   return (
-    <div className="card">
-      <img className="work-img" alt={item.title} src={item.image_path} />
-      <a href={item.url_path} target="blank">
+    <Cards>
+      <img alt={item.title} src={item.image_path} />
+      <CardsContent href={item.url_path} target="blank">
         <div className="work-content">{item.title}</div>
-      </a>
-    </div>
+      </CardsContent>
+    </Cards>
   );
 }

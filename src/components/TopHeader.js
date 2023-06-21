@@ -4,7 +4,8 @@ import {
   HeaderContainer,
   NavbarContainer,
   NavMenuItems,
-} from "../styled/StyledHeader";
+} from "../styled/styled-header/StyledHeader";
+import { Link } from "react-scroll";
 
 export default function Navbar() {
   const linkArr = [
@@ -18,22 +19,21 @@ export default function Navbar() {
       <HeaderTitle>Ryan's Portfolio</HeaderTitle>
       <NavbarContainer>
         <ul>
-          {linkArr.map((item) => {
-            return (
-              <li key={item.id}>
-                <NavMenuItems href={`#${item.link}`}>
-                  {item.link.toUpperCase()}
-                </NavMenuItems>
-              </li>
-            );
-          })}
+          {linkArr.map((item) => (
+            <NavMenuItems key={item.id}>
+              <Link
+                activeClass="active"
+                to={item.link}
+                spy={true}
+                smooth={true}
+                duration={100}
+              >
+                {item.link.toUpperCase()}
+              </Link>
+            </NavMenuItems>
+          ))}
         </ul>
-
-        <div className="hamburger">
-          <div className="line1"></div>
-          <div className="line2"></div>
-          <div className="line3"></div>
-        </div>
+        <button className="hamburger"></button>
       </NavbarContainer>
     </HeaderContainer>
   );

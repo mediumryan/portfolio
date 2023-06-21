@@ -1,6 +1,12 @@
 import React, { useState } from "react";
 import ProjectCards from "./ProjectCards";
 import { projects } from "./../datas/projects";
+// import styled-components
+import {
+  ProjectContainer,
+  ProjectsBtnContainer,
+  CardsContainer,
+} from "../styled/styled-project/StyledProjects";
 
 export default function Project() {
   const [project, setProject] = useState(projects);
@@ -8,15 +14,14 @@ export default function Project() {
   const filtered2 = projects.filter((a) => a.tag === "React");
 
   return (
-    <div id="projects">
+    <ProjectContainer id="projects">
       <h3>
         My Projects.
         <hr />
       </h3>
       <p>Here are some of my projects, you may like.</p>
-      <div className="projects-btn-box">
+      <ProjectsBtnContainer>
         <button
-          className="projects-btn"
           onClick={() => {
             let copy = [...project];
             copy = projects;
@@ -26,7 +31,6 @@ export default function Project() {
           All <span>{projects.length}</span>
         </button>
         <button
-          className="projects-btn"
           onClick={() => {
             let copy = [...project];
             copy = filtered1;
@@ -36,7 +40,6 @@ export default function Project() {
           HTML, CSS, JS <span>{filtered1.length}</span>
         </button>
         <button
-          className="projects-btn"
           onClick={() => {
             let copy = [...project];
             copy = filtered2;
@@ -45,14 +48,14 @@ export default function Project() {
         >
           React <span>{filtered2.length}</span>
         </button>
-      </div>
+      </ProjectsBtnContainer>
       <div className="work-box">
-        <div className="work">
+        <CardsContainer>
           {project.map((item) => {
             return <ProjectCards key={item.id} item={item} />;
           })}
-        </div>
+        </CardsContainer>
       </div>
-    </div>
+    </ProjectContainer>
   );
 }

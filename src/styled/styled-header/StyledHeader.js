@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
 export const HeaderContainer = styled.nav`
   margin: 0 auto;
@@ -22,7 +23,7 @@ export const HeaderTitle = styled.h1`
   letter-spacing: normal;
   font-family: var(--main-font-family);
   font-style: normal;
-  font-size: 48px;
+  font-size: var(--font-size-large);
   color: var(--main-fonts-color);
   text-shadow: 0px 0px 40px var(--main-decor-color);
   cursor: default;
@@ -36,9 +37,9 @@ export const NavbarContainer = styled.nav`
   }
 `;
 
-export const NavMenuItems = styled.a`
+export const NavMenuItems = styled(Link)`
   margin: 2px;
-  padding: 5px 10px;
+  padding: var(--padding-micro) var(--padding-small);
   text-decoration: none;
   color: var(--main-fonts-color);
   font-family: var(--main-font-family);

@@ -1,31 +1,35 @@
 import React from "react";
+import {
+  HomeContainer,
+  HomeFilter,
+  HomeIntro,
+} from "../styled/styled-home/StyledHome";
 
 export default function Home() {
   return (
-    <div id="home">
-      <div className="filter"></div>
-      <section className="intro">
+    <HomeContainer>
+      <HomeFilter id="home"></HomeFilter>
+      <HomeIntro>
         <h3>
           Jonghyeok Lee
           <hr />
         </h3>
         <p>
-          29 , Living in <span className="accent">Fukuoka-Yakuin.</span>
+          29 , Living in <span>Fukuoka-Yakuin.</span>
         </p>
         <p>
-          Majored in Tourism Japanese and{" "}
-          <span className="accent">Computer Science.</span>
+          Majored in Tourism Japanese and <span>Computer Science.</span>
         </p>
         <p>
           I am studying passionately to become a{" "}
-          <span className="accent">front-end developer.</span>
+          <span>front-end developer.</span>
         </p>
         <p>
           And, I can currently use{" "}
-          <span className="accent">HTML, CSS, JavaScript, React, Git</span>,
-          etc. for front-end development.
+          <span>HTML, CSS, JavaScript, React, Git, etc.</span> for front-end
+          development.
         </p>
-      </section>
-    </div>
+      </HomeIntro>
+    </HomeContainer>
   );
 }
