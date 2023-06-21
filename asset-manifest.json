@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8cb2ea1b.css",
-    "main.js": "/portfolio/static/js/main.c8115dff.js",
+    "main.css": "/portfolio/static/css/main.a32e1f52.css",
+    "main.js": "/portfolio/static/js/main.cf89a153.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.1d6657883e44a1441ecf.png",
     "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.555a064678eb0e1b6a76.png",
@@ -16,11 +16,11 @@
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.764435b2c57b5724d7b5.png",
     "static/media/responsive-navbar.png": "/portfolio/static/media/responsive-navbar.a3868eb8c38d8685dc7a.png",
     "index.html": "/portfolio/index.html",
-    "main.8cb2ea1b.css.map": "/portfolio/static/css/main.8cb2ea1b.css.map",
-    "main.c8115dff.js.map": "/portfolio/static/js/main.c8115dff.js.map"
+    "main.a32e1f52.css.map": "/portfolio/static/css/main.a32e1f52.css.map",
+    "main.cf89a153.js.map": "/portfolio/static/js/main.cf89a153.js.map"
   },
   "entrypoints": [
-    "static/css/main.8cb2ea1b.css",
-    "static/js/main.c8115dff.js"
+    "static/css/main.a32e1f52.css",
+    "static/js/main.cf89a153.js"
   ]
 }
