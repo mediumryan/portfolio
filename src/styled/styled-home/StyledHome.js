@@ -29,8 +29,11 @@ export const HomeIntro = styled.section`
   z-index: 1;
   margin: auto;
   padding: var(--padding-medium-large);
+  @media screen and (max-width: 413px) {
+    padding: 0;
+  }
   p {
-    margin: var(--margin-small) var(--margin-micro);
+    margin: var(--margin-medium) var(--margin-micro);
     font-size: var(--font-size-medium);
     font-family: var(--main-font-family);
     text-align: center;

@@ -82,7 +82,11 @@ export const NavToggleBtn = styled(FaAlignJustify)`
   font-size: var(--font-size-small);
   position: absolute;
   top: 24px;
-  right: 24px;
+  right: 36px;
+  transition: 300ms all;
+  &:hover {
+    color: var(--main-decor-color);
+  }
   @media screen and (max-width: 413px) {
     display: block;
   }
