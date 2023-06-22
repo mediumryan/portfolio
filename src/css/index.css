@@ -35,34 +35,6 @@
   background: var(--main-background);
 }
 
-/*────────────────── 
-       footer
-──────────────────*/
-
-footer {
-  width: 100%;
-  height: 100%;
-  background-color: var(--main-header-background);
-}
-
-.copyright {
-  color: #fff;
-  font-size: 1.2rem;
-  line-height: 40px;
-  text-align: center;
-}
-
-.copyright a {
-  color: #fff;
-  font-size: 1rem;
-  letter-spacing: 1px;
-  text-decoration: none;
-}
-
-.copyright a:hover {
-  color: var(--main-decor-color);
-}
-
 /*──── Titles ─────*/
 
 h3 {
@@ -103,33 +75,6 @@ hr {
 ::-webkit-scrollbar-track {
   margin-top: 80px;
   border-radius: 10px;
-}
-
-/*────────────────── 
-     hamburger
-──────────────────*/
-.hamburger {
-  display: none;
-}
-
-.hamburger div {
-  width: 30px;
-  height: 3px;
-  background: #dbdbdb;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
-.toggle .line1 {
-  transform: rotate(-45deg) translate(-5px, 6px);
-}
-
-.toggle .line2 {
-  opacity: 0;
-}
-
-.toggle .line3 {
-  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 @keyframes navLinkFade {

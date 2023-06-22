@@ -1,9 +1,11 @@
 // import styled-components
+import { useState } from "react";
 import {
   HeaderTitle,
   HeaderContainer,
   NavbarContainer,
   NavMenuItems,
+  NavToggleBtn,
 } from "../styled/styled-header/StyledHeader";
 import { Link } from "react-scroll";
 
@@ -13,11 +15,15 @@ export default function Navbar() {
     { id: "link0", link: "projects" },
     { id: "link0", link: "contact" },
   ];
+  const [navOn, setNavOn] = useState(true);
+  const handleNav = () => {
+    setNavOn(!navOn);
+  };
 
   return (
     <HeaderContainer>
       <HeaderTitle>Ryan's Portfolio</HeaderTitle>
-      <NavbarContainer>
+      <NavbarContainer navshow={navOn}>
         <ul>
           {linkArr.map((item) => (
             <NavMenuItems key={item.id}>
@@ -33,8 +39,8 @@ export default function Navbar() {
             </NavMenuItems>
           ))}
         </ul>
-        <button className="hamburger"></button>
       </NavbarContainer>
+      <NavToggleBtn onClick={handleNav} />
     </HeaderContainer>
   );
 }
