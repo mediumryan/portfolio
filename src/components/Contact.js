@@ -16,11 +16,11 @@ export default function Contact() {
       <p>Please, Contact Me.</p>
       <EmailTel>
         <p>
-          <span>E-mail :</span>
+          <span>E-mail</span>
           <span>straightwind0726@gmail.com</span>
         </p>
         <p>
-          <span>Tel :</span>
+          <span>Tel</span>
           <span>080-7361-1518</span>
         </p>
       </EmailTel>

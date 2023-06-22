@@ -6,8 +6,11 @@ const FooterContainer = styled(HeaderContainer)`
   top: auto;
   bottom: 0;
   color: var(--main-fonts-color);
+
   p {
     opacity: 0.15;
+    padding: 0 var(--padding-medium);
+    line-height: 1.5;
   }
 `;
 

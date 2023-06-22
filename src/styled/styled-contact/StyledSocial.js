@@ -14,5 +14,8 @@ export const SocialContainer = styled.div`
       color: var(--main-decor-color);
       transform: scale(1.05);
     }
+    @media screen and (max-width: 413px) {
+      font-size: var(--font-size-medium);
+    }
   }
 `;

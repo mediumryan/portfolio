@@ -28,6 +28,12 @@ export const EmailTel = styled.div`
     span:nth-child(2) {
       color: var(--main-decor-color);
       font-weight: 700;
+      @media screen and (max-width: 413px) {
+        margin-top: var(--margin-medium);
+      }
+    }
+    @media screen and (max-width: 413px) {
+      flex-direction: column;
     }
   }
 `;

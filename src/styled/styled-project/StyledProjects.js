@@ -17,6 +17,11 @@ export const ProjectContainer = styled.div`
     font-family: var(--main-font-family);
     font-size: var(--font-size-medium);
     padding: var(--padding-small);
+    line-height: 1.5;
+  }
+  @media screen and (max-width: 413px) {
+    padding: 0;
+    padding-top: calc(var(--padding-large) * 5);
   }
 `;
 
