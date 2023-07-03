@@ -12,8 +12,8 @@
   /* font-size */
   --font-size-large: 48px;
   --font-size-medium-large: 36px;
-  --font-size-medium: 24px;
-  --font-size-small: 16px;
+  --font-size-medium: 22px;
+  --font-size-small: 18px;
   --font-size-micro: 10px;
   /* margin */
   --margin-large: 36px;
@@ -37,6 +37,17 @@
 
 /*──── Titles ─────*/
 
+@keyframes fallingTitle {
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
 h3 {
   padding-bottom: var(--padding-medium-large);
   letter-spacing: normal;
@@ -45,6 +56,7 @@ h3 {
   font-size: calc(var(--font-size-medium-large) * 1.7);
   color: var(--main-fonts-color);
   text-shadow: 0px 0px 40px var(--main-decor-color);
+  animation: fallingTitle 2s linear;
 }
 
 /*──── hr ─────*/

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   HomeContainer,
   HomeFilter,
@@ -6,29 +6,46 @@ import {
 } from "../styled/styled-home/StyledHome";
 
 export default function Home() {
+  const [title, setTitle] = useState([
+    { id: 0, title: "国籍", value: "韓国 （日本生活4年目）" },
+    { id: 1, title: "年齢", value: "29才" },
+    { id: 2, title: "居住", value: "福岡　薬院" },
+    {
+      id: 3,
+      title: "長所1",
+      value: "仕事の学習が早く、新しい知識やスキルを素早く習得できます。",
+    },
+    {
+      id: 4,
+      title: "長所2",
+      value: "チームメンバーとの協力に自信があります。",
+    },
+    {
+      id: 5,
+      title: "離職理由",
+      value:
+        "日常で触れるウェブやアプリ、そしてゲームがどのように作られているのかに興味を持ち、学習することになりました。また知識さえあれば自分自身が何かを創り出せることに魅力を感じました。最後に開発者は将来性のある職業だと思ったからです。",
+    },
+  ]);
+
   return (
     <HomeContainer>
       <HomeFilter id="home"></HomeFilter>
       <HomeIntro>
         <h3>
-          Jonghyeok Lee　（ジョンヒョク　イ）
+          イ ジョンヒョク
           <hr style={{ width: "70%" }} />
         </h3>
-        <p>
-          こんにちは、<span>韓国</span>から来ましたイジョンヒョクと申します。
-          日本生活は今年で<span>4年目</span>になります。
-          <br />
-          最初の2年はホテルで勤務して、残り1年半は今の会社で働いています。
-          少し遅い感じもありますがウェブコーディングに興味を持って勉強しています。
-          <br />
-          自分で作ったウェブページやアプリが人の役に立つなんて素晴らしいことだと思っています。
-          また、いろんな言語を学び続けることも楽しいです。
-          <br />
-          今持っているスキルには{" "}
-          <span>HTML, CSS, JavaScript(jQuery), React, Git, Github</span>
-          などがあります。
-          今後、モバイルアプリやゲームなども作れるプログラマーになりたいと思います。
-        </p>
+        <div>
+          {title.map((item) => {
+            return (
+              <div className="intro_items">
+                <span>{item.title}</span>
+                <p>{item.value}</p>
+              </div>
+            );
+          })}
+        </div>
       </HomeIntro>
     </HomeContainer>
   );
