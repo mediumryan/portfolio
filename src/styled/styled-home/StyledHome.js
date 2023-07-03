@@ -34,11 +34,23 @@ export const HomeIntro = styled.section`
   }
   p {
     margin: var(--margin-medium) var(--margin-micro);
+    padding: 0 calc(var(--padding-large) * 5);
     font-size: var(--font-size-medium);
     font-family: var(--main-font-family);
-    text-align: center;
+    line-height: 1.5;
+    text-align: left;
     span {
       color: var(--main-decor-color);
+    }
+  }
+  a {
+    color: var(--main-decor-color);
+    font-size: var(--font-size-large);
+    transition: 300ms all;
+    border: 3px solid transparent;
+    &:hover {
+      color: var(--main-fonts-color);
+      border-bottom: 3px solid var(--main-decor-color);
     }
   }
 `;

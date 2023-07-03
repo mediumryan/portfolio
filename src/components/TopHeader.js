@@ -33,6 +33,7 @@ export default function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={100}
+                onClick={handleNav}
               >
                 {item.link.toUpperCase()}
               </Link>

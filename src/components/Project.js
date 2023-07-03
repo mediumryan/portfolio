@@ -19,7 +19,7 @@ export default function Project() {
         My Projects.
         <hr />
       </h3>
-      <p>Here are some of my projects, you may like.</p>
+      <p>今まで私が作ったプロジェットです。</p>
       <ProjectsBtnContainer>
         <button
           onClick={() => {
