@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
 
 export const Cards = styled.div`
   display: flex;
@@ -8,6 +8,8 @@ export const Cards = styled.div`
   height: 320px;
   border-radius: 12px;
   background: var(--main-decor-color);
+  opacity: ${(props) => (props.active ? 1 : 0)};
+  transition: 300ms all;
   img {
     width: 100%;
     height: 70%;

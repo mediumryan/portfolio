@@ -13,7 +13,7 @@ export default function Contact() {
         Contact.
         <hr />
       </h3>
-      <p>Please, Contact Me.</p>
+      <p>私が現場で働く機会をください。</p>
       <EmailTel>
         <p>
           <span>E-mail</span>

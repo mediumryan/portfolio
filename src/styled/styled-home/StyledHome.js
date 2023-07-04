@@ -51,14 +51,9 @@ export const HomeIntro = styled.section`
   }
   div {
     margin-left: var(--margin-large);
-    width: 60%;
-    display: grid;
-    grid-template-areas:
-      "a b c"
-      "d d d"
-      "f f f"
-      "e e e";
-    grid-gap: 24px;
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
     .intro_items {
       display: flex;
       flex-direction: column;
@@ -72,6 +67,7 @@ export const HomeIntro = styled.section`
     animation: ${falling} 3s linear;
   }
   span {
+    margin: var(--margin-small) 0;
     font-size: var(--font-size-medium);
     color: var(--main-decor-color);
   }

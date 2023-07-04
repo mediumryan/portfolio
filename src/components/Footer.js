@@ -18,7 +18,7 @@ export default function Footer() {
   return (
     <FooterContainer>
       <p>
-        This Project Designed by Portfolio Site Template of [repl.it] with me
+        このページは[repl.it]のポートフォリオテンプレートを元に作成者がデザインを加えて作りました。
       </p>
     </FooterContainer>
   );
