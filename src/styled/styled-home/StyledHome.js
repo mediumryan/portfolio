@@ -1,4 +1,15 @@
-import styled from "styled-components";
+import styled, { keyframes } from "styled-components";
+
+const falling = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+`;
 
 export const HomeContainer = styled.div`
   margin: auto;
@@ -24,21 +35,40 @@ export const HomeFilter = styled.div`
 `;
 
 export const HomeIntro = styled.section`
-  text-align: center;
   color: var(--main-fonts-color);
   z-index: 1;
   margin: auto;
   padding: var(--padding-medium-large);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   @media screen and (max-width: 413px) {
     padding: 0;
   }
+  h3 {
+    width: 40%;
+  }
+  div {
+    margin-left: var(--margin-large);
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    .intro_items {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
   p {
-    margin: var(--margin-medium) var(--margin-micro);
     font-size: var(--font-size-medium);
     font-family: var(--main-font-family);
-    text-align: center;
-    span {
-      color: var(--main-decor-color);
-    }
+    text-align: left;
+    animation: ${falling} 3s linear;
+  }
+  span {
+    margin: var(--margin-small) 0;
+    font-size: var(--font-size-medium);
+    color: var(--main-decor-color);
   }
 `;

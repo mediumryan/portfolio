@@ -12,6 +12,14 @@ export default function Project() {
   const [project, setProject] = useState(projects);
   const filtered1 = projects.filter((a) => a.tag !== "React");
   const filtered2 = projects.filter((a) => a.tag === "React");
+  const [show, setShow] = useState(true);
+  const handleActive = () => {
+    setShow(false);
+    const timer = setTimeout(() => {
+      setShow(true);
+      clearTimeout(timer);
+    }, 500);
+  };
 
   return (
     <ProjectContainer id="projects">
@@ -26,6 +34,7 @@ export default function Project() {
             let copy = [...project];
             copy = projects;
             setProject(copy);
+            handleActive();
           }}
         >
           All <span>{projects.length}</span>
@@ -35,6 +44,7 @@ export default function Project() {
             let copy = [...project];
             copy = filtered1;
             setProject(copy);
+            handleActive();
           }}
         >
           HTML, CSS, JS <span>{filtered1.length}</span>
@@ -44,6 +54,7 @@ export default function Project() {
             let copy = [...project];
             copy = filtered2;
             setProject(copy);
+            handleActive();
           }}
         >
           React <span>{filtered2.length}</span>
@@ -52,7 +63,7 @@ export default function Project() {
       <div className="work-box">
         <CardsContainer>
           {project.map((item) => {
-            return <ProjectCards key={item.id} item={item} />;
+            return <ProjectCards key={item.id} item={item} show={show} />;
           })}
         </CardsContainer>
       </div>

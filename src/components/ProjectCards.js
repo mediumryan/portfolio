@@ -5,9 +5,9 @@ import {
   CardsContent,
 } from "../styled/styled-project/StyledProjectsCards";
 
-export default function ProjectCards({ item }) {
+export default function ProjectCards({ item, show }) {
   return (
-    <Cards>
+    <Cards active={show}>
       <img alt={item.title} src={item.image_path} />
       <CardsContent href={item.url_path} target="blank">
         <div className="work-content">{item.title}</div>
