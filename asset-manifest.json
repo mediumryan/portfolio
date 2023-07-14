@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4d04b792.css",
-    "main.js": "/portfolio/static/js/main.4cff86aa.js",
+    "main.js": "/portfolio/static/js/main.59b691ed.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.1d6657883e44a1441ecf.png",
     "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.555a064678eb0e1b6a76.png",
+    "static/media/w3c-fashion.png": "/portfolio/static/media/w3c-fashion.b53706ce1a2900a185ba.png",
     "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.b9494f4b85f4e2222167.png",
     "static/media/mini-game.png": "/portfolio/static/media/mini-game.da203d8904731c1e95ab.png",
     "static/media/search-bar.png": "/portfolio/static/media/search-bar.e11ad84cf743a93b1735.png",
@@ -17,10 +18,10 @@
     "static/media/responsive-navbar.png": "/portfolio/static/media/responsive-navbar.a3868eb8c38d8685dc7a.png",
     "index.html": "/portfolio/index.html",
     "main.4d04b792.css.map": "/portfolio/static/css/main.4d04b792.css.map",
-    "main.4cff86aa.js.map": "/portfolio/static/js/main.4cff86aa.js.map"
+    "main.59b691ed.js.map": "/portfolio/static/js/main.59b691ed.js.map"
   },
   "entrypoints": [
     "static/css/main.4d04b792.css",
-    "static/js/main.4cff86aa.js"
+    "static/js/main.59b691ed.js"
   ]
 }
