@@ -11,6 +11,7 @@ import search_bar from "./../images/project_images/search-bar.png";
 import calculator from "./../images/project_images/simple-calculator.png";
 import weather from "./../images/project_images/weather-app.png";
 import youtube from "./../images/project_images/youtube-clone.png";
+import w3c_fashion from "./../images/project_images/w3c-fashion.png";
 
 export const projects = [
   {
@@ -103,5 +104,12 @@ export const projects = [
     tag: "HTML,CSS,JS",
     url_path: "https://mediumryan.github.io/youtube-clone/",
     image_path: youtube,
+  },
+  {
+    id: 13,
+    title: "Fashion blog - W3C",
+    tag: "React",
+    url_path: "https://mediumryan.github.io/w3c_fashion/",
+    image_path: w3c_fashion,
   },
 ];
