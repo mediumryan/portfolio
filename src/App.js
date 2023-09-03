@@ -1,21 +1,14 @@
-import "./css/index.css";
+import { useRecoilState } from 'recoil';
+import './css/index.css';
+import { projects } from './Data/atom';
 // import components
-import TopHeader from "./components/TopHeader";
-import Home from "./components/Home";
-import Project from "./components/Project";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
 
 function App() {
-  return (
-    <div className="main_container">
-      <TopHeader />
-      <Home />
-      <Project />
-      <Contact />
-      <Footer />
-    </div>
-  );
+    const [project, setProject] = useRecoilState(projects);
+
+    console.log(project);
+
+    return <div>hi</div>;
 }
 
 export default App;
