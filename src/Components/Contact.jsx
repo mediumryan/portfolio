@@ -21,7 +21,7 @@ const contact_wrapper_variants = {
         x: 0,
         opacity: 1,
         transition: {
-            duration: 3,
+            duration: 2,
             delay: 4,
         },
     },

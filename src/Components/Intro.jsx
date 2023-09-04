@@ -33,7 +33,7 @@ const intro_wrapper_variants = {
         y: 0,
         opacity: 1,
         transition: {
-            duration: 3,
+            duration: 2,
             delay: 1,
         },
     },

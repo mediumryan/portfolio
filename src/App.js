@@ -31,8 +31,6 @@ const Grid = styled.div`
 function App() {
     const [project, setProject] = useRecoilState(projects);
 
-    console.log(project);
-
     return (
         <MainWrapper>
             <Greeting />

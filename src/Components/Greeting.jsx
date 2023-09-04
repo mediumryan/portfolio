@@ -22,7 +22,7 @@ const greeting_wrapper_variants = {
         y: 0,
         opacity: 1,
         transition: {
-            duration: 3,
+            duration: 2,
         },
     },
 };
