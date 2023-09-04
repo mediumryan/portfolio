@@ -5,14 +5,23 @@ import Chart from 'react-apexcharts';
 
 // styled-components
 const SkillsWrapper = styled(motion.div)`
-    grid-area: 1 / 2 / 2 / 4;
+    grid-area: 1 / 3 / 3 / 6;
     border-radius: 20px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 48px;
 `;
-
+const SkillOther = styled.div`
+    padding: 0 48px;
+    line-height: 1.5;
+    span {
+        color: var(--primary-200);
+    }
+`;
 // variants
 const skill_wrapper_variants = {
     initial: {
@@ -36,8 +45,9 @@ export default function Skills() {
             initial="initial"
             animate="animate"
         >
-            <Title style={{ textAlign: 'center' }}>Skills</Title>
+            <Title>Skills</Title>
             <Chart
+                style={{ width: '100%' }}
                 type="bar"
                 height={350}
                 series={[
@@ -62,7 +72,7 @@ export default function Skills() {
                     xaxis: {
                         labels: {
                             style: {
-                                fontSize: '20px',
+                                fontSize: '16px',
                             },
                         },
                         categories: ['React', 'JavaScript', 'CSS', 'HTML'],
@@ -70,16 +80,24 @@ export default function Skills() {
                     yaxis: {
                         labels: {
                             style: {
-                                fontSize: '20px',
+                                fontSize: '16px',
                             },
                         },
                     },
                     colors: ['#0077c2'],
-                    toolbar: {
-                        show: false,
+                    tooltip: {
+                        enabled: false,
                     },
                 }}
             />
+            <SkillOther>
+                I can also use various libraries that help with JavaScript and
+                React, including{' '}
+                <span>
+                    jQuery, Recoil, Redux-Toolkit, React-Query, Framer-Motion,
+                    Styled-Components, and Apex-Chart.
+                </span>
+            </SkillOther>
         </SkillsWrapper>
     );
 }
