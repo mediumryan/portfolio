@@ -10,15 +10,16 @@ const GreetingWrapper = styled(motion.div)`
     font-size: 36px;
     font-weight: 700;
     border-bottom: 2px solid var(--accent-100);
+    padding-bottom: 12px;
 `;
-
+// variants
 const greeting_wrapper_variants = {
     initial: {
-        y: 0,
+        y: -20,
         opacity: 0,
     },
     animate: {
-        y: 20,
+        y: 0,
         opacity: 1,
         transition: {
             duration: 3,

@@ -20,14 +20,12 @@ const MainWrapper = styled.div`
 `;
 
 const Grid = styled.div`
-    background-color: red;
     height: 100%;
     margin-top: 48px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 0px;
-    grid-row-gap: 0px;
+    grid-gap: 12px;
 `;
 
 function App() {
