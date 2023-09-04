@@ -1,5 +1,10 @@
-import React from 'react';
+import { styled } from 'styled-components';
+
+const SkillsWrapper = styled.div`
+    grid-area: 1 / 2 / 2 / 4;
+    background-color: green;
+`;
 
 export default function Skills() {
-    return <div>Skills</div>;
+    return <SkillsWrapper>Skills</SkillsWrapper>;
 }

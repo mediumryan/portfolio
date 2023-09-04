@@ -28,22 +28,6 @@ const Grid = styled.div`
     grid-template-rows: repeat(2, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    &:first-child {
-        grid-area: 1 / 3 / 1 / 2;
-        background-color: green;
-    }
-    /* &:nth-child(2) {
-        grid-area: 1 / 2 / 2 / 4;
-        background-color: blue;
-    }
-    &:nth-child(3) {
-        grid-area: 2 / 2 / 3 / 3;
-        background-color: white;
-    }
-    &:last-child {
-        grid-area: 2 / 3 / 3 / 4;
-        background-color: black;
-    } */
 `;
 
 function App() {

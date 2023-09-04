@@ -1,5 +1,10 @@
-import React from 'react';
+import { styled } from 'styled-components';
+
+const IntroWrapper = styled.div`
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: blue;
+`;
 
 export default function Intro() {
-    return <div>Intro</div>;
+    return <IntroWrapper>Intro</IntroWrapper>;
 }
