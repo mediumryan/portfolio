@@ -12,6 +12,9 @@ const MainWrapper = styled.div`
     display: flex;
     flex-direction: column;
     padding: var(--padding-double-large);
+    @media (max-width: 412px) and (max-height: 915px) {
+        height: 100%;
+    }
 `;
 
 function App() {

@@ -51,3 +51,32 @@
 body {
     font-family: 'GmarketSansMedium';
 }
+
+@media (max-width: 412px) and (max-height: 915px) {
+    :root {
+        /* font-size */
+        --font-size-huge: 32px;
+        --font-size-large: 24px;
+        --font-size-medium-large: 18px;
+        --font-size-medium: 12px;
+        --font-size-small: 10px;
+        --font-size-micro: 8px;
+        /* margin */
+        --margin-very-large: 24px;
+        --margin-large: 18px;
+        --margin-medium-large: 12px;
+        --margin-medium: 6px;
+        --margin-small: 4px;
+        --margin-micro: 2px;
+        /* padding */
+        --padding-very-large: 24px;
+        --padding-large: 18px;
+        --padding-medium-large: 12px;
+        --padding-medium: 6px;
+        --padding-small: 4px;
+        --padding-micro: 2px;
+        --padding-double-large: 12px 24px;
+        --padding-double-medium: 6px 12px;
+        --padding-double-small: 4px 6px;
+    }
+}

@@ -13,6 +13,14 @@ const Grid = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: var(--margin-medium);
+    @media (max-width: 412px) and (max-height: 915px) {
+        display: flex;
+        flex-direction: column;
+        padding: var(--padding-large) var(--padding-medium-large);
+        * {
+            margin-bottom: 12px;
+        }
+    }
 `;
 export default function Home() {
     return (

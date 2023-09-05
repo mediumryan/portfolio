@@ -10,6 +10,9 @@ const ProjectsWrapper = styled.div`
     align-items: center;
     padding: var(--padding-double-large);
     height: 100vh;
+    @media (max-width: 412px) and (max-height: 915px) {
+        padding: var(--padding-double-small);
+    }
 `;
 
 const ProjectTitle = styled.h2`
@@ -36,7 +39,13 @@ export default function Projects() {
 
     return (
         <ProjectsWrapper>
-            <ProjectTitle>Projects</ProjectTitle>
+            <ProjectTitle
+                style={{
+                    marginBottom: window.innerWidth < 915 ? '32px' : '0px',
+                }}
+            >
+                Projects
+            </ProjectTitle>
             <ProjectGrid />
             <GoHome onClick={() => navigate('/')}>
                 <AiFillHome />

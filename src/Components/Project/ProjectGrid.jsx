@@ -14,6 +14,9 @@ const GridWrapper = styled.div`
     width: 85%;
     height: 85%;
     position: relative;
+    @media (max-width: 412px) and (max-height: 915px) {
+        width: 100%;
+    }
 `;
 
 const GridContents = styled(motion.div)`
