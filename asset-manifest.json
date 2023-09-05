@@ -1,27 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4d04b792.css",
-    "main.js": "/portfolio/static/js/main.59b691ed.js",
+    "main.css": "/portfolio/static/css/main.0e0d3990.css",
+    "main.js": "/portfolio/static/js/main.1de4b41f.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
+    "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.1d6657883e44a1441ecf.png",
     "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.555a064678eb0e1b6a76.png",
     "static/media/w3c-fashion.png": "/portfolio/static/media/w3c-fashion.b53706ce1a2900a185ba.png",
     "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.b9494f4b85f4e2222167.png",
     "static/media/mini-game.png": "/portfolio/static/media/mini-game.da203d8904731c1e95ab.png",
+    "static/media/snow.png": "/portfolio/static/media/snow.fd4930a89e722ad8cf66.png",
     "static/media/search-bar.png": "/portfolio/static/media/search-bar.e11ad84cf743a93b1735.png",
-    "static/media/animation-snow.png": "/portfolio/static/media/animation-snow.9f9a6b1a1fce6807bee5.png",
     "static/media/portfolio-demo.png": "/portfolio/static/media/portfolio-demo.4b00270cdfa28d1cfdf0.png",
     "static/media/10000hours.png": "/portfolio/static/media/10000hours.95a66cf1d35a6df5f6fb.png",
+    "static/media/coin_tracker.png": "/portfolio/static/media/coin_tracker.4bc50c9981739aa267cd.png",
+    "static/media/check_list.png": "/portfolio/static/media/check_list.569fdbf67ce133dd0625.png",
     "static/media/simple-calculator.png": "/portfolio/static/media/simple-calculator.61f08740a6529fc43d99.png",
-    "static/media/check-list.png": "/portfolio/static/media/check-list.be4b129d028b2e927e72.png",
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.764435b2c57b5724d7b5.png",
-    "static/media/responsive-navbar.png": "/portfolio/static/media/responsive-navbar.a3868eb8c38d8685dc7a.png",
+    "static/media/avatar.jpeg": "/portfolio/static/media/avatar.8e7ab55da0bc52271ed8.jpeg",
     "index.html": "/portfolio/index.html",
-    "main.4d04b792.css.map": "/portfolio/static/css/main.4d04b792.css.map",
-    "main.59b691ed.js.map": "/portfolio/static/js/main.59b691ed.js.map"
+    "main.0e0d3990.css.map": "/portfolio/static/css/main.0e0d3990.css.map",
+    "main.1de4b41f.js.map": "/portfolio/static/js/main.1de4b41f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4d04b792.css",
-    "static/js/main.59b691ed.js"
+    "static/css/main.0e0d3990.css",
+    "static/js/main.1de4b41f.js"
   ]
 }
