@@ -7,10 +7,10 @@ const GreetingWrapper = styled(motion.div)`
     justify-content: center;
     color: var(--accent-100);
     font-style: italic;
-    font-size: 36px;
+    font-size: var(--font-size-medium-large);
     font-weight: 700;
     border-bottom: 2px solid var(--accent-100);
-    padding-bottom: 12px;
+    padding-bottom: var(--padding-medium);
 `;
 // variants
 const greeting_wrapper_variants = {

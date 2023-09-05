@@ -10,7 +10,7 @@ const ProjectWrapper = styled(motion.div)`
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
         rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
         rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    padding: 24px 48px;
+    padding: var(--padding-double-large);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,15 +19,15 @@ const ProjectWrapper = styled(motion.div)`
 const ProjectDescription = styled.p`
     line-height: 1.5;
     font-size: 20px;
-    margin: 36px 0;
+    margin: var(--margin-large) 0;
 `;
 
 const ProjectBtn = styled.button`
     color: var(--bg-100);
     background: linear-gradient(var(--primary-100), var(--primary-200));
-    font-size: 48px;
+    font-size: var(--font-size-large);
     border-radius: 20px;
-    padding: 48px 12px;
+    padding: var(--padding-very-large) var(--padding-medium);
     transition: 300ms all;
     &:hover {
         opacity: 0.77;

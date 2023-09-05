@@ -8,11 +8,11 @@ import Contact from '../Components/Contact';
 
 const Grid = styled.div`
     height: 100%;
-    margin-top: 48px;
+    margin-top: var(--margin-very-large);
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    grid-gap: 12px;
+    grid-gap: var(--margin-medium);
 `;
 export default function Home() {
     return (

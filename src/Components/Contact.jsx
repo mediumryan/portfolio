@@ -13,12 +13,13 @@ const ContactWrapper = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px;
+    padding: var(--padding-double-small);
+    padding-top: var(--padding-medium-large);
 `;
 
 const ContactItemBox = styled.div`
     width: 100%;
-    margin-top: 24px;
+    margin-top: var(--margin-medium-large);
 `;
 
 const ContactItem = styled(motion.a)`
@@ -26,9 +27,9 @@ const ContactItem = styled(motion.a)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-size: 24px;
-    padding: 8px 12px;
-    margin: 12px 0;
+    font-size: var(--font-size-medium);
+    padding: var(--padding-double-small);
+    margin: var(--margin-medium) 0;
     border-radius: 10px;
     color: var(--text-100);
     box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;

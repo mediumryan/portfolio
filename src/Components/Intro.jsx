@@ -12,11 +12,11 @@ const IntroWrapper = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 48px;
+    padding: var(--padding-double-large);
 `;
 
 export const Title = styled.h2`
-    font-size: 32px;
+    font-size: var(--font-size-medium-large);
     font-weight: 600;
     color: var(--primary-100);
 `;
@@ -28,12 +28,12 @@ const Avatar = styled.img`
 `;
 
 const IntroContent = styled.div`
-    margin-top: 24px;
+    margin-top: var(--margin-medium-large);
     p {
-        font-size: 20px;
-        margin-bottom: 24px;
+        font-size: var(--font-size-small);
+        margin-bottom: var(--margin-medium-large);
         line-height: 1.5;
-        padding: 8px 12px;
+        padding: var(--padding-double-small);
         border-radius: 10px;
         box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px,
             rgba(0, 0, 0, 0.24) 0px 1px 2px;

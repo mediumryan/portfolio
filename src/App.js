@@ -11,7 +11,7 @@ const MainWrapper = styled.div`
     height: 150vh;
     display: flex;
     flex-direction: column;
-    padding: 24px 48px;
+    padding: var(--padding-double-large);
 `;
 
 function App() {

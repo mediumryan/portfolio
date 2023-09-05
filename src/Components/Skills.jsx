@@ -13,10 +13,10 @@ const SkillsWrapper = styled(motion.div)`
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 24px 48px;
+    padding: var(--padding-double-large);
 `;
 const SkillOther = styled.div`
-    padding: 0 48px;
+    padding: 0 var(--padding-very-large);
     line-height: 1.5;
     span {
         color: var(--primary-200);

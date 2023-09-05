@@ -13,23 +13,29 @@
     --bg-200: #f5f5f5;
     --bg-300: #cccccc;
     /* font-size */
+    --font-size-huge: 64px;
     --font-size-large: 48px;
     --font-size-medium-large: 36px;
-    --font-size-medium: 22px;
-    --font-size-small: 18px;
-    --font-size-micro: 10px;
+    --font-size-medium: 24px;
+    --font-size-small: 20px;
+    --font-size-micro: 16px;
     /* margin */
+    --margin-very-large: 48px;
     --margin-large: 36px;
     --margin-medium-large: 24px;
-    --margin-medium: 16px;
-    --margin-small: 10px;
-    --margin-micro: 5px;
+    --margin-medium: 12px;
+    --margin-small: 8px;
+    --margin-micro: 4px;
     /* padding */
+    --padding-very-large: 48px;
     --padding-large: 36px;
     --padding-medium-large: 24px;
-    --padding-medium: 16px;
-    --padding-small: 10px;
-    --padding-micro: 5px;
+    --padding-medium: 12px;
+    --padding-small: 8px;
+    --padding-micro: 4px;
+    --padding-double-large: 24px 48px;
+    --padding-double-medium: 12px 24px;
+    --padding-double-small: 8px 12px;
 }
 
 /* fonts */

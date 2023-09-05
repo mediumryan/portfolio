@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { useRecoilState } from 'recoil';
+import { useRecoilValue } from 'recoil';
 import { styled } from 'styled-components';
 import { projects } from '../../Data/atom';
 import { FaAngleLeft, FaAngleRight, FaGithub } from 'react-icons/fa';
@@ -9,7 +9,7 @@ const GridWrapper = styled.div`
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-gap: 24px;
+    grid-gap: var(--margin-medium-large);
     width: 85%;
     height: 85%;
     position: relative;
@@ -53,39 +53,39 @@ const GridDescription = styled.div`
     left: 0%;
     width: 100%;
     height: 100%;
-    padding: 24px;
+    padding: var(--padding-medium-large);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     text-align: center;
     color: var(--bg-100);
-    font-size: 28px;
+    font-size: var(--font-size-medium);
     font-weight: 700;
     span {
-        font-size: 20px;
-        margin-top: 16px;
+        font-size: var(--font-size-small);
+        margin-top: var(--margin-medium);
     }
 `;
 
 const GridBtn = styled.a`
     color: var(--accent-200);
-    font-size: 24px;
-    margin: 8px;
-    margin-top: 16px;
-    padding: 8px 24px;
+    font-size: var(--font-size-medium);
+    margin: var(--padding-small);
+    margin-top: var(--padding-medium);
+    padding: var(--padding-double-medium);
     transition: 300ms all;
     &:hover {
         color: var(--accent-100);
     }
     &:last-child {
-        font-size: 48px;
+        font-size: var(--font-size-large);
     }
 `;
 
 const SlideBtn = styled(motion.button)`
-    font-size: 64px;
-    padding: 36px;
+    font-size: var(--font-size-huge);
+    padding: var(--padding-large);
     color: tomato;
     position: absolute;
     top: 50%;
@@ -140,7 +140,7 @@ const slide_button_variants_right = {
 
 export default function ProjectGrid() {
     // 슬라이더
-    const [project, setProject] = useRecoilState(projects);
+    const project = useRecoilValue(projects);
     const [page, setPage] = useState(0);
     const offset = 4;
     const maxPage = Math.floor(project.length / offset) - 1;
