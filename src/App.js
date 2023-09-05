@@ -1,6 +1,4 @@
-import { useRecoilState } from 'recoil';
 import './css/index.css';
-import { projects } from './Data/atom';
 import { styled } from 'styled-components';
 import { Route, Routes } from 'react-router-dom';
 import Home from './Pages/Home';
@@ -17,8 +15,6 @@ const MainWrapper = styled.div`
 `;
 
 function App() {
-    const [project, setProject] = useRecoilState(projects);
-
     return (
         <MainWrapper>
             <Routes>
