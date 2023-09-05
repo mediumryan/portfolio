@@ -79,7 +79,7 @@ export default function Contact() {
         navigator.clipboard
             .writeText(email)
             .then(() => {
-                alert('이메일 주소가 복사되었습니다');
+                alert('Successfully Copied');
             })
             .catch((err) => {
                 console.error('복사 실패: ', err);
