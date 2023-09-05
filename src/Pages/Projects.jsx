@@ -10,7 +10,7 @@ const ProjectsWrapper = styled.div`
     align-items: center;
     padding: var(--padding-double-large);
     height: 100vh;
-    @media (max-width: 412px) and (max-height: 915px) {
+    @media only screen and (min-width: 360px) and (max-width: 767px) {
         padding: var(--padding-double-small);
     }
 `;
@@ -39,13 +39,7 @@ export default function Projects() {
 
     return (
         <ProjectsWrapper>
-            <ProjectTitle
-                style={{
-                    marginBottom: window.innerWidth < 915 ? '32px' : '0px',
-                }}
-            >
-                Projects
-            </ProjectTitle>
+            <ProjectTitle>Projects</ProjectTitle>
             <ProjectGrid />
             <GoHome onClick={() => navigate('/')}>
                 <AiFillHome />

@@ -14,7 +14,7 @@ const GridWrapper = styled.div`
     width: 85%;
     height: 85%;
     position: relative;
-    @media (max-width: 412px) and (max-height: 915px) {
+    @media only screen and (min-width: 360px) and (max-width: 767px) {
         width: 100%;
     }
 `;

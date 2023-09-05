@@ -43,7 +43,7 @@ const ContactItem = styled(motion.a)`
         background-color: var(--primary-100);
         color: var(--bg-100);
     }
-    @media (max-width: 412px) and (max-height: 915px) {
+    @media only screen and (min-width: 360px) and (max-width: 767px) {
         flex-direction: row;
         justify-content: center;
         align-items: center;

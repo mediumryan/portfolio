@@ -13,7 +13,7 @@ const Grid = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: var(--margin-medium);
-    @media (max-width: 412px) and (max-height: 915px) {
+    @media only screen and (min-width: 360px) and (max-width: 767px) {
         display: flex;
         flex-direction: column;
         padding: var(--padding-large) var(--padding-medium-large);
