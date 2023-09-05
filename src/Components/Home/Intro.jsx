@@ -56,6 +56,17 @@ const intro_wrapper_variants = {
     },
 };
 
+const intro_paragraph_variants = {
+    initial: {
+        scale: 0,
+        y: -20,
+    },
+    animate: {
+        scale: 1,
+        y: 0,
+    },
+};
+
 export default function Intro() {
     return (
         <IntroWrapper
@@ -66,10 +77,38 @@ export default function Intro() {
             <Title>I'm</Title>
             <Avatar src={avatar} alt="This is me" />
             <IntroContent>
-                <p>29 Years-old</p>
-                <p>Major in Computer Science & Tourism japanese</p>
-                <p>Living in Yakuin-Fukuoka-Japan</p>
-                <p>Studying Front-End Languages</p>
+                <motion.p
+                    variants={intro_paragraph_variants}
+                    initial="initial"
+                    animate="animate"
+                    transition={{ delay: 2 }}
+                >
+                    29 Years-old
+                </motion.p>
+                <motion.p
+                    variants={intro_paragraph_variants}
+                    initial="initial"
+                    animate="animate"
+                    transition={{ delay: 2.5 }}
+                >
+                    Major in Computer Science & Tourism japanese
+                </motion.p>
+                <motion.p
+                    variants={intro_paragraph_variants}
+                    initial="initial"
+                    animate="animate"
+                    transition={{ delay: 3 }}
+                >
+                    Living in Yakuin-Fukuoka-Japan
+                </motion.p>
+                <motion.p
+                    variants={intro_paragraph_variants}
+                    initial="initial"
+                    animate="animate"
+                    transition={{ delay: 3.5 }}
+                >
+                    Studying Front-End Languages
+                </motion.p>
             </IntroContent>
         </IntroWrapper>
     );
