@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import { useRecoilValue } from 'recoil';
 import { styled } from 'styled-components';
 import { projects } from '../../Data/atom';
-import { FaAngleLeft, FaAngleRight, FaGithub } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import GridDescriptions from './GridDescriptions';
+import SlideButtons from './SlideButtons';
 
 const GridWrapper = styled.div`
     display: grid;
@@ -47,55 +48,6 @@ const GridImg = styled.img`
     opacity: 0.33;
 `;
 
-const GridDescription = styled.div`
-    position: absolute;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    height: 100%;
-    padding: var(--padding-medium-large);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: var(--bg-100);
-    font-size: var(--font-size-medium);
-    font-weight: 700;
-    span {
-        font-size: var(--font-size-small);
-        margin-top: var(--margin-medium);
-    }
-`;
-
-const GridBtn = styled.a`
-    color: var(--accent-200);
-    font-size: var(--font-size-medium);
-    margin: var(--padding-small);
-    margin-top: var(--padding-medium);
-    padding: var(--padding-double-medium);
-    transition: 300ms all;
-    &:hover {
-        color: var(--accent-100);
-    }
-    &:last-child {
-        font-size: var(--font-size-large);
-    }
-`;
-
-const SlideBtn = styled(motion.button)`
-    font-size: var(--font-size-huge);
-    padding: var(--padding-large);
-    color: tomato;
-    position: absolute;
-    top: 50%;
-    &:first-child {
-        left: 0;
-    }
-    &:last-child {
-        right: 0;
-    }
-`;
 // variants
 const grid_contents_variants = {
     initial: {
@@ -109,48 +61,12 @@ const grid_contents_variants = {
     },
 };
 
-const slide_button_variants_left = {
-    initial: {
-        x: 0,
-        y: '-50%',
-    },
-    hover: {
-        x: -50,
-        scale: 1.5,
-        transition: {
-            duration: 0.5,
-            type: 'linear',
-        },
-    },
-};
-const slide_button_variants_right = {
-    initial: {
-        x: 0,
-        y: '-50%',
-    },
-    hover: {
-        x: 50,
-        scale: 1.5,
-        transition: {
-            duration: 0.5,
-            type: 'linear',
-        },
-    },
-};
-
 export default function ProjectGrid() {
     // 슬라이더
     const project = useRecoilValue(projects);
     const [page, setPage] = useState(0);
     const offset = 4;
     const maxPage = Math.floor(project.length / offset) - 1;
-
-    const GoNext = () => {
-        setPage((prev) => (prev === maxPage ? 0 : prev + 1));
-    };
-    const GoPrev = () => {
-        setPage((prev) => (prev === 0 ? maxPage : prev - 1));
-    };
 
     return (
         <GridWrapper>
@@ -167,39 +83,15 @@ export default function ProjectGrid() {
                             type: 'spring',
                         }}
                     >
-                        <GridImg src={item.image_path} />
-                        <GridDescription>
-                            <p>{item.title}</p>
-                            <span>{item.tag}</span>
-                            <GridBtn href={item.url_path} target="blank">
-                                Go to Page
-                            </GridBtn>
-                            <GridBtn href={item.github_link} target="blank">
-                                <FaGithub />
-                            </GridBtn>
-                        </GridDescription>
+                        <GridImg src={item.image_path} alt={item.title} />
+                        <GridDescriptions item={item} />
                     </GridContents>
                 );
             })}
             <span>
                 {page + 1}/{maxPage + 1}
             </span>
-            <SlideBtn
-                variants={slide_button_variants_left}
-                initial="initial"
-                whileHover="hover"
-                onClick={GoNext}
-            >
-                <FaAngleLeft />
-            </SlideBtn>
-            <SlideBtn
-                variants={slide_button_variants_right}
-                initial="initial"
-                whileHover="hover"
-                onClick={GoPrev}
-            >
-                <FaAngleRight />
-            </SlideBtn>
+            <SlideButtons maxPage={maxPage} setPage={setPage} />
         </GridWrapper>
     );
 }

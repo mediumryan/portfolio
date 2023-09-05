@@ -1,10 +1,10 @@
 import React from 'react';
 import Greeting from '../Components/Greeting';
 import { styled } from 'styled-components';
-import Intro from '../Components/Intro';
-import Skills from '../Components/Skills';
-import GoProject from '../Components/GoProject';
-import Contact from '../Components/Contact';
+import Intro from '../Components/Home/Intro';
+import Skills from '../Components/Home/Skills';
+import GoProject from '../Components/Home/GoProject';
+import Contact from '../Components/Home/Contact';
 
 const Grid = styled.div`
     height: 100%;
