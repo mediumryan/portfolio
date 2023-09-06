@@ -22,13 +22,13 @@ export default function SkillsChart() {
                 dataLabels: {
                     enabled: true,
                     style: {
-                        fontSize: window.innerWidth < 767 ? '14px' : '20px',
+                        fontSize: window.innerWidth < 768 ? '14px' : '20px',
                     },
                 },
                 xaxis: {
                     labels: {
                         style: {
-                            fontSize: window.innerWidth < 767 ? '10px' : '16px',
+                            fontSize: window.innerWidth < 768 ? '10px' : '16px',
                         },
                     },
                     categories: ['React', 'JavaScript', 'CSS', 'HTML'],
@@ -36,7 +36,7 @@ export default function SkillsChart() {
                 yaxis: {
                     labels: {
                         style: {
-                            fontSize: window.innerWidth < 767 ? '10px' : '16px',
+                            fontSize: window.innerWidth < 768 ? '10px' : '16px',
                         },
                     },
                 },

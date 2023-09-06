@@ -1,7 +1,6 @@
-import React, { useState } from 'react';
 import { useRecoilValue } from 'recoil';
 import { styled } from 'styled-components';
-import { projects } from '../../Data/atom';
+import { page, projects } from '../../Data/atom';
 import { motion } from 'framer-motion';
 import GridDescriptions from './GridDescriptions';
 import SlideButtons from './SlideButtons';
@@ -14,8 +13,10 @@ const GridWrapper = styled.div`
     width: 85%;
     height: 85%;
     position: relative;
-    @media only screen and (min-width: 360px) and (max-width: 767px) {
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
         width: 100%;
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
     }
 `;
 
@@ -67,13 +68,11 @@ const grid_contents_variants = {
 export default function ProjectGrid() {
     // 슬라이더
     const project = useRecoilValue(projects);
-    const [page, setPage] = useState(0);
-    const offset = 4;
-    const maxPage = Math.floor(project.length / offset) - 1;
+    const pages = useRecoilValue(page);
 
     return (
         <GridWrapper>
-            {project.slice(page * offset, (page + 1) * offset).map((item) => {
+            {project.slice(pages * 4, (pages + 1) * 4).map((item) => {
                 return (
                     <GridContents
                         key={item.id}
@@ -91,10 +90,7 @@ export default function ProjectGrid() {
                     </GridContents>
                 );
             })}
-            <span>
-                {page + 1}/{maxPage + 1}
-            </span>
-            <SlideButtons maxPage={maxPage} setPage={setPage} />
+            <SlideButtons />
         </GridWrapper>
     );
 }

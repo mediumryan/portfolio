@@ -2,6 +2,8 @@ import { styled } from 'styled-components';
 import ProjectGrid from '../Components/Project/ProjectGrid';
 import { AiFillHome } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';
+import { maxPage, page } from '../Data/atom';
+import { useRecoilValue } from 'recoil';
 
 const ProjectsWrapper = styled.div`
     position: relative;
@@ -10,8 +12,10 @@ const ProjectsWrapper = styled.div`
     align-items: center;
     padding: var(--padding-double-large);
     height: 100vh;
-    @media only screen and (min-width: 360px) and (max-width: 767px) {
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
         padding: var(--padding-double-small);
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
     }
 `;
 
@@ -34,8 +38,18 @@ const GoHome = styled.button`
     }
 `;
 
+const NowPage = styled.span`
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    margin-top: var(--margin-large);
+`;
+
 export default function Projects() {
     const navigate = useNavigate();
+
+    const pages = useRecoilValue(page);
+    const maxPages = useRecoilValue(maxPage);
 
     return (
         <ProjectsWrapper>
@@ -44,6 +58,9 @@ export default function Projects() {
             <GoHome onClick={() => navigate('/')}>
                 <AiFillHome />
             </GoHome>
+            <NowPage>
+                {pages + 1}/{maxPages + 1}
+            </NowPage>
         </ProjectsWrapper>
     );
 }

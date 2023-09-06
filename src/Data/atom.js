@@ -15,7 +15,7 @@ import coin_tracker from './../images/project_images/coin_tracker.png';
 import netflix from './../images/project_images/netflix.png';
 
 // atom
-import { atom } from 'recoil';
+import { atom, selector } from 'recoil';
 
 export const projects = atom({
     key: 'projects-data',
@@ -141,4 +141,17 @@ export const projects = atom({
             image_path: outlier,
         },
     ],
+});
+
+export const page = atom({
+    key: 'grid-page',
+    default: 0,
+});
+
+export const maxPage = selector({
+    key: 'max-page',
+    get: ({ get }) => {
+        const page = get(projects);
+        return Math.floor(page.length / 4);
+    },
 });

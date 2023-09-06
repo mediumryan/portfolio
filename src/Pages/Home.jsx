@@ -13,13 +13,15 @@ const Grid = styled.div`
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
     grid-gap: var(--margin-medium);
-    @media only screen and (min-width: 360px) and (max-width: 767px) {
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
         display: flex;
         flex-direction: column;
         padding: var(--padding-large) var(--padding-medium-large);
         * {
             margin-bottom: 12px;
         }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
     }
 `;
 export default function Home() {

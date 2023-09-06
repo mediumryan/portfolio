@@ -43,13 +43,15 @@ const ContactItem = styled(motion.a)`
         background-color: var(--primary-100);
         color: var(--bg-100);
     }
-    @media only screen and (min-width: 360px) and (max-width: 767px) {
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
         flex-direction: row;
         justify-content: center;
         align-items: center;
         span {
             margin-right: 12px;
         }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
     }
 `;
 
@@ -101,7 +103,7 @@ export default function Contact() {
             initial="initial"
             animate="animate"
         >
-            <Title>Contact Me</Title>
+            <Title>Contact</Title>
             <ContactItemBox>
                 <ContactItem
                     variants={contact_item_variants}

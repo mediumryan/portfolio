@@ -1,5 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
+import { useRecoilValue, useSetRecoilState } from 'recoil';
+import { maxPage, page } from './../../Data/atom';
 import { styled } from 'styled-components';
 
 const SlideBtn = styled(motion.button)`
@@ -45,12 +47,15 @@ const slide_button_variants_right = {
     },
 };
 
-export default function SlideButtons({ maxPage, setPage }) {
+export default function SlideButtons() {
+    const setPages = useSetRecoilState(page);
+    const maxPages = useRecoilValue(maxPage);
+
     const GoNext = () => {
-        setPage((prev) => (prev === maxPage ? 0 : prev + 1));
+        setPages((prev) => (prev === maxPages ? 0 : prev + 1));
     };
     const GoPrev = () => {
-        setPage((prev) => (prev === 0 ? maxPage : prev - 1));
+        setPages((prev) => (prev === 0 ? maxPages : prev - 1));
     };
 
     return (
@@ -59,7 +64,7 @@ export default function SlideButtons({ maxPage, setPage }) {
                 variants={slide_button_variants_left}
                 initial="initial"
                 whileHover="hover"
-                onClick={GoNext}
+                onClick={GoPrev}
             >
                 <FaAngleLeft />
             </SlideBtn>
@@ -67,7 +72,7 @@ export default function SlideButtons({ maxPage, setPage }) {
                 variants={slide_button_variants_right}
                 initial="initial"
                 whileHover="hover"
-                onClick={GoPrev}
+                onClick={GoNext}
             >
                 <FaAngleRight />
             </SlideBtn>
