@@ -46,11 +46,11 @@ export const projects = atom({
         },
         {
             id: 3,
-            title: 'RyanTube (Youtube Clone Coding)',
-            github_link: 'https://github.com/mediumryan/youtube-clone',
-            tag: 'HTML,CSS,JS',
-            url_path: 'https://mediumryan.github.io/youtube-clone/',
-            image_path: youtube,
+            title: 'Simple EC Site (Kakao)',
+            github_link: 'https://github.com/mediumryan/kakao-shop-demo',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/kakao-shop-demo/',
+            image_path: kakao_shop,
         },
         {
             id: 4,
@@ -92,13 +92,14 @@ export const projects = atom({
             url_path: 'https://mediumryan.github.io/TMDB_basic/',
             image_path: movie_app,
         },
+
         {
             id: 9,
-            title: 'Momentum App Clone Coding',
-            github_link: 'https://github.com/mediumryan/momemtum_clone',
+            title: 'RyanTube (Youtube Clone Coding)',
+            github_link: 'https://github.com/mediumryan/youtube-clone',
             tag: 'HTML,CSS,JS',
-            url_path: 'https://mediumryan.github.io/momemtum_clone/',
-            image_path: momentum,
+            url_path: 'https://mediumryan.github.io/youtube-clone/',
+            image_path: youtube,
         },
         {
             id: 10,
@@ -108,13 +109,14 @@ export const projects = atom({
             url_path: 'https://mediumryan.github.io/mini-game-demo/',
             image_path: mini_game,
         },
+
         {
             id: 11,
-            title: 'Simple EC Site (Kakao)',
-            github_link: 'https://github.com/mediumryan/kakao-shop-demo',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/kakao-shop-demo/',
-            image_path: kakao_shop,
+            title: 'Momentum App Clone Coding',
+            github_link: 'https://github.com/mediumryan/momemtum_clone',
+            tag: 'HTML,CSS,JS',
+            url_path: 'https://mediumryan.github.io/momemtum_clone/',
+            image_path: momentum,
         },
         {
             id: 12,
