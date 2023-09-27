@@ -63,9 +63,9 @@ export const projects = atom({
         {
             id: 5,
             title: 'Super Simple Calculator',
-            github_link: 'https://github.com/mediumryan/report_calculator',
-            tag: 'HTML,CSS,JS',
-            url_path: 'https://mediumryan.github.io/report_caculator/',
+            github_link: 'https://mediumryan.github.io/report_calculator/',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/report_calculator/',
             image_path: calculator,
         },
         {
@@ -114,7 +114,7 @@ export const projects = atom({
             id: 11,
             title: 'Momentum App Clone Coding',
             github_link: 'https://github.com/mediumryan/momemtum_clone',
-            tag: 'HTML,CSS,JS',
+            tag: 'React',
             url_path: 'https://mediumryan.github.io/momemtum_clone/',
             image_path: momentum,
         },
