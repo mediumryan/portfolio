@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ad11ab2e.css",
-    "main.js": "/portfolio/static/js/main.c949fd2c.js",
+    "main.js": "/portfolio/static/js/main.e1c91e0b.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.1d6657883e44a1441ecf.png",
@@ -17,13 +17,14 @@
     "static/media/check_list.png": "/portfolio/static/media/check_list.569fdbf67ce133dd0625.png",
     "static/media/simple-calculator.png": "/portfolio/static/media/simple-calculator.61f08740a6529fc43d99.png",
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.764435b2c57b5724d7b5.png",
+    "static/media/66days.png": "/portfolio/static/media/66days.30cdb67e6e1168c8e391.png",
     "static/media/avatar.jpeg": "/portfolio/static/media/avatar.8e7ab55da0bc52271ed8.jpeg",
     "index.html": "/portfolio/index.html",
     "main.ad11ab2e.css.map": "/portfolio/static/css/main.ad11ab2e.css.map",
-    "main.c949fd2c.js.map": "/portfolio/static/js/main.c949fd2c.js.map"
+    "main.e1c91e0b.js.map": "/portfolio/static/js/main.e1c91e0b.js.map"
   },
   "entrypoints": [
     "static/css/main.ad11ab2e.css",
-    "static/js/main.c949fd2c.js"
+    "static/js/main.e1c91e0b.js"
   ]
 }
