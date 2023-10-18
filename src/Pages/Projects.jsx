@@ -2,7 +2,7 @@ import { styled } from 'styled-components';
 import ProjectGrid from '../Components/Project/ProjectGrid';
 import { AiFillHome } from 'react-icons/ai';
 import { useNavigate } from 'react-router-dom';
-import { maxPage, page } from '../Data/atom';
+import { maxPage, page } from './../Data/atom';
 import { useRecoilValue } from 'recoil';
 
 const ProjectsWrapper = styled.div`

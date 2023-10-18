@@ -13,6 +13,7 @@ import youtube from './../images/project_images/youtube-clone.png';
 import w3c_fashion from './../images/project_images/w3c-fashion.png';
 import coin_tracker from './../images/project_images/coin_tracker.png';
 import netflix from './../images/project_images/netflix.png';
+import habit from './../images/project_images/66days.png';
 
 // atom
 import { atom, selector } from 'recoil';
@@ -142,6 +143,14 @@ export const projects = atom({
             url_path: 'https://mediumryan.github.io/10000hrous-alone/',
             image_path: outlier,
         },
+        {
+            id: 15,
+            title: '66Days(Only mobile)',
+            github_link: 'https://github.com/mediumryan/66days',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/66days/',
+            image_path: habit,
+        },
     ],
 });
 
@@ -153,7 +162,7 @@ export const page = atom({
 export const maxPage = selector({
     key: 'max-page',
     get: ({ get }) => {
-        const page = get(projects);
-        return Math.floor(page.length / 4);
+        const project = get(projects);
+        return Math.floor(project.length / 4) - 1;
     },
 });

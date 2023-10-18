@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { FaAngleLeft, FaAngleRight } from 'react-icons/fa';
 import { useRecoilValue, useSetRecoilState } from 'recoil';
-import { maxPage, page } from './../../Data/atom';
+import { maxPage, page } from './../../Data/atom.js';
 import { styled } from 'styled-components';
 
 const SlideBtn = styled(motion.button)`
