@@ -14,6 +14,7 @@ import w3c_fashion from './../images/project_images/w3c-fashion.png';
 import coin_tracker from './../images/project_images/coin_tracker.png';
 import netflix from './../images/project_images/netflix.png';
 import habit from './../images/project_images/66days.png';
+import owl from './../images/project_images/owltastic.png';
 
 // atom
 import { atom, selector } from 'recoil';
@@ -151,6 +152,14 @@ export const projects = atom({
             url_path: 'https://mediumryan.github.io/66days/',
             image_path: habit,
         },
+        {
+            id: 16,
+            title: 'Owltastic',
+            github_link: 'https://github.com/mediumryan/owltastic',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/owltastic/',
+            image_path: owl,
+        },
     ],
 });
 
@@ -163,6 +172,6 @@ export const maxPage = selector({
     key: 'max-page',
     get: ({ get }) => {
         const project = get(projects);
-        return Math.floor(project.length / 4) - 1;
+        return Math.floor(project.length / 4);
     },
 });
