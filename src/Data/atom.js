@@ -15,6 +15,7 @@ import coin_tracker from './../images/project_images/coin_tracker.png';
 import netflix from './../images/project_images/netflix.png';
 import habit from './../images/project_images/66days.png';
 import owl from './../images/project_images/owltastic.png';
+import toyota from './../images/project_images/toyota_home.png';
 
 // atom
 import { atom, selector } from 'recoil';
@@ -40,11 +41,11 @@ export const projects = atom({
         },
         {
             id: 2,
-            title: 'Fashion blog - W3C',
-            github_link: 'https://github.com/mediumryan/w3c_fashion',
+            title: 'Toyota-Home(Clone)',
+            github_link: 'https://github.com/mediumryan/toyota-home',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/w3c_fashion/',
-            image_path: w3c_fashion,
+            url_path: 'https://mediumryan.github.io/toyota-home/',
+            image_path: toyota,
         },
         {
             id: 3,
@@ -154,11 +155,19 @@ export const projects = atom({
         },
         {
             id: 16,
-            title: 'Owltastic',
+            title: 'Owltastic(Clone)',
             github_link: 'https://github.com/mediumryan/owltastic',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/owltastic/',
             image_path: owl,
+        },
+        {
+            id: 17,
+            title: 'Fashion blog - W3C',
+            github_link: 'https://github.com/mediumryan/w3c_fashion',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/w3c_fashion/',
+            image_path: w3c_fashion,
         },
     ],
 });
