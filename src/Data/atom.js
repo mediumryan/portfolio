@@ -16,6 +16,8 @@ import netflix from './../images/project_images/netflix.png';
 import habit from './../images/project_images/66days.png';
 import owl from './../images/project_images/owltastic.png';
 import toyota from './../images/project_images/toyota_home.png';
+import ana_santos from './../images/project_images/ana-santos.png';
+import ximena from './../images/project_images/ximena.png';
 
 // atom
 import { atom, selector } from 'recoil';
@@ -168,6 +170,22 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/w3c_fashion/',
             image_path: w3c_fashion,
+        },
+        {
+            id: 18,
+            title: 'Ximena Vengoechea(Clone)',
+            github_link: 'https://github.com/mediumryan/ximenavengoechea_clone',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/ximenavengoechea_clone/',
+            image_path: ximena,
+        },
+        {
+            id: 17,
+            title: 'Ana Santos(Clone)',
+            github_link: 'https://github.com/mediumryan/ana_santos_clone',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/ana_santos_clone/',
+            image_path: ana_santos,
         },
     ],
 });
