@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ad11ab2e.css",
-    "main.js": "/portfolio/static/js/main.ebd580a9.js",
+    "main.js": "/portfolio/static/js/main.22452d31.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.1d6657883e44a1441ecf.png",
@@ -11,8 +11,10 @@
     "static/media/owltastic.png": "/portfolio/static/media/owltastic.3bc2ec5206fba6612d09.png",
     "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.b9494f4b85f4e2222167.png",
     "static/media/mini-game.png": "/portfolio/static/media/mini-game.da203d8904731c1e95ab.png",
+    "static/media/ximena.png": "/portfolio/static/media/ximena.4b4144a78ad942235df6.png",
     "static/media/snow.png": "/portfolio/static/media/snow.fd4930a89e722ad8cf66.png",
     "static/media/search-bar.png": "/portfolio/static/media/search-bar.e11ad84cf743a93b1735.png",
+    "static/media/ana-santos.png": "/portfolio/static/media/ana-santos.f86f4eb381929f53048d.png",
     "static/media/portfolio-demo.png": "/portfolio/static/media/portfolio-demo.4b00270cdfa28d1cfdf0.png",
     "static/media/10000hours.png": "/portfolio/static/media/10000hours.95a66cf1d35a6df5f6fb.png",
     "static/media/coin_tracker.png": "/portfolio/static/media/coin_tracker.4bc50c9981739aa267cd.png",
@@ -23,10 +25,10 @@
     "static/media/avatar.jpeg": "/portfolio/static/media/avatar.8e7ab55da0bc52271ed8.jpeg",
     "index.html": "/portfolio/index.html",
     "main.ad11ab2e.css.map": "/portfolio/static/css/main.ad11ab2e.css.map",
-    "main.ebd580a9.js.map": "/portfolio/static/js/main.ebd580a9.js.map"
+    "main.22452d31.js.map": "/portfolio/static/js/main.22452d31.js.map"
   },
   "entrypoints": [
     "static/css/main.ad11ab2e.css",
-    "static/js/main.ebd580a9.js"
+    "static/js/main.22452d31.js"
   ]
 }
