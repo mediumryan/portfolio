@@ -180,7 +180,7 @@ export const projects = atom({
             image_path: ximena,
         },
         {
-            id: 17,
+            id: 19,
             title: 'Ana Santos(Clone)',
             github_link: 'https://github.com/mediumryan/ana_santos_clone',
             tag: 'React',
