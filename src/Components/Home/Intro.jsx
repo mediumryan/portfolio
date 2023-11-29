@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { styled } from 'styled-components';
-import avatar from './../../images/avatar.jpeg';
+import avatar from './../../images/avatar.png';
 
 // styled-components
 const IntroWrapper = styled(motion.div)`
