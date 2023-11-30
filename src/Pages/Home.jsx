@@ -1,5 +1,5 @@
-import { useMatch } from 'react-router-dom';
 import { styled } from 'styled-components';
+import Greeting from '../Components/Greeting/Greeting';
 
 export const PageWrapper = styled.div`
     background-color: var(--white-100);
@@ -11,5 +11,9 @@ export const PageWrapper = styled.div`
     }
 `;
 export default function Home() {
-    return <PageWrapper>hi</PageWrapper>;
+    return (
+        <PageWrapper>
+            <Greeting />
+        </PageWrapper>
+    );
 }

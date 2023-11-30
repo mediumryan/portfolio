@@ -3,7 +3,7 @@ import { Link, useMatch } from 'react-router-dom';
 import { styled } from 'styled-components';
 
 const HeaderBarWrapper = styled.header`
-    padding: 1rem 5rem;
+    padding: 0.5rem 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -27,11 +27,12 @@ const HeaderMenu = styled.div`
 `;
 
 const HeaderMenuItem = styled(Link)`
-    text-decoration: none;
+    position: relative;
     color: var(--black-100);
     padding: 0.5rem 0.75rem;
     margin: 0 0.5rem;
-    position: relative;
+    text-decoration: none;
+    font-size: 0.9rem;
 `;
 
 const HeaderIsHere = styled.span`
