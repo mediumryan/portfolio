@@ -1,5 +1,6 @@
 import { styled } from 'styled-components';
 import Greeting from '../Components/Greeting/Greeting';
+import Intro from '../Components/Intro/Intro';
 
 export const PageWrapper = styled.div`
     background-color: var(--white-100);
@@ -14,6 +15,7 @@ export default function Home() {
     return (
         <PageWrapper>
             <Greeting />
+            <Intro />
         </PageWrapper>
     );
 }

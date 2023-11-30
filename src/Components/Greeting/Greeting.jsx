@@ -1,8 +1,8 @@
-import { styled } from 'styled-components';
+import { keyframes, styled } from 'styled-components';
 import { useEffect, useState } from 'react';
 // image
 import avatar from './../../images/avatar.png';
-import { FaGithub } from 'react-icons/fa';
+import { FaAngleDown, FaGithub } from 'react-icons/fa';
 
 export const SectionWrapper = styled.section`
     padding: 5rem;
@@ -50,7 +50,7 @@ const GreetingButtons = styled.div`
         line-height: 1.5;
         cursor: pointer;
         &:first-child {
-            background-color: var(--accent-100);
+            background-color: var(--accent-200);
             color: var(--white-100);
         }
         &:last-child {
@@ -100,6 +100,28 @@ const GreetingRight = styled.div`
     }
 `;
 
+const bottomAnimation = keyframes`
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(25%);
+
+    }
+`;
+
+const GreetingBottom = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    svg {
+        font-size: 2rem;
+        color: var(--accent-200);
+        animation: ${bottomAnimation} 1s ease-in infinite;
+    }
+`;
+
 export default function Greeting() {
     const [blogTitle, setBlogTitle] = useState('');
     const [count, setCount] = useState(0);
@@ -139,7 +161,7 @@ export default function Greeting() {
                     </GreetingDescription>
                     <GreetingButtons>
                         <a href="#intro">
-                            <span>Intro / Skills</span>
+                            <span>Intro</span>
                         </a>
                         <a href="#projects">
                             <span>Projects</span>
@@ -178,6 +200,9 @@ export default function Greeting() {
                     </div>
                 </GreetingRight>
             </GreetingInner>
+            <GreetingBottom>
+                <FaAngleDown />
+            </GreetingBottom>
         </SectionWrapper>
     );
 }

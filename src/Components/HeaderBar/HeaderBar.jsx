@@ -12,7 +12,7 @@ const HeaderBarWrapper = styled.header`
 
 const HeaderIcon = styled(Link)`
     svg {
-        color: var(--accent-100);
+        color: var(--accent-200);
         width: 45px;
         height: 45px;
         border-radius: 50%;
@@ -43,7 +43,7 @@ const HeaderIsHere = styled.span`
     width: 10px;
     height: 3px;
     width: 75%;
-    background-color: var(--accent-100);
+    background-color: var(--accent-200);
 `;
 
 export default function HeaderBar() {
