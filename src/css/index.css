@@ -2,11 +2,9 @@
 
 :root {
     /* color */
-    /* --primary-100: #0077c2;
-    --primary-200: #59a5f5;
-    --primary-300: #c8ffff; */
     --accent-100: #00bfff;
     --accent-200: #00619a;
+    --accent-300: #f1f5f9;
     --black-100: #000;
     --black-200: #999;
     --white-100: #fff;
