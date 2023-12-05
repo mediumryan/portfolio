@@ -25,9 +25,9 @@ const GreetingHello = styled.p`
     margin: 1rem 0;
     min-height: 50px;
     font-family: 'Rampart One', sans-serif;
-    &:nth-child(2) {
-        background: #00bfff;
-        background: linear-gradient(to right, #00bfff 0%, #00619a 100%);
+    &:nth-child(1) {
+        background: #3535ff;
+        background: linear-gradient(to right, #3535ff 0%, #ff0000 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
@@ -49,14 +49,12 @@ const GreetingButtons = styled.div`
         border-radius: 20px;
         line-height: 1.5;
         cursor: pointer;
+        color: var(--black-100);
+        margin-left: 1rem;
+        border: 0.5px solid var(--black-200);
         &:first-child {
             background-color: var(--accent-200);
             color: var(--white-100);
-        }
-        &:last-child {
-            color: var(--black-100);
-            margin-left: 1rem;
-            border: 0.5px solid var(--black-200);
         }
         &:hover {
             opacity: 0.75;
@@ -162,6 +160,9 @@ export default function Greeting() {
                     <GreetingButtons>
                         <a href="#intro">
                             <span>Intro</span>
+                        </a>
+                        <a href="#skills">
+                            <span>Skills</span>
                         </a>
                         <a href="#projects">
                             <span>Projects</span>

@@ -1,6 +1,7 @@
 import { styled } from 'styled-components';
 import { IntroContentWrapper } from './IntroIntro';
 import { FaCss3Alt, FaJsSquare, FaReact, FaSlack } from 'react-icons/fa';
+import { SiNotion, SiTypescript, SiVisualstudiocode } from 'react-icons/si';
 
 const SkillsInner = styled.div`
     display: flex;
@@ -62,7 +63,7 @@ export default function IntroSkills() {
                             <span>React</span>
                         </SkillsItem>
                         <SkillsItem>
-                            <FaReact />
+                            <SiTypescript />
                             <span>TypeScript</span>
                         </SkillsItem>
                     </SkillsContent>
@@ -71,11 +72,11 @@ export default function IntroSkills() {
                     <SkillsSubTitle>Tools</SkillsSubTitle>
                     <SkillsContent>
                         <SkillsItem>
-                            <FaReact />
+                            <SiVisualstudiocode />
                             <span>VsCode</span>
                         </SkillsItem>
                         <SkillsItem>
-                            <FaReact />
+                            <SiNotion />
                             <span>Notion</span>
                         </SkillsItem>
                         <SkillsItem>
