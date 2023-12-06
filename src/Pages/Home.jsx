@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 import Greeting from '../Components/Greeting/Greeting';
 import Intro from '../Components/Intro/Intro';
 import SkillBar from '../Components/SkillBar/SkillBar';
+import ProjectSlide from '../Components/ProjectSlide/ProjectSlide';
 
 export const PageWrapper = styled.div`
     background-color: var(--white-100);
@@ -18,6 +19,7 @@ export default function Home() {
             <Greeting />
             <Intro />
             <SkillBar />
+            <ProjectSlide />
         </PageWrapper>
     );
 }

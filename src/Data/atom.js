@@ -20,10 +20,33 @@ import ana_santos from './../images/project_images/ana-santos.png';
 import ximena from './../images/project_images/ximena.png';
 
 // atom
-import { atom, selector } from 'recoil';
+import { atom } from 'recoil';
 
-export const projects = atom({
-    key: 'projects-data',
+export const projectTypeState = atom({
+    key: 'project_type_state',
+    default: [
+        {
+            id: 'type_1',
+            type: 'clone',
+            value: 'Clone',
+            state: true,
+        },
+        {
+            id: 'type_2',
+            type: 'self_made',
+            value: 'Self Made',
+            state: false,
+        },
+    ],
+});
+
+export const nowTypeState = atom({
+    key: 'now_type_state',
+    default: 'clone',
+});
+
+export const projectState = atom({
+    key: 'project_state',
     default: [
         {
             id: 0,
@@ -32,6 +55,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/nomad_netflix',
             image_path: netflix,
+            type: 'clone',
         },
         {
             id: 1,
@@ -40,6 +64,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/crypto_tracker',
             image_path: coin_tracker,
+            type: 'self_made',
         },
         {
             id: 2,
@@ -48,6 +73,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/toyota-home/',
             image_path: toyota,
+            type: 'clone',
         },
         {
             id: 3,
@@ -56,6 +82,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/kakao-shop-demo/',
             image_path: kakao_shop,
+            type: 'self_made',
         },
         {
             id: 4,
@@ -64,6 +91,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/weather-app-demo/',
             image_path: weather,
+            type: 'self_made',
         },
         {
             id: 5,
@@ -72,6 +100,7 @@ export const projects = atom({
             tag: 'React, TypeScript',
             url_path: 'https://mediumryan.github.io/report_calculator/',
             image_path: calculator,
+            type: 'self_made',
         },
         {
             id: 6,
@@ -80,6 +109,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/react-searchbar-demo/',
             image_path: search_bar,
+            type: 'self_made',
         },
         {
             id: 7,
@@ -88,6 +118,7 @@ export const projects = atom({
             tag: 'HTML,CSS,JS',
             url_path: 'https://mediumryan.github.io/portfolio-proto/',
             image_path: portfolio,
+            type: 'self_made',
         },
         {
             id: 8,
@@ -96,6 +127,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/TMDB_basic/',
             image_path: movie_app,
+            type: 'self_made',
         },
 
         {
@@ -105,6 +137,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/youtube-clone/',
             image_path: youtube,
+            type: 'clone',
         },
         {
             id: 10,
@@ -113,6 +146,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/mini-game-demo/',
             image_path: mini_game,
+            type: 'self_made',
         },
 
         {
@@ -122,6 +156,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/momemtum_clone/',
             image_path: momentum,
+            type: 'clone',
         },
         {
             id: 12,
@@ -130,6 +165,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://github.com/mediumryan/recoil_todo/',
             image_path: check_list,
+            type: 'self_made',
         },
         {
             id: 13,
@@ -138,6 +174,7 @@ export const projects = atom({
             tag: 'HTML,CSS,JS',
             url_path: 'https://mediumryan.github.io/animation-snow/',
             image_path: animation_snow,
+            type: 'self_made',
         },
         {
             id: 14,
@@ -146,6 +183,7 @@ export const projects = atom({
             tag: 'HTML,CSS,JS',
             url_path: 'https://mediumryan.github.io/10000hrous-alone/',
             image_path: outlier,
+            type: 'clone',
         },
         {
             id: 15,
@@ -154,6 +192,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/66days/',
             image_path: habit,
+            type: 'self_made',
         },
         {
             id: 16,
@@ -162,6 +201,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/owltastic/',
             image_path: owl,
+            type: 'clone',
         },
         {
             id: 17,
@@ -170,6 +210,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/w3c_fashion/',
             image_path: w3c_fashion,
+            type: 'clone',
         },
         {
             id: 18,
@@ -178,6 +219,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/ximenavengoechea_clone/',
             image_path: ximena,
+            type: 'clone',
         },
         {
             id: 19,
@@ -186,19 +228,7 @@ export const projects = atom({
             tag: 'React',
             url_path: 'https://mediumryan.github.io/ana_santos_clone/',
             image_path: ana_santos,
+            type: 'clone',
         },
     ],
-});
-
-export const page = atom({
-    key: 'grid-page',
-    default: 0,
-});
-
-export const maxPage = selector({
-    key: 'max-page',
-    get: ({ get }) => {
-        const project = get(projects);
-        return Math.floor(project.length / 4);
-    },
 });

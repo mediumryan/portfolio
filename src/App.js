@@ -1,9 +1,11 @@
 import './css/index.css';
-import { Route, Routes } from 'react-router-dom';
-import Home from './Pages/Home';
-import Projects from './Pages/Projects';
-import HeaderBar from './Components/HeaderBar/HeaderBar';
 import { styled } from 'styled-components';
+import { Route, Routes } from 'react-router-dom';
+// components
+import HeaderBar from './Components/HeaderBar/HeaderBar';
+// pages
+import Home from './Pages/Home';
+import Project from './Pages/Project';
 
 const MainWrapper = styled.div`
     letter-spacing: 2px;
@@ -20,7 +22,7 @@ function App() {
             <HeaderBar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/projects" element={<Projects />} />
+                <Route path="/project" element={<Project />} />
             </Routes>
         </MainWrapper>
     );

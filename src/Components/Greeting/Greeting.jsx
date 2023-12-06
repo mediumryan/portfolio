@@ -27,7 +27,7 @@ const GreetingHello = styled.p`
     font-family: 'Rampart One', sans-serif;
     &:nth-child(1) {
         background: #3535ff;
-        background: linear-gradient(to right, #3535ff 0%, #ff0000 100%);
+        background: linear-gradient(to right, #757590 0%, #ff0000 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
     }
