@@ -60,6 +60,7 @@ const CarouselItem = styled.div`
         background-color: rgba(0, 0, 0, 0.85);
         color: var(--white-100);
         border-radius: 10px;
+        transition: 300ms all;
         a {
             font-size: 1.5rem;
             margin: 0.5rem;
