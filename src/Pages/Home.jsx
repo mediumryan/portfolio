@@ -4,6 +4,7 @@ import Intro from '../Components/Intro/Intro';
 import SkillBar from '../Components/SkillBar/SkillBar';
 import ProjectSlide from '../Components/ProjectSlide/ProjectSlide';
 import ContactMe from '../Components/ContactMe/ContactMe';
+import FooterBar from '../Components/Footer/FooterBar';
 
 export const PageWrapper = styled.div`
     background-color: var(--white-100);
@@ -22,6 +23,7 @@ export default function Home() {
             <SkillBar />
             <ProjectSlide />
             <ContactMe />
+            <FooterBar />
         </PageWrapper>
     );
 }

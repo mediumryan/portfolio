@@ -6,13 +6,15 @@ import { introCategoryState } from '../../Data/introAtom';
 const IntroCategoryWrapper = styled.div`
     display: flex;
     align-items: center;
+    width: 100%;
     margin-bottom: 2rem;
     padding: 0.25rem;
     border: 0.5px solid var(--black-200);
     border-radius: 40px;
     button {
+        width: 33%;
         color: var(--white-100);
-        padding: 0.5rem 5rem;
+        padding: 0.5rem 1rem;
         font-size: 1rem;
         font-weight: 500;
         border-radius: 20px;
