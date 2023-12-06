@@ -18,7 +18,7 @@ const SliderMenuWrapper = styled.div`
 const NowHere = styled(motion.div)`
     width: 100%;
     height: 2px;
-    background-color: var(--accent-100);
+    background-color: var(--accent-200);
 `;
 
 export default function SlideMenu() {

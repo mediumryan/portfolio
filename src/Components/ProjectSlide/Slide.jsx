@@ -4,6 +4,8 @@ import { useRecoilValue } from 'recoil';
 import { styled } from 'styled-components';
 // atom data
 import { nowTypeState, projectState } from '../../Data/atom';
+// icons
+import { FaGithub, FaLocationArrow } from 'react-icons/fa';
 
 const responsive = {
     desktop: {
@@ -25,32 +27,86 @@ const responsive = {
 
 const ProjectCarousel = styled(Carousel)`
     width: 100%;
-    a {
-        height: 250px;
-        margin: 12px;
-        padding: 24px;
-        border-radius: 10px;
+`;
+
+const CarouselItem = styled.div`
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 420px;
+    margin: 12px;
+    padding: 24px;
+    border-radius: 10px;
+    color: var(--black-100);
+    background-color: var(--accent-300);
+    transition: 300ms all;
+    img {
+        flex-basis: 50%;
+        width: 100%;
+        min-height: 125px;
+    }
+    .slide_hover {
+        position: absolute;
+        top: 0%;
+        left: 0;
+        width: 100%;
+        height: 100%;
         display: flex;
-        flex-direction: column;
-        align-items: center;
         justify-content: center;
-        color: var(--accent-200);
-        cursor: pointer;
-        &:hover {
-            background-color: var(--white-200);
-        }
-        img {
-            width: 100%;
-            min-height: 125px;
-        }
-        span {
-            font-size: 1rem;
-            margin-top: 12px;
-            padding: 0 1rem;
-            text-align: center;
-            line-height: 1.25;
+        align-items: center;
+        opacity: 0;
+        background-color: rgba(0, 0, 0, 0.85);
+        color: var(--white-100);
+        border-radius: 10px;
+        a {
+            font-size: 1.5rem;
+            margin: 0.5rem;
+            padding: 0.25rem;
+            color: var(--accent-100);
+            cursor: pointer;
+            svg {
+                transition: 300ms transform;
+            }
+            &:hover svg {
+                transform: scale(1.15);
+            }
         }
     }
+    &:hover .slide_hover {
+        opacity: 1;
+    }
+`;
+
+const SlideDescription = styled.div`
+    flex-basis: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    h5 {
+        flex-basis: 40%;
+        font-size: 1.25rem;
+        line-height: 1.5;
+        text-align: center;
+        margin-top: 1rem;
+    }
+    p {
+        flex-basis: 50%;
+        font-size: 0.9rem;
+        line-height: 1.25;
+        padding: 0 1rem;
+        margin: 1rem 0;
+        max-height: 75%;
+        overflow: scroll;
+        color: var(--black-100);
+    }
+`;
+
+const SlideTag = styled.span`
+    flex-basis: 10%;
+    font-size: 0.75rem;
+    color: var(--black-200);
 `;
 
 export default function LineUpSlider() {
@@ -75,10 +131,24 @@ export default function LineUpSlider() {
                 .filter((a) => a.type === nowType)
                 .map((item) => {
                     return (
-                        <a href={item.url_path} target="blank" key={item.id}>
+                        <CarouselItem key={item.id}>
                             <img src={item.image_path} alt={item.title} />
-                            <span>{item.title}</span>
-                        </a>
+                            <SlideDescription>
+                                <h5>{item.title}</h5>
+                                <p>{item.description}</p>
+                                <SlideTag>#{item.tag}</SlideTag>
+                            </SlideDescription>
+                            <div className="slide_hover">
+                                <div>
+                                    <a href={item.url_path} target="blank">
+                                        <FaLocationArrow />
+                                    </a>
+                                    <a href={item.github_link} target="blank">
+                                        <FaGithub />
+                                    </a>
+                                </div>
+                            </div>
+                        </CarouselItem>
                     );
                 })}
         </ProjectCarousel>
