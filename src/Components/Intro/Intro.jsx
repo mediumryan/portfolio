@@ -17,6 +17,7 @@ export const SectionTitle = styled.h2`
     text-align: center;
     font-size: 2.5rem;
     font-family: 'Rampart One', sans-serif;
+    font-style: italic;
 `;
 
 const IntroContent = styled.div`

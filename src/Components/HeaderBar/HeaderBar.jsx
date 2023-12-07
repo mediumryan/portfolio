@@ -48,7 +48,7 @@ const HeaderIsHere = styled.span`
 
 export default function HeaderBar() {
     const isHomeMatch = useMatch('/');
-    const isProjectsMatch = useMatch('/projects');
+    const isProjectsMatch = useMatch('/project');
 
     return (
         <HeaderBarWrapper>
@@ -64,7 +64,7 @@ export default function HeaderBar() {
                         }}
                     />
                 </HeaderMenuItem>
-                <HeaderMenuItem to="/projects">
+                <HeaderMenuItem to="/project">
                     Projects
                     <HeaderIsHere
                         style={{

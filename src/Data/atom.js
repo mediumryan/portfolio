@@ -27,12 +27,18 @@ export const projectTypeState = atom({
     default: [
         {
             id: 'type_1',
-            type: 'clone',
-            value: 'Clone',
+            type: 'all',
+            value: 'All',
             state: true,
         },
         {
             id: 'type_2',
+            type: 'clone',
+            value: 'Clone',
+            state: false,
+        },
+        {
+            id: 'type_3',
             type: 'self_made',
             value: 'Self Made',
             state: false,
@@ -42,7 +48,7 @@ export const projectTypeState = atom({
 
 export const nowTypeState = atom({
     key: 'now_type_state',
-    default: 'clone',
+    default: 'all',
 });
 
 export const projectState = atom({
@@ -50,7 +56,7 @@ export const projectState = atom({
     default: [
         {
             id: 0,
-            title: 'NetFlix Clone',
+            title: 'NetFlix(Clone)',
             github_link: 'https://github.com/mediumryan/nomad_netflix',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/nomad_netflix',
@@ -72,7 +78,7 @@ export const projectState = atom({
         },
         {
             id: 2,
-            title: 'Toyota-Home(Clone)',
+            title: 'Toyota(Clone)',
             github_link: 'https://github.com/mediumryan/toyota-home',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/toyota-home/',
@@ -83,7 +89,7 @@ export const projectState = atom({
         },
         {
             id: 3,
-            title: 'Simple EC Site (Kakao)',
+            title: 'Kakao Simple EC Site',
             github_link: 'https://github.com/mediumryan/kakao-shop-demo',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/kakao-shop-demo/',
@@ -94,7 +100,7 @@ export const projectState = atom({
         },
         {
             id: 4,
-            title: '66Days(Only mobile)',
+            title: '66Days - Mobile only',
             github_link: 'https://github.com/mediumryan/66days',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/66days/',
@@ -149,7 +155,7 @@ export const projectState = atom({
 
         {
             id: 9,
-            title: 'RyanTube (Youtube Clone Coding)',
+            title: 'RyanTube(Clone)',
             github_link: 'https://github.com/mediumryan/youtube-clone',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/youtube-clone/',
@@ -171,7 +177,7 @@ export const projectState = atom({
 
         {
             id: 11,
-            title: 'Momentum App Clone Coding',
+            title: 'Momentum(Clone)',
             github_link: 'https://github.com/mediumryan/momemtum_clone',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/momemtum_clone/',
@@ -203,7 +209,7 @@ export const projectState = atom({
         },
         {
             id: 14,
-            title: 'The 10000Hours-Rule',
+            title: 'The 10000Hours-Rule(Clone)',
             github_link: 'https://github.com/mediumryan/10000hours-alone',
             tag: 'HTML,CSS,JS',
             url_path: 'https://mediumryan.github.io/10000hrous-alone/',
@@ -235,7 +241,7 @@ export const projectState = atom({
         },
         {
             id: 17,
-            title: 'Fashion blog - W3C',
+            title: 'Fashion blog - W3C(Clone)',
             github_link: 'https://github.com/mediumryan/w3c_fashion',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/w3c_fashion/',

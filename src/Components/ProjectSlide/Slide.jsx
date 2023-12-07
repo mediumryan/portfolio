@@ -128,30 +128,59 @@ export default function LineUpSlider() {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
         >
-            {project
-                .filter((a) => a.type === nowType)
-                .map((item) => {
-                    return (
-                        <CarouselItem key={item.id}>
-                            <img src={item.image_path} alt={item.title} />
-                            <SlideDescription>
-                                <h5>{item.title}</h5>
-                                <p>{item.description}</p>
-                                <SlideTag>#{item.tag}</SlideTag>
-                            </SlideDescription>
-                            <div className="slide_hover">
-                                <div>
-                                    <a href={item.url_path} target="blank">
-                                        <FaLocationArrow />
-                                    </a>
-                                    <a href={item.github_link} target="blank">
-                                        <FaGithub />
-                                    </a>
-                                </div>
-                            </div>
-                        </CarouselItem>
-                    );
-                })}
+            {nowType !== 'all'
+                ? project
+                      .filter((a) => a.type === nowType)
+                      .map((item) => {
+                          return (
+                              <CarouselItem key={item.id}>
+                                  <img src={item.image_path} alt={item.title} />
+                                  <SlideDescription>
+                                      <h5>{item.title}</h5>
+                                      <p>{item.description}</p>
+                                      <SlideTag>#{item.tag}</SlideTag>
+                                  </SlideDescription>
+                                  <div className="slide_hover">
+                                      <div>
+                                          <a
+                                              href={item.url_path}
+                                              target="blank"
+                                          >
+                                              <FaLocationArrow />
+                                          </a>
+                                          <a
+                                              href={item.github_link}
+                                              target="blank"
+                                          >
+                                              <FaGithub />
+                                          </a>
+                                      </div>
+                                  </div>
+                              </CarouselItem>
+                          );
+                      })
+                : project.map((item) => {
+                      return (
+                          <CarouselItem key={item.id}>
+                              <img src={item.image_path} alt={item.title} />
+                              <SlideDescription>
+                                  <h5>{item.title}</h5>
+                                  <p>{item.description}</p>
+                                  <SlideTag>#{item.tag}</SlideTag>
+                              </SlideDescription>
+                              <div className="slide_hover">
+                                  <div>
+                                      <a href={item.url_path} target="blank">
+                                          <FaLocationArrow />
+                                      </a>
+                                      <a href={item.github_link} target="blank">
+                                          <FaGithub />
+                                      </a>
+                                  </div>
+                              </div>
+                          </CarouselItem>
+                      );
+                  })}
         </ProjectCarousel>
     );
 }
