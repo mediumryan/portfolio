@@ -8,7 +8,7 @@ const ProjectInner = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 0 5rem;
+    padding: 0 5rem 5rem 5rem;
 `;
 
 const ProjectTitle = styled.h2`
