@@ -19,6 +19,13 @@ const IntroCategoryWrapper = styled.div`
         font-weight: 500;
         border-radius: 20px;
         margin: 0 0.25rem;
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            width: 100%;
+        }
+    }
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        flex-direction: column;
+        border: none;
     }
 `;
 

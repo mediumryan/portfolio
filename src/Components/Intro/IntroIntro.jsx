@@ -3,6 +3,9 @@ import { styled } from 'styled-components';
 export const IntroContentWrapper = styled.div`
     padding: 1rem 2rem;
     width: 100%;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        padding: 0;
+    }
 `;
 
 const IntroParagraph = styled.p`
