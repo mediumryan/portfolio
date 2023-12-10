@@ -6,12 +6,15 @@ import { IoMdMail } from 'react-icons/io';
 import { MdOutlineSmartphone } from 'react-icons/md';
 
 const ContactWrapper = styled.div`
+    margin: 5rem 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     p {
-        font-size: 1.75rem;
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: 700;
     }
 `;
 
@@ -25,16 +28,24 @@ const ContactList = styled.ul`
         margin: 0.5rem;
         display: flex;
         align-items: center;
-        font-size: 1.25rem;
+        font-size: 1.05rem;
+
         span {
             color: var(--accent-200);
             svg {
                 width: 30px;
                 height: 30px;
+                @media only screen and (min-width: 320px) and (max-width: 768px) {
+                    width: 20px;
+                    height: 20px;
+                }
             }
         }
         span:first-child {
             margin-right: 0.5rem;
+        }
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            font-size: 1rem;
         }
     }
 `;
