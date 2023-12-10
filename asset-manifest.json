@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3d175954.css",
-    "main.js": "/portfolio/static/js/main.aec5b7c3.js",
+    "main.css": "/portfolio/static/css/main.08c13a0e.css",
+    "main.js": "/portfolio/static/js/main.d1fb2af6.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
     "static/media/movie-app.png": "/portfolio/static/media/movie-app.1d6657883e44a1441ecf.png",
@@ -28,11 +28,11 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.3d175954.css.map": "/portfolio/static/css/main.3d175954.css.map",
-    "main.aec5b7c3.js.map": "/portfolio/static/js/main.aec5b7c3.js.map"
+    "main.08c13a0e.css.map": "/portfolio/static/css/main.08c13a0e.css.map",
+    "main.d1fb2af6.js.map": "/portfolio/static/js/main.d1fb2af6.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d175954.css",
-    "static/js/main.aec5b7c3.js"
+    "static/css/main.08c13a0e.css",
+    "static/js/main.d1fb2af6.js"
   ]
 }
