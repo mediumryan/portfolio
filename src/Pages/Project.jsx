@@ -2,6 +2,7 @@ import { styled } from 'styled-components';
 import { PageWrapper } from './Home';
 import ProjectMenu from '../Components/Project/ProjectMenu';
 import ProjectGrid from '../Components/Project/ProjectGrid';
+import FooterBar from '../Components/Footer/FooterBar';
 
 const ProjectInner = styled.div`
     display: flex;
@@ -26,6 +27,7 @@ export default function Project() {
                 <ProjectMenu />
                 <ProjectGrid />
             </ProjectInner>
+            <FooterBar />
         </PageWrapper>
     );
 }
