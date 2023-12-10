@@ -6,30 +6,49 @@ import { FaAngleDown, FaGithub } from 'react-icons/fa';
 
 export const SectionWrapper = styled.section`
     padding: 5rem;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        padding: 2rem;
+    }
 `;
 
 const GreetingInner = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        flex-direction: column;
+    }
 `;
 
 const GreetingLeft = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        order: 1;
+    }
 `;
 
 const GreetingHello = styled.p`
     font-size: 2.5rem;
     margin: 1rem 0;
-    min-height: 50px;
+    min-height: 75px;
+    line-height: 1.5;
     font-family: 'Rampart One', sans-serif;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        min-height: 35px;
+    }
     &:nth-child(1) {
         background: #3535ff;
         background: linear-gradient(to right, #757590 0%, #ff0000 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    }
+    &:nth-child(2) {
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            font-size: 1.5rem;
+            letter-spacing: -2px;
+        }
     }
 `;
 
@@ -38,6 +57,12 @@ const GreetingDescription = styled.p`
     font-size: 1.25rem;
     strong {
         font-weight: 900;
+    }
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        margin: 1rem 0;
+        padding-top: 1rem;
+        line-height: 1.5;
+        border-top: 2px solid var(--black-200);
     }
 `;
 
@@ -61,6 +86,10 @@ const GreetingButtons = styled.div`
             box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 50px -12px;
         }
     }
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        margin-top: 2rem;
+        justify-content: center;
+    }
 `;
 
 const GreetingContact = styled.ul`
@@ -83,14 +112,22 @@ const GreetingContact = styled.ul`
             box-shadow: rgba(0, 0, 0, 0.75) 0px 25px 50px -12px;
         }
     }
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        justify-content: center;
+    }
 `;
 
 const GreetingRight = styled.div`
+    order: 0;
     div {
         width: 325px;
         height: 325px;
         background-color: var(--white-200);
         border-radius: 50%;
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            width: 175px;
+            height: 175px;
+        }
         img {
             width: 100%;
             height: 100%;
