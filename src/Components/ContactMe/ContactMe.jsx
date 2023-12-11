@@ -59,7 +59,7 @@ export default function ContactMe() {
                         <span>
                             <IoMdMail />
                         </span>
-                        <span>straightwind0726@gamil.com</span>
+                        <span>straightwind0726@gmail.com</span>
                     </li>
                     <li>
                         <span>

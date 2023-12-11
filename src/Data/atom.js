@@ -212,7 +212,7 @@ export const projectState = atom({
             title: 'The 10000Hours-Rule(Clone)',
             github_link: 'https://github.com/mediumryan/10000hours-alone',
             tag: 'HTML,CSS,JS',
-            url_path: 'https://mediumryan.github.io/10000hrous-alone/',
+            url_path: 'https://mediumryan.github.io/10000hours-alone/',
             image_path: outlier,
             type: 'clone',
             description:
