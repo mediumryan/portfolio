@@ -53,7 +53,7 @@ export default function ContactMe() {
     return (
         <SectionWrapper>
             <ContactWrapper>
-                <p>언제든 연락주세요</p>
+                <p>Contact Me</p>
                 <ContactList>
                     <li>
                         <span>

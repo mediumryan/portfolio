@@ -45,7 +45,7 @@ export default function SkillBar() {
                     colors: '#999',
                 },
             },
-            categories: ['React', 'JavaScript', 'TypeScript', 'CSS', 'HTML'],
+            categories: ['React', 'JS', 'TS', 'CSS', 'HTML'],
         },
         yaxis: {
             labels: {

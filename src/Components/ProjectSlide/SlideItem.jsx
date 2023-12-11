@@ -8,9 +8,9 @@ const SlideItemWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 420px;
-    margin: 12px;
-    padding: 24px;
+    height: 400px;
+    margin: 1.5rem 0.75rem;
+    padding: 1.5rem;
     border-radius: 10px;
     color: var(--black-100);
     background-color: var(--accent-300);
