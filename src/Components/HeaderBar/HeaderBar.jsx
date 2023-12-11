@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import { FaChessBoard } from 'react-icons/fa';
 import { Link, useMatch } from 'react-router-dom';
 import { styled } from 'styled-components';
 // icons
+import { BsBox } from 'react-icons/bs';
 import { IoMdArrowDropdown } from 'react-icons/io';
 import { CgClose } from 'react-icons/cg';
 
@@ -94,7 +94,7 @@ export default function HeaderBar() {
     return (
         <HeaderBarWrapper>
             <HeaderIcon to="/">
-                <FaChessBoard />
+                <BsBox />
             </HeaderIcon>
             <HeaderMenu>
                 {isMenu && (
