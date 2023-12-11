@@ -3,7 +3,8 @@ import { FaChessBoard } from 'react-icons/fa';
 import { Link, useMatch } from 'react-router-dom';
 import { styled } from 'styled-components';
 // icons
-import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoMdArrowDropdown } from 'react-icons/io';
+import { CgClose } from 'react-icons/cg';
 
 const HeaderBarWrapper = styled.header`
     position: relative;
@@ -60,22 +61,22 @@ const HeaderIsHere = styled.span`
     background-color: var(--accent-200);
 `;
 
-const Hamburger = styled.button`
+const MenuIcon = styled.button`
     position: absolute;
     top: 7.5px;
     right: 1%;
-    background-color: var(--accent-200);
-    display: none;
     justify-content: center;
     align-items: center;
     border-radius: 10px;
     padding: 0.5rem;
     svg {
-        color: var(--white-200);
-        font-size: 1.5rem;
+        color: var(--accent-200);
+        transition: 300ms all;
+        width: 30px;
+        height: 30px;
     }
     @media only screen and (min-width: 320px) and (max-width: 768px) {
-        display: flex;
+        display: ${(props) => (props.isMenu ? 'none' : 'flex')};
     }
 `;
 
@@ -83,7 +84,7 @@ export default function HeaderBar() {
     const isHomeMatch = useMatch('/');
     const isProjectsMatch = useMatch('/project');
 
-    const [isMenu, setIsMenu] = useState(false);
+    const [isMenu, setIsMenu] = useState(true);
     const handleMenu = () => {
         setIsMenu((prevMenu) => {
             return !prevMenu;
@@ -121,9 +122,12 @@ export default function HeaderBar() {
                     </>
                 )}
             </HeaderMenu>
-            <Hamburger onClick={handleMenu}>
-                <RxHamburgerMenu />
-            </Hamburger>
+            <MenuIcon onClick={handleMenu} isMenu={isMenu}>
+                <IoMdArrowDropdown />
+            </MenuIcon>
+            <MenuIcon onClick={handleMenu} isMenu={!isMenu}>
+                <CgClose />
+            </MenuIcon>
         </HeaderBarWrapper>
     );
 }
