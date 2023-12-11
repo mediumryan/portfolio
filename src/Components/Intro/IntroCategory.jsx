@@ -51,7 +51,7 @@ export default function IntroCategory() {
                         key={cat.id}
                         style={{
                             backgroundColor: cat.isActive
-                                ? '#00619a'
+                                ? '#3493ca'
                                 : 'transparent',
                             color: cat.isActive ? '#fff' : '#999',
                         }}

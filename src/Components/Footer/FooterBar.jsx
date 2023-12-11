@@ -35,7 +35,9 @@ export default function FooterBar() {
     return (
         <FooterWrapper>
             <FooterInner>
-                <p>© 2023. Ryan All rights reserved.</p>
+                <p style={{ cursor: 'default' }}>
+                    © 2023. Ryan All rights reserved.
+                </p>
                 <ul>
                     <li>
                         <a href="https://github.com/mediumryan" target="blank">

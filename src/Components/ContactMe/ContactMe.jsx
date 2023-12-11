@@ -29,12 +29,11 @@ const ContactList = styled.ul`
         display: flex;
         align-items: center;
         font-size: 1.05rem;
-
         span {
-            color: var(--accent-200);
             svg {
                 width: 30px;
                 height: 30px;
+                color: var(--accent-200);
                 @media only screen and (min-width: 320px) and (max-width: 768px) {
                     width: 20px;
                     height: 20px;

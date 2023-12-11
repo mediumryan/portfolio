@@ -34,11 +34,11 @@ const GreetingHello = styled.p`
     margin: 1rem 0;
     min-height: 75px;
     line-height: 1.5;
-    font-family: 'Rampart One', sans-serif;
     @media only screen and (min-width: 320px) and (max-width: 768px) {
         min-height: 35px;
     }
     &:nth-child(1) {
+        font-family: 'Rampart One', sans-serif;
         background: #3535ff;
         background: linear-gradient(to right, #757590 0%, #ff0000 100%);
         -webkit-background-clip: text;
@@ -48,6 +48,7 @@ const GreetingHello = styled.p`
         @media only screen and (min-width: 320px) and (max-width: 768px) {
             font-size: 1.5rem;
             letter-spacing: -1px;
+            font-weight: 700;
         }
     }
 `;
@@ -55,6 +56,7 @@ const GreetingHello = styled.p`
 const GreetingDescription = styled.p`
     margin: 3rem 0;
     font-size: 1.25rem;
+    line-height: 1.5;
     strong {
         font-weight: 900;
         color: var(--accent-200);
@@ -62,7 +64,6 @@ const GreetingDescription = styled.p`
     @media only screen and (min-width: 320px) and (max-width: 768px) {
         margin: 1rem 0;
         padding: 1rem;
-        line-height: 1.5;
         border-top: 2px solid var(--accent-300);
         border-bottom: 2px solid var(--accent-300);
     }
@@ -179,7 +180,7 @@ export default function Greeting() {
 
                 return result;
             });
-        }, 300);
+        }, 150);
 
         return () => {
             clearInterval(typingInterval);
