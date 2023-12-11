@@ -19,6 +19,13 @@ const ProjectMenuWrapper = styled.div`
         border-radius: 20px;
         margin: 0 0.25rem;
         transition: 300ms all;
+        @media only screen and (min-width: 320px) and (max-width: 768px) {
+            width: auto;
+        }
+    }
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        border: none;
+        justify-content: center;
     }
 `;
 
@@ -34,8 +41,6 @@ export default function ProjectMenu() {
         setType(updatedType);
         setNowType(item.type);
     };
-
-    console.log(type);
 
     return (
         <ProjectMenuWrapper>

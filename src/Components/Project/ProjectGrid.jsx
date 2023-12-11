@@ -8,6 +8,9 @@ const GridWrapper = styled.div`
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(auto, 1fr);
     grid-gap: 24px;
+    @media only screen and (min-width: 320px) and (max-width: 768px) {
+        grid-template-columns: repeat(1, 1fr);
+    }
 `;
 
 const GridItem = styled.div`
