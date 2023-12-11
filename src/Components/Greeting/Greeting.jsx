@@ -47,7 +47,7 @@ const GreetingHello = styled.p`
     &:nth-child(2) {
         @media only screen and (min-width: 320px) and (max-width: 768px) {
             font-size: 1.5rem;
-            letter-spacing: -2px;
+            letter-spacing: -1px;
         }
     }
 `;
@@ -57,12 +57,14 @@ const GreetingDescription = styled.p`
     font-size: 1.25rem;
     strong {
         font-weight: 900;
+        color: var(--accent-200);
     }
     @media only screen and (min-width: 320px) and (max-width: 768px) {
         margin: 1rem 0;
-        padding-top: 1rem;
+        padding: 1rem;
         line-height: 1.5;
-        border-top: 2px solid var(--black-200);
+        border-top: 2px solid var(--accent-300);
+        border-bottom: 2px solid var(--accent-300);
     }
 `;
 
