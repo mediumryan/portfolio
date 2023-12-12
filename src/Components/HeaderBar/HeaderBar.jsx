@@ -62,6 +62,7 @@ const HeaderIsHere = styled.span`
 `;
 
 const MenuIcon = styled.button`
+    display: none;
     position: absolute;
     top: 7.5px;
     right: 1%;
