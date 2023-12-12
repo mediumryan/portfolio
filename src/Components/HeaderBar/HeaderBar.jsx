@@ -93,7 +93,7 @@ export default function HeaderBar() {
     };
 
     return (
-        <HeaderBarWrapper>
+        <HeaderBarWrapper id="header">
             <HeaderIcon to="/">
                 <BsBox />
             </HeaderIcon>

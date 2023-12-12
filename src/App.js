@@ -6,13 +6,34 @@ import HeaderBar from './Components/HeaderBar/HeaderBar';
 // pages
 import Home from './Pages/Home';
 import Project from './Pages/Project';
+import { FaArrowUp } from 'react-icons/fa';
 
 const MainWrapper = styled.div`
+    position: relative;
     letter-spacing: 2px;
     @media only screen and (min-width: 320px) and (max-width: 768px) {
         height: 100%;
     }
     @media only screen and (min-width: 768px) and (max-width: 1024px) {
+    }
+`;
+
+const GoToTop = styled.a`
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    padding: 0.35rem;
+    border: 5px solid var(--accent-200);
+    border-radius: 50%;
+    color: var(--accent-200);
+    transition: 300ms all;
+    z-index: 2;
+    svg {
+        font-size: 1.15rem;
+    }
+    &:hover {
+        color: var(--white-100);
+        background-color: var(--accent-200);
     }
 `;
 
@@ -24,6 +45,9 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/project" element={<Project />} />
             </Routes>
+            <GoToTop href="#header">
+                <FaArrowUp />
+            </GoToTop>
         </MainWrapper>
     );
 }
