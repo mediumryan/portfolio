@@ -56,14 +56,14 @@ export const projectState = atom({
     default: [
         {
             id: 0,
-            title: 'NetFlix(Clone)',
-            github_link: 'https://github.com/mediumryan/nomad_netflix',
+            title: 'Ryanflix',
+            github_link: 'https://github.com/mediumryan/ryanflix',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/nomad_netflix',
+            url_path: 'https://mediumryan.github.io/ryanflix',
             image_path: netflix,
-            type: 'clone',
+            type: 'self_made',
             description:
-                '구 넷플릭스 웹페이지를 바탕으로 제 아이디어를 추가한 클론코딩앱입니다.',
+                '구 넷플릭스 웹페이지를 바탕으로 제 아이디어를 추가한 영화소개앱입니다.',
         },
         {
             id: 1,
