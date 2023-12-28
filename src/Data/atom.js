@@ -141,20 +141,9 @@ export const projectState = atom({
             description:
                 'Dream coding with Ellie의 강의를 바탕으로 저의 아이디어를 추가해 만든 포트폴리오 앱입니다.',
         },
-        {
-            id: 8,
-            title: 'Movie Info App',
-            github_link: 'https://github.com/mediumryan/TMDB_basic',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/TMDB_basic/',
-            image_path: movie_app,
-            type: 'self_made',
-            description:
-                'TMDB API를 이용해 만든 간단한 영화 소개앱입니다. Netflix앱의 하위버전입니다.',
-        },
 
         {
-            id: 9,
+            id: 8,
             title: 'RyanTube(Clone)',
             github_link: 'https://github.com/mediumryan/youtube-clone',
             tag: 'React',
@@ -164,7 +153,7 @@ export const projectState = atom({
             description: '2022년 기준 Youtube 페이지의 클론코딩 앱입니다.',
         },
         {
-            id: 10,
+            id: 9,
             title: 'Mini Game',
             github_link: 'https://github.com/mediumryan/mini-game-demo',
             tag: 'React',
@@ -176,7 +165,7 @@ export const projectState = atom({
         },
 
         {
-            id: 11,
+            id: 10,
             title: 'Momentum(Clone)',
             github_link: 'https://github.com/mediumryan/momemtum_clone',
             tag: 'React',
@@ -187,17 +176,17 @@ export const projectState = atom({
                 'Google Chrome의 인기 익스텐션 Momentum에 영감을 받아 제 나름대로 비슷한 앱을 만들어 보았습니다.',
         },
         {
-            id: 12,
+            id: 11,
             title: 'ToDo List by React',
-            github_link: 'https://mediumryan.github.io/recoil_todo/',
+            github_link: 'https://github.com/mediumryan/recoil_todo/',
             tag: 'React',
-            url_path: 'https://github.com/mediumryan/recoil_todo/',
+            url_path: 'https://mediumryan.github.io/recoil_todo/',
             image_path: check_list,
             type: 'self_made',
             description: 'React를 이용해 만든 아주 간단한 투두리스트앱입니다.',
         },
         {
-            id: 13,
+            id: 12,
             title: 'Snow Background',
             github_link: 'https://github.com/mediumryan/animation-snow',
             tag: 'HTML,CSS,JS',
@@ -208,7 +197,7 @@ export const projectState = atom({
                 '눈이 내리는 배경을 animation 효과만을 이용해 표현해보고자 했습니다.',
         },
         {
-            id: 14,
+            id: 13,
             title: 'The 10000Hours-Rule(Clone)',
             github_link: 'https://github.com/mediumryan/10000hours-alone',
             tag: 'HTML,CSS,JS',
@@ -219,7 +208,7 @@ export const projectState = atom({
                 '유튜버 제주코딩베이스캠프의 10000시간의 법칙 프로젝트 클론코딩앱입니다.',
         },
         {
-            id: 15,
+            id: 14,
             title: 'Weather App with OpenWeatherMap',
             github_link: 'https://github.com/mediumryan/weather-app-demo',
             tag: 'React',
@@ -229,7 +218,7 @@ export const projectState = atom({
             description: 'Open weather map API를 이용해 만든 간단한앱입니다.',
         },
         {
-            id: 16,
+            id: 15,
             title: 'Owltastic(Clone)',
             github_link: 'https://github.com/mediumryan/owltastic',
             tag: 'React',
@@ -240,7 +229,7 @@ export const projectState = atom({
                 '코딩 공부를 위해 개인 페이지 Owltastic을 클론코딩 하였습니다.',
         },
         {
-            id: 17,
+            id: 16,
             title: 'Fashion blog - W3C(Clone)',
             github_link: 'https://github.com/mediumryan/w3c_fashion',
             tag: 'React',
@@ -250,7 +239,7 @@ export const projectState = atom({
             description: 'W3C의 샘플페이지를 클론코딩 하였습니다.',
         },
         {
-            id: 18,
+            id: 17,
             title: 'Ximena Vengoechea(Clone)',
             github_link: 'https://github.com/mediumryan/ximenavengoechea_clone',
             tag: 'React',
@@ -261,7 +250,7 @@ export const projectState = atom({
                 '코딩 공부를 위해 개인 페이지 Ximena Vengoechea를 클론코딩 하였습니다.',
         },
         {
-            id: 19,
+            id: 18,
             title: 'Ana Santos(Clone)',
             github_link: 'https://github.com/mediumryan/ana_santos_clone',
             tag: 'React',
