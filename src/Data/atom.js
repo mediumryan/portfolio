@@ -4,7 +4,6 @@ import check_list from './../images/project_images/check_list.png';
 import kakao_shop from './../images/project_images/kakao-shop.png';
 import mini_game from './../images/project_images/mini-game.png';
 import momentum from './../images/project_images/momentum-clone.png';
-import movie_app from './../images/project_images/movie-app.png';
 import portfolio from './../images/project_images/portfolio-demo.png';
 import search_bar from './../images/project_images/search-bar.png';
 import calculator from './../images/project_images/simple-calculator.png';
@@ -166,12 +165,12 @@ export const projectState = atom({
 
         {
             id: 10,
-            title: 'Momentum(Clone)',
-            github_link: 'https://github.com/mediumryan/momemtum_clone',
+            title: 'Ryan Momentum',
+            github_link: 'https://github.com/mediumryan/ryan_momentum',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/momemtum_clone/',
+            url_path: 'https://mediumryan.github.io/ryan_momentum/',
             image_path: momentum,
-            type: 'clone',
+            type: 'self_made',
             description:
                 'Google Chrome의 인기 익스텐션 Momentum에 영감을 받아 제 나름대로 비슷한 앱을 만들어 보았습니다.',
         },
