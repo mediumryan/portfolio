@@ -36,7 +36,7 @@ export default function FooterBar() {
         <FooterWrapper>
             <FooterInner>
                 <p style={{ cursor: 'default' }}>
-                    © 2023. Ryan All rights reserved.
+                    © 2024. Ryan All rights reserved.
                 </p>
                 <ul>
                     <li>
