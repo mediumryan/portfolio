@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ac874348.css",
-    "main.js": "/portfolio/static/js/main.4beede6f.js",
+    "main.js": "/portfolio/static/js/main.82a920a6.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
     "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.555a064678eb0e1b6a76.png",
@@ -12,9 +12,7 @@
     "static/media/mini-game.png": "/portfolio/static/media/mini-game.da203d8904731c1e95ab.png",
     "static/media/ximena.png": "/portfolio/static/media/ximena.4b4144a78ad942235df6.png",
     "static/media/snow.png": "/portfolio/static/media/snow.fd4930a89e722ad8cf66.png",
-    "static/media/search-bar.png": "/portfolio/static/media/search-bar.e11ad84cf743a93b1735.png",
     "static/media/ana-santos.png": "/portfolio/static/media/ana-santos.f86f4eb381929f53048d.png",
-    "static/media/portfolio-demo.png": "/portfolio/static/media/portfolio-demo.4b00270cdfa28d1cfdf0.png",
     "static/media/10000hours.png": "/portfolio/static/media/10000hours.95a66cf1d35a6df5f6fb.png",
     "static/media/coin_tracker.png": "/portfolio/static/media/coin_tracker.4bc50c9981739aa267cd.png",
     "static/media/check_list.png": "/portfolio/static/media/check_list.569fdbf67ce133dd0625.png",
@@ -28,10 +26,10 @@
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
     "main.ac874348.css.map": "/portfolio/static/css/main.ac874348.css.map",
-    "main.4beede6f.js.map": "/portfolio/static/js/main.4beede6f.js.map"
+    "main.82a920a6.js.map": "/portfolio/static/js/main.82a920a6.js.map"
   },
   "entrypoints": [
     "static/css/main.ac874348.css",
-    "static/js/main.4beede6f.js"
+    "static/js/main.82a920a6.js"
   ]
 }
