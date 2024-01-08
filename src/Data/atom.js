@@ -230,5 +230,15 @@ export const projectState = atom({
             type: 'clone',
             description: "個人ページ'Ana Santos'をコードクローンしました。",
         },
+        {
+            id: 17,
+            title: 'Ryan Fashion Store',
+            github_link: 'https://github.com/mediumryan/ryan-shopping',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/ryan-shopping/',
+            image_path: ana_santos,
+            type: 'self_made',
+            description: '個人ECサイトを作ってみました。（Front Side only）',
+        },
     ],
 });
