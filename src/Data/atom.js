@@ -15,6 +15,7 @@ import owl from './../images/project_images/owltastic.png';
 import toyota from './../images/project_images/toyota_home.png';
 import ana_santos from './../images/project_images/ana-santos.png';
 import ximena from './../images/project_images/ximena.png';
+import ryan_shop from './../images/project_images/ryan-shop.png';
 
 // atom
 import { atom } from 'recoil';
@@ -236,7 +237,7 @@ export const projectState = atom({
             github_link: 'https://github.com/mediumryan/ryan-shopping',
             tag: 'React',
             url_path: 'https://mediumryan.github.io/ryan-shopping/',
-            image_path: ana_santos,
+            image_path: ryan_shop,
             type: 'self_made',
             description: '個人ECサイトを作ってみました。（Front Side only）',
         },
