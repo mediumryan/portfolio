@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.ac874348.css",
-    "main.js": "/portfolio/static/js/main.82a920a6.js",
+    "main.js": "/portfolio/static/js/main.f9bff787.js",
     "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
     "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
     "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.555a064678eb0e1b6a76.png",
     "static/media/w3c-fashion.png": "/portfolio/static/media/w3c-fashion.b53706ce1a2900a185ba.png",
+    "static/media/ryan-shop.png": "/portfolio/static/media/ryan-shop.6e2872eb7b2e3ec84987.png",
     "static/media/toyota_home.png": "/portfolio/static/media/toyota_home.04df2c0e7a0c0fe2850b.png",
     "static/media/owltastic.png": "/portfolio/static/media/owltastic.3bc2ec5206fba6612d09.png",
     "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.b9494f4b85f4e2222167.png",
@@ -26,10 +27,10 @@
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
     "main.ac874348.css.map": "/portfolio/static/css/main.ac874348.css.map",
-    "main.82a920a6.js.map": "/portfolio/static/js/main.82a920a6.js.map"
+    "main.f9bff787.js.map": "/portfolio/static/js/main.f9bff787.js.map"
   },
   "entrypoints": [
     "static/css/main.ac874348.css",
-    "static/js/main.82a920a6.js"
+    "static/js/main.f9bff787.js"
   ]
 }
