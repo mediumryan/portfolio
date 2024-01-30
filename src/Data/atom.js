@@ -65,15 +65,15 @@ export const projectState = atom({
         },
         {
             id: 1,
-            title: 'Coin Tracker',
-            github_link: 'https://github.com/mediumryan/crypto_tracker',
+            title: 'Ryan Fashion Store',
+            github_link: 'https://github.com/mediumryan/ryan-shopping',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/crypto_tracker',
-            image_path: coin_tracker,
+            url_path: 'https://mediumryan.github.io/ryan-shopping/',
+            image_path: ryan_shop,
             type: 'self_made',
-            description:
-                '最大1,000種類の仮想通貨情報をグラフや数字で表示するトラッカーアプリです。',
+            description: '個人ECサイトを作ってみました。（Front Side only）',
         },
+
         {
             id: 2,
             title: 'Toyota(Clone)',
@@ -233,13 +233,14 @@ export const projectState = atom({
         },
         {
             id: 17,
-            title: 'Ryan Fashion Store',
-            github_link: 'https://github.com/mediumryan/ryan-shopping',
+            title: 'Coin Tracker',
+            github_link: 'https://github.com/mediumryan/crypto_tracker',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/ryan-shopping/',
-            image_path: ryan_shop,
+            url_path: 'https://mediumryan.github.io/crypto_tracker',
+            image_path: coin_tracker,
             type: 'self_made',
-            description: '個人ECサイトを作ってみました。（Front Side only）',
+            description:
+                '最大1,000種類の仮想通貨情報をグラフや数字で表示するトラッカーアプリです。',
         },
     ],
 });
