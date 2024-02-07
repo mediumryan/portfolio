@@ -40,6 +40,7 @@ const SlideItemWrapper = styled.div`
             padding: 0.25rem;
             color: var(--accent-100);
             cursor: pointer;
+            pointer-events: none;
             svg {
                 transition: 300ms transform;
             }
@@ -50,6 +51,9 @@ const SlideItemWrapper = styled.div`
     }
     &:hover .slide_hover {
         opacity: 1;
+        a {
+            pointer-events: auto;
+        }
     }
 `;
 
