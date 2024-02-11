@@ -37,6 +37,9 @@ const GreetingHello = styled.p`
     @media only screen and (min-width: 320px) and (max-width: 768px) {
         min-height: 35px;
     }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        min-height: 125px;
+    }
     &:nth-child(1) {
         font-family: 'Rampart One', sans-serif;
         background: #3535ff;
