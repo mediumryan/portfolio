@@ -11,6 +11,9 @@ const GridWrapper = styled.div`
     @media only screen and (min-width: 320px) and (max-width: 768px) {
         grid-template-columns: repeat(1, 1fr);
     }
+    @media only screen and (min-width: 768px) and (max-width: 1024px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
 `;
 
 const GridItem = styled.div`
