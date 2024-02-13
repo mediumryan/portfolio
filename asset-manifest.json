@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0a9c14ef.css",
-    "main.js": "/portfolio/static/js/main.84c3c585.js",
-    "static/media/momentum-clone.png": "/portfolio/static/media/momentum-clone.ddc73cf7d5e09641ee98.png",
+    "main.js": "/portfolio/static/js/main.ee6388b6.js",
     "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
-    "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.555a064678eb0e1b6a76.png",
+    "static/media/momentum.png": "/portfolio/static/media/momentum.1f67f05a3e0ea68d2892.png",
     "static/media/w3c-fashion.png": "/portfolio/static/media/w3c-fashion.b53706ce1a2900a185ba.png",
-    "static/media/ryan-shop.png": "/portfolio/static/media/ryan-shop.6e2872eb7b2e3ec84987.png",
     "static/media/toyota_home.png": "/portfolio/static/media/toyota_home.04df2c0e7a0c0fe2850b.png",
+    "static/media/youtube-clone.png": "/portfolio/static/media/youtube-clone.fa53dda7e908369cc73a.png",
+    "static/media/ryan-shop.png": "/portfolio/static/media/ryan-shop.2212be35641b2b2db08b.png",
     "static/media/owltastic.png": "/portfolio/static/media/owltastic.3bc2ec5206fba6612d09.png",
-    "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.b9494f4b85f4e2222167.png",
-    "static/media/mini-game.png": "/portfolio/static/media/mini-game.da203d8904731c1e95ab.png",
+    "static/media/mini-game.png": "/portfolio/static/media/mini-game.97d50de295bcb9ddc5fa.png",
+    "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.f7d1d9042a69e643b723.png",
     "static/media/ximena.png": "/portfolio/static/media/ximena.4b4144a78ad942235df6.png",
     "static/media/snow.png": "/portfolio/static/media/snow.fd4930a89e722ad8cf66.png",
     "static/media/ana-santos.png": "/portfolio/static/media/ana-santos.f86f4eb381929f53048d.png",
+    "static/media/coin-tracker.png": "/portfolio/static/media/coin-tracker.2449a94cedfa401be856.png",
     "static/media/10000hours.png": "/portfolio/static/media/10000hours.95a66cf1d35a6df5f6fb.png",
-    "static/media/coin_tracker.png": "/portfolio/static/media/coin_tracker.4bc50c9981739aa267cd.png",
+    "static/media/66days.png": "/portfolio/static/media/66days.f1e263f8da7d21b20aab.png",
     "static/media/check_list.png": "/portfolio/static/media/check_list.569fdbf67ce133dd0625.png",
     "static/media/simple-calculator.png": "/portfolio/static/media/simple-calculator.61f08740a6529fc43d99.png",
-    "static/media/weather-app.png": "/portfolio/static/media/weather-app.764435b2c57b5724d7b5.png",
-    "static/media/66days.png": "/portfolio/static/media/66days.30cdb67e6e1168c8e391.png",
+    "static/media/weather-app.png": "/portfolio/static/media/weather-app.349fc005d4ffd87caa01.png",
     "static/media/avatar.png": "/portfolio/static/media/avatar.024dd2465c698931800d.png",
     "static/media/avatar_upper.jpeg": "/portfolio/static/media/avatar_upper.212aa67c62427f4c3f8f.jpeg",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
@@ -27,10 +27,10 @@
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
     "main.0a9c14ef.css.map": "/portfolio/static/css/main.0a9c14ef.css.map",
-    "main.84c3c585.js.map": "/portfolio/static/js/main.84c3c585.js.map"
+    "main.ee6388b6.js.map": "/portfolio/static/js/main.ee6388b6.js.map"
   },
   "entrypoints": [
     "static/css/main.0a9c14ef.css",
-    "static/js/main.84c3c585.js"
+    "static/js/main.ee6388b6.js"
   ]
 }
