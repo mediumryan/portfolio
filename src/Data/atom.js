@@ -3,12 +3,12 @@ import animation_snow from './../images/project_images/snow.png';
 import check_list from './../images/project_images/check_list.png';
 import kakao_shop from './../images/project_images/kakao-shop.png';
 import mini_game from './../images/project_images/mini-game.png';
-import momentum from './../images/project_images/momentum-clone.png';
+import momentum from './../images/project_images/momentum.png';
 import calculator from './../images/project_images/simple-calculator.png';
 import weather from './../images/project_images/weather-app.png';
 import youtube from './../images/project_images/youtube-clone.png';
 import w3c_fashion from './../images/project_images/w3c-fashion.png';
-import coin_tracker from './../images/project_images/coin_tracker.png';
+import coin_tracker from './../images/project_images/coin-tracker.png';
 import netflix from './../images/project_images/netflix.png';
 import habit from './../images/project_images/66days.png';
 import owl from './../images/project_images/owltastic.png';
@@ -54,6 +54,16 @@ export const projectState = atom({
     default: [
         {
             id: 0,
+            title: 'Ryan Fashion Store',
+            github_link: 'https://github.com/mediumryan/ryan-shopping',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/ryan-shopping/',
+            image_path: ryan_shop,
+            type: 'self_made',
+            description: '個人ECサイトを作ってみました。（Front Side only）',
+        },
+        {
+            id: 1,
             title: 'Ryanflix',
             github_link: 'https://github.com/mediumryan/ryanflix',
             tag: 'React',
@@ -64,39 +74,7 @@ export const projectState = atom({
                 'ネットフリックスよりインスピレーションを得たメデイア作品の紹介アプリです。',
         },
         {
-            id: 1,
-            title: 'Ryan Fashion Store',
-            github_link: 'https://github.com/mediumryan/ryan-shopping',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/ryan-shopping/',
-            image_path: ryan_shop,
-            type: 'self_made',
-            description: '個人ECサイトを作ってみました。（Front Side only）',
-        },
-
-        {
             id: 2,
-            title: 'Toyota(Clone)',
-            github_link: 'https://github.com/mediumryan/toyota-home',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/toyota-home/',
-            image_path: toyota,
-            type: 'clone',
-            description:
-                "日本の大手企業である'Toyota'のLPをコードクローンしてみました。",
-        },
-        {
-            id: 3,
-            title: 'Kakao Simple EC Site',
-            github_link: 'https://github.com/mediumryan/kakao-shop-demo',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/kakao-shop-demo/',
-            image_path: kakao_shop,
-            type: 'self_made',
-            description: 'シンプルなECサイトです。',
-        },
-        {
-            id: 4,
             title: '66Days - Mobile only',
             github_link: 'https://github.com/mediumryan/66days',
             tag: 'React',
@@ -106,7 +84,49 @@ export const projectState = atom({
             description: 'Recoilを活用した習慣化アプリです。',
         },
         {
+            id: 3,
+            title: 'Coin Tracker',
+            github_link: 'https://github.com/mediumryan/crypto_tracker',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/crypto_tracker',
+            image_path: coin_tracker,
+            type: 'self_made',
+            description:
+                '最大1,000種類の仮想通貨情報をグラフや数字で表示するトラッカーアプリです。',
+        },
+        {
+            id: 4,
+            title: 'Ryan Momentum',
+            github_link: 'https://github.com/mediumryan/ryan_momentum',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/ryan_momentum/',
+            image_path: momentum,
+            type: 'self_made',
+            description:
+                "Chromeのイクステンション'Momentum'よりインスピレーションを得たアプリです。",
+        },
+        {
             id: 5,
+            title: 'Kakao Simple EC Site',
+            github_link: 'https://github.com/mediumryan/kakao-shop-demo',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/kakao-shop-demo/',
+            image_path: kakao_shop,
+            type: 'self_made',
+            description: 'シンプルなECサイトです。',
+        },
+        {
+            id: 6,
+            title: 'Mini Game',
+            github_link: 'https://github.com/mediumryan/mini-game-demo',
+            tag: 'React',
+            url_path: 'https://mediumryan.github.io/mini-game-demo/',
+            image_path: mini_game,
+            type: 'self_made',
+            description: '人参をクリックするだけのシンプルなミニゲームです。',
+        },
+        {
+            id: 7,
             title: 'Super Simple Calculator',
             github_link: 'https://mediumryan.github.io/report_calculator/',
             tag: 'React, TypeScript',
@@ -116,37 +136,15 @@ export const projectState = atom({
             description: '四則演算が出来る簡単なアプリです。',
         },
         {
-            id: 6,
-            title: 'RyanTube(Clone)',
-            github_link: 'https://github.com/mediumryan/youtube-clone',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/youtube-clone/',
-            image_path: youtube,
-            type: 'clone',
-            description:
-                'YouTube(2022ver)の再生ページをコードクローンしてみました。',
-        },
-        {
-            id: 7,
-            title: 'Mini Game',
-            github_link: 'https://github.com/mediumryan/mini-game-demo',
-            tag: 'React',
-            url_path: 'https://mediumryan.github.io/mini-game-demo/',
-            image_path: mini_game,
-            type: 'self_made',
-            description: '人参をクリックするだけのシンプルなミニゲームです。',
-        },
-
-        {
             id: 8,
-            title: 'Ryan Momentum',
-            github_link: 'https://github.com/mediumryan/ryan_momentum',
+            title: 'Weather App with OpenWeatherMap',
+            github_link: 'https://github.com/mediumryan/weather-app-demo',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/ryan_momentum/',
-            image_path: momentum,
+            url_path: 'https://mediumryan.github.io/weather-app-demo/',
+            image_path: weather,
             type: 'self_made',
             description:
-                "Chromeのイクステンション'Momentum'よりインスピレーションを得たアプリです。",
+                'Open weather map APIを活用して現在使用者の場所や気温、天気等を見れる簡単なアプリです。',
         },
         {
             id: 9,
@@ -181,14 +179,14 @@ export const projectState = atom({
         },
         {
             id: 12,
-            title: 'Weather App with OpenWeatherMap',
-            github_link: 'https://github.com/mediumryan/weather-app-demo',
+            title: 'RyanTube(Clone)',
+            github_link: 'https://github.com/mediumryan/youtube-clone',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/weather-app-demo/',
-            image_path: weather,
-            type: 'self_made',
+            url_path: 'https://mediumryan.github.io/youtube-clone/',
+            image_path: youtube,
+            type: 'clone',
             description:
-                'Open weather map APIを活用して現在使用者の場所や気温、天気等を見れる簡単なアプリです。',
+                'YouTube(2022ver)の再生ページをコードクローンしてみました。',
         },
         {
             id: 13,
@@ -233,14 +231,14 @@ export const projectState = atom({
         },
         {
             id: 17,
-            title: 'Coin Tracker',
-            github_link: 'https://github.com/mediumryan/crypto_tracker',
+            title: 'Toyota(Clone)',
+            github_link: 'https://github.com/mediumryan/toyota-home',
             tag: 'React',
-            url_path: 'https://mediumryan.github.io/crypto_tracker',
-            image_path: coin_tracker,
-            type: 'self_made',
+            url_path: 'https://mediumryan.github.io/toyota-home/',
+            image_path: toyota,
+            type: 'clone',
             description:
-                '最大1,000種類の仮想通貨情報をグラフや数字で表示するトラッカーアプリです。',
+                "日本の大手企業である'Toyota'のLPをコードクローンしてみました。",
         },
     ],
 });
