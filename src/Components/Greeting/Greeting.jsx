@@ -198,7 +198,7 @@ export default function Greeting() {
                     <GreetingHello>{blogTitle}</GreetingHello>
                     <GreetingDescription>
                         新しいものを学び、作ることが大好きな
-                        <strong>イ ジョンヒョク</strong>です。
+                        <strong>Ryan</strong>です。
                     </GreetingDescription>
                     <GreetingButtons>
                         <a href="#intro">

@@ -59,13 +59,13 @@ export default function ContactMe() {
                         <span>
                             <IoMdMail />
                         </span>
-                        <span>straightwind0726@gmail.com</span>
+                        <span>s************@gmail.com</span>
                     </li>
                     <li>
                         <span>
                             <MdOutlineSmartphone />
                         </span>
-                        <span>080-7361-1518</span>
+                        <span>080-****-****</span>
                     </li>
                 </ContactList>
             </ContactWrapper>
