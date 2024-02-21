@@ -128,7 +128,7 @@ export const projectState = atom({
         {
             id: 7,
             title: 'Super Simple Calculator',
-            github_link: 'https://mediumryan.github.io/report_calculator/',
+            github_link: 'https://github.com/mediumryan/report_calculator/',
             tag: 'React, TypeScript',
             url_path: 'https://mediumryan.github.io/report_calculator/',
             image_path: calculator,
