@@ -34,7 +34,13 @@ export const introWorkState = atom({
             id: 'work_1',
             company: 'アデコ株式会社',
             position: '一般社員•Reviewer',
-            period: '2022.02 ~ 在職中',
+            period: '2022.02 ~ 退職予定',
+        },
+        {
+            id: 'work_2',
+            company: '株式会社CRI',
+            position: 'DS事業部',
+            period: '2024.04 ~ 就職予定',
         },
     ],
 });
