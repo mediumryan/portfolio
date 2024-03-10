@@ -1,11 +1,13 @@
 import './css/index.css';
 import { styled } from 'styled-components';
 import { Route, Routes } from 'react-router-dom';
-// components
+// import components
 import HeaderBar from './Components/HeaderBar/HeaderBar';
-// pages
+// import pages
 import Home from './Pages/Home';
 import Project from './Pages/Project';
+import NotFound from './Pages/NotFound';
+// import icons
 import { FaArrowUp } from 'react-icons/fa';
 
 const MainWrapper = styled.div`
@@ -44,6 +46,7 @@ function App() {
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/project" element={<Project />} />
+                <Route path="*" element={<NotFound />} />
             </Routes>
             <GoToTop href="#header">
                 <FaArrowUp />
