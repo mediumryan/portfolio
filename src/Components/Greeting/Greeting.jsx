@@ -128,8 +128,6 @@ const GreetingRight = styled.div`
     div {
         width: 325px;
         height: 325px;
-        background-color: var(--white-200);
-        border-radius: 50%;
         @media only screen and (min-width: 320px) and (max-width: 768px) {
             width: 175px;
             height: 175px;
