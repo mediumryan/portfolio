@@ -17,6 +17,7 @@ import ana_santos from './../images/project_images/ana-santos.png';
 import ximena from './../images/project_images/ximena.png';
 import ryan_shop from './../images/project_images/ryan-shop.png';
 import food_info from './../images/project_images/food-info.png';
+import book_search from './../images/project_images/book-search.png';
 
 // atom
 import { atom } from 'recoil';
@@ -248,6 +249,17 @@ export const projectState = atom({
       image_path: food_info,
       type: 'self_made',
       description: '料理のレシピや食品の栄養情報を検索できるアプリです。',
+    },
+    {
+      id: 18,
+      title: 'Book Search App',
+      github_link: 'https://github.com/mediumryan/naver_book_search',
+      tag: 'Next',
+      url_path: 'https://mediumryan-book-search.vercel.app/',
+      image_path: book_search,
+      type: 'self_made',
+      description:
+        '韓国の有名な検索ポータルサイトNaverが提供する検索APIを活用した書籍検索アプリです。',
     },
   ],
 });
