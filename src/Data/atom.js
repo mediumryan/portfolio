@@ -9,7 +9,7 @@ import weather from './../images/project_images/weather-app.png';
 import youtube from './../images/project_images/youtube-clone.png';
 import w3c_fashion from './../images/project_images/w3c-fashion.png';
 import coin_tracker from './../images/project_images/coin-tracker.png';
-import netflix from './../images/project_images/netflix.png';
+import ryanflix from './../images/project_images/ryanflix.png';
 import habit from './../images/project_images/66days.png';
 import owl from './../images/project_images/owltastic.png';
 import toyota from './../images/project_images/toyota_home.png';
@@ -18,6 +18,7 @@ import ximena from './../images/project_images/ximena.png';
 import ryan_shop from './../images/project_images/ryan-shop.png';
 import food_info from './../images/project_images/food-info.png';
 import book_search from './../images/project_images/book-search.png';
+import ryanflix_next from './../images/project_images/ryanflix-next.png';
 
 // atom
 import { atom } from 'recoil';
@@ -70,7 +71,7 @@ export const projectState = atom({
       github_link: 'https://github.com/mediumryan/ryanflix',
       tag: 'React',
       url_path: 'https://mediumryan.github.io/ryanflix',
-      image_path: netflix,
+      image_path: ryanflix,
       type: 'self_made',
       description:
         'ネットフリックスよりインスピレーションを得たメデイア作品の紹介アプリです。',
@@ -260,6 +261,17 @@ export const projectState = atom({
       type: 'self_made',
       description:
         '韓国の有名な検索ポータルサイトNaverが提供する検索APIを活用した書籍検索アプリです。',
+    },
+    {
+      id: 19,
+      title: 'Ryanflix(Next.js)',
+      github_link: 'https://github.com/mediumryan/ryanflix',
+      tag: 'Next',
+      url_path: 'https://ryanflix-pink.vercel.app/',
+      image_path: ryanflix_next,
+      type: 'self_made',
+      description:
+        'ネットフリックスよりインスピレーションを得たメデイア作品の紹介アプリです。',
     },
   ],
 });
