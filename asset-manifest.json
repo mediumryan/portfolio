@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6b976ce1.css",
-    "main.js": "/portfolio/static/js/main.8783c748.js",
-    "static/media/netflix.png": "/portfolio/static/media/netflix.a0222ef9277c04e118e2.png",
+    "main.css": "/portfolio/static/css/main.fb7983de.css",
+    "main.js": "/portfolio/static/js/main.9fdd74d4.js",
+    "static/media/ryanflix.png": "/portfolio/static/media/ryanflix.a0222ef9277c04e118e2.png",
     "static/media/momentum.png": "/portfolio/static/media/momentum.1f67f05a3e0ea68d2892.png",
     "static/media/w3c-fashion.png": "/portfolio/static/media/w3c-fashion.b53706ce1a2900a185ba.png",
     "static/media/toyota_home.png": "/portfolio/static/media/toyota_home.04df2c0e7a0c0fe2850b.png",
@@ -11,6 +11,7 @@
     "static/media/owltastic.png": "/portfolio/static/media/owltastic.3bc2ec5206fba6612d09.png",
     "static/media/food-info.png": "/portfolio/static/media/food-info.500cde02ceefddf20216.png",
     "static/media/mini-game.png": "/portfolio/static/media/mini-game.97d50de295bcb9ddc5fa.png",
+    "static/media/ryanflix-next.png": "/portfolio/static/media/ryanflix-next.bd17f976967ef2e6dc12.png",
     "static/media/kakao-shop.png": "/portfolio/static/media/kakao-shop.f7d1d9042a69e643b723.png",
     "static/media/book-search.png": "/portfolio/static/media/book-search.b5125d2b51be2d5ab66b.png",
     "static/media/ximena.png": "/portfolio/static/media/ximena.4b4144a78ad942235df6.png",
@@ -28,11 +29,11 @@
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
-    "main.6b976ce1.css.map": "/portfolio/static/css/main.6b976ce1.css.map",
-    "main.8783c748.js.map": "/portfolio/static/js/main.8783c748.js.map"
+    "main.fb7983de.css.map": "/portfolio/static/css/main.fb7983de.css.map",
+    "main.9fdd74d4.js.map": "/portfolio/static/js/main.9fdd74d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b976ce1.css",
-    "static/js/main.8783c748.js"
+    "static/css/main.fb7983de.css",
+    "static/js/main.9fdd74d4.js"
   ]
 }
