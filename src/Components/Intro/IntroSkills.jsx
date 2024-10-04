@@ -7,6 +7,10 @@ import { SiNextdotjs } from 'react-icons/si';
 const SkillsInner = styled.div`
   display: flex;
   flex-direction: column;
+  max-height: 400px;
+  min-height: 400px;
+  position: relative;
+  overflow: auto;
   & > div:first-child {
     margin-bottom: 2rem;
   }
