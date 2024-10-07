@@ -19,6 +19,7 @@ import ryan_shop from './../images/project_images/ryan-shop.png';
 import food_info from './../images/project_images/food-info.png';
 import book_search from './../images/project_images/book-search.png';
 import ryanflix_next from './../images/project_images/ryanflix-next.png';
+import guestbook from './../images/project_images/geustbook.png';
 
 // atom
 import { atom } from 'recoil';
@@ -272,6 +273,16 @@ export const projectState = atom({
       type: 'self_made',
       description:
         'ネットフリックスよりインスピレーションを得たメデイア作品の紹介アプリです。',
+    },
+    {
+      id: 21,
+      title: 'GuestBook',
+      github_link: 'https://github.com/mediumryan/guestbook',
+      tag: 'Next',
+      url_path: 'https://guestbook-liard-two.vercel.app/',
+      image_path: guestbook,
+      type: 'self_made',
+      description: 'Next.jsとMySQLを使用したゲストブックアプリです。',
     },
   ],
 });
