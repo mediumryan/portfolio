@@ -20,6 +20,7 @@ import food_info from './../images/project_images/food-info.png';
 import book_search from './../images/project_images/book-search.png';
 import ryanflix_next from './../images/project_images/ryanflix-next.png';
 import guestbook from './../images/project_images/geustbook.png';
+import kanban from './../images/project_images/kanban.png';
 
 // atom
 import { atom } from 'recoil';
@@ -283,6 +284,16 @@ export const projectState = atom({
       image_path: guestbook,
       type: 'self_made',
       description: 'Next.jsとMySQLを使用したゲストブックアプリです。',
+    },
+    {
+      id: 22,
+      title: 'KanBan Board',
+      github_link: 'https://github.com/mediumryan/kanban-board',
+      tag: 'React',
+      url_path: 'https://mediumryan.github.io/kanban-board/',
+      image_path: kanban,
+      type: 'self_made',
+      description: 'react-beautiful-dndを活用したKanbanボードアプリです。',
     },
   ],
 });
