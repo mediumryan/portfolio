@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.fb7983de.css",
-    "main.js": "/portfolio/static/js/main.03bd702a.js",
+    "main.js": "/portfolio/static/js/main.28706d9f.js",
     "static/media/ryanflix.png": "/portfolio/static/media/ryanflix.a0222ef9277c04e118e2.png",
     "static/media/momentum.png": "/portfolio/static/media/momentum.1f67f05a3e0ea68d2892.png",
     "static/media/w3c-fashion.png": "/portfolio/static/media/w3c-fashion.b53706ce1a2900a185ba.png",
@@ -19,6 +19,7 @@
     "static/media/ana-santos.png": "/portfolio/static/media/ana-santos.f86f4eb381929f53048d.png",
     "static/media/coin-tracker.png": "/portfolio/static/media/coin-tracker.2449a94cedfa401be856.png",
     "static/media/10000hours.png": "/portfolio/static/media/10000hours.95a66cf1d35a6df5f6fb.png",
+    "static/media/kanban.png": "/portfolio/static/media/kanban.a349fc35eccff4faa362.png",
     "static/media/66days.png": "/portfolio/static/media/66days.f1e263f8da7d21b20aab.png",
     "static/media/check_list.png": "/portfolio/static/media/check_list.569fdbf67ce133dd0625.png",
     "static/media/geustbook.png": "/portfolio/static/media/geustbook.9f0af916cceef6984de5.png",
@@ -31,10 +32,10 @@
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/portfolio/index.html",
     "main.fb7983de.css.map": "/portfolio/static/css/main.fb7983de.css.map",
-    "main.03bd702a.js.map": "/portfolio/static/js/main.03bd702a.js.map"
+    "main.28706d9f.js.map": "/portfolio/static/js/main.28706d9f.js.map"
   },
   "entrypoints": [
     "static/css/main.fb7983de.css",
-    "static/js/main.03bd702a.js"
+    "static/js/main.28706d9f.js"
   ]
 }
