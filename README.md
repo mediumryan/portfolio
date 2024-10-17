@@ -111,3 +111,11 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 내용
 
 - Kanban Board 프로젝트 추가.
+
+---
+
+2024.10.17 새로운 프로젝트가 추가되었습니다.
+
+내용
+
+- Coin Tracker(Next.js) 프로젝트 추가.

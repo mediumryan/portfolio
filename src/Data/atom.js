@@ -21,6 +21,7 @@ import book_search from './../images/project_images/book-search.png';
 import ryanflix_next from './../images/project_images/ryanflix-next.png';
 import guestbook from './../images/project_images/geustbook.png';
 import kanban from './../images/project_images/kanban.png';
+import next_coin_tracker from './../images/project_images/next-crypto.png';
 
 // atom
 import { atom } from 'recoil';
@@ -294,6 +295,16 @@ export const projectState = atom({
       image_path: kanban,
       type: 'self_made',
       description: 'react-beautiful-dndを活用したKanbanボードアプリです。',
+    },
+    {
+      id: 23,
+      title: 'Coin Tracker(Next.js)',
+      github_link: 'https://github.com/mediumryan/next_crypto_tracker',
+      tag: 'Next',
+      url_path: 'https://crypto-tracker-nine-chi.vercel.app/',
+      image_path: next_coin_tracker,
+      type: 'self_made',
+      description: 'Next.jsとcoingecko apiを活用したトラッカーアプリです。',
     },
   ],
 });
