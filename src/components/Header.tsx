@@ -26,7 +26,7 @@ export default function Header() {
   }, [pathName]);
 
   return (
-    <header className="sticky top-0 py-2 px-4 border-b-2">
+    <header className="sticky top-0 py-2 px-4 border-b-2 bg-white z-40">
       {/* header */}
       <div className="flex items-center justify-between mb-2">
         <div></div>
