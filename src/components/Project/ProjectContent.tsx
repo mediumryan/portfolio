@@ -11,9 +11,9 @@ export default function ProjectContent() {
     <div className="pb-32">
       <Tabs defaultValue="0">
         <TabsList className="grid w-full grid-cols-3">
-          <TabsTrigger value="0">All</TabsTrigger>
-          <TabsTrigger value="1">Clone</TabsTrigger>
-          <TabsTrigger value="2">Self Made</TabsTrigger>
+          <TabsTrigger value="0">All ({projectData.length})</TabsTrigger>
+          <TabsTrigger value="1">Clone ({cloneData.length})</TabsTrigger>
+          <TabsTrigger value="2">Self Made ({selfMadeData.length})</TabsTrigger>
         </TabsList>
         <TabsContent value="0">
           <Projects projectData={projectData} />

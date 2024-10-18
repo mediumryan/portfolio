@@ -33,7 +33,9 @@ export default function Header() {
       {/* header */}
       <div className="flex items-center justify-between mb-2">
         <div></div>
-        <BsBox className={`w-8 h-8 text-blue-400 ml-4`} />
+        <Link href="/">
+          <BsBox className={`w-8 h-8 text-blue-400 ml-4`} />
+        </Link>
         {isOpen ? (
           <IoCloseCircleSharp
             onClick={toggleHeader}
