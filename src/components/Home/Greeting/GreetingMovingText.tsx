@@ -29,5 +29,5 @@ export default function GreetingMovingText() {
     };
   });
 
-  return <p className="text-2xl font-extrabold min-h-8">{blogTitle}</p>;
+  return <p className="text-xl font-extrabold min-h-8">{blogTitle}</p>;
 }

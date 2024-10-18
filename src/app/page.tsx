@@ -16,6 +16,11 @@ export default function Home() {
       </div>
       {/* Introduce */}
       <Introduce />
+      <div className="flex justify-center">
+        <a href="#skills">
+          <FaCaretDown className="my-16 md:my-4 w-6 h-6 text-blue-400 animate-bounce" />
+        </a>
+      </div>
       {/* Skills */}
       <Skills />
       {/* Projects */}

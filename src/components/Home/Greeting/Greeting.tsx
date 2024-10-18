@@ -19,9 +19,9 @@ export default function Greeting() {
         {/* moving text */}
         <GreetingMovingText />
         {/* intro paragraph */}
-        <p className="font-bold border-t-2 border-b-2 py-4">
+        <p className="font-bold text-sm border-t-2 border-b-2 py-4">
           新しいものを学び、作ることが大好きな
-          <span className="font-extrabold text-blue-400">Ryan</span>です。
+          <span className="font-bold text-blue-400">Ryan</span>です。
         </p>
         {/* inner links */}
         <GreetingInnerLinks />
