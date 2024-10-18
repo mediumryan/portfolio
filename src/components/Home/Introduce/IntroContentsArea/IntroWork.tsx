@@ -1,5 +1,6 @@
 import { introWork } from '@/data/intro';
 import React from 'react';
+import { FaBuilding } from 'react-icons/fa';
 
 export default function IntroWork() {
   return (
@@ -8,11 +9,14 @@ export default function IntroWork() {
         return (
           <div
             key={`intro-work-${work.id}`}
-            className="bg-blue-50 p-2 rounded-md my-2"
+            className="bg-blue-50 p-2 rounded-md space-y-2 my-2"
           >
-            <p className="font-extrabold">{work.company}</p>
-            <p className="text-gray-400 my-2">{work.work}</p>
-            <p className="text-gray-400 my-2">{work.position}</p>
+            <p className=" flex items-center">
+              <FaBuilding className="opacity-50 mr-2" />
+              <p className="font-extrabold">{work.company}</p>
+            </p>
+            <p className="text-sm text-gray-400">{work.work}</p>
+            <p className="text-sm text-gray-400">{work.position}</p>
             <p className="text-sm">{work.period}</p>
           </div>
         );
