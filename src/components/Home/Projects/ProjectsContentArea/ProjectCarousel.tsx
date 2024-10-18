@@ -17,13 +17,17 @@ export default function ProjectCarousel({ data }: { data: ProjectsType[] }) {
       <div className="w-full flex justify-center">
         <Carousel className="w-3/4 md:w-full">
           <CarouselContent className="-ml-1">
-            {data.map((item, index) => (
-              <CarouselItem key={index} className="pl-1 md:basis-1/3">
+            {data.map((item) => (
+              <CarouselItem
+                key={`project-${item.id}`}
+                className="pl-1 md:basis-1/3"
+              >
                 <div className="p-1">
                   <Card className="hover:-translate-y-4 duration-300">
                     <CardContent className="group relative flex aspect-square items-center justify-center p-2 origin-bottom duration-300 ">
                       <Image
                         fill={true}
+                        sizes="100%"
                         className="group-hover:opacity-15 rounded-md"
                         src={item.image_path}
                         alt={item.title}
@@ -34,7 +38,7 @@ export default function ProjectCarousel({ data }: { data: ProjectsType[] }) {
                           {item.tag.map((tagItem, tagIndex) => {
                             return (
                               <span
-                                key={tagIndex}
+                                key={`project-tag-${tagIndex}`}
                                 className="bg-blue-400 text-white text-xs p-1 rounded-sm"
                               >
                                 #{tagItem}

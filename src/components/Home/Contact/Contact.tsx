@@ -10,7 +10,10 @@ export default function Contact() {
       <div className="flex flex-col justify-center gap-4 mt-8 p-4">
         {contact.map((item) => {
           return (
-            <div key={item.id} className="grid grid-cols-9 items-center">
+            <div
+              key={`contact-${item.id}`}
+              className="grid grid-cols-9 items-center"
+            >
               <p className="col-span-1">{item.icon}</p>
               <p className="col-span-8">{item.value}</p>
             </div>

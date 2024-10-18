@@ -10,7 +10,7 @@ export default function IntroStudy() {
       {introStudy.map((study) => {
         return (
           <div
-            key={study.id}
+            key={`intro-study-${study.id}`}
             className={`${
               study.type === 'degree' ? 'bg-blue-50' : 'bg-blue-100'
             } p-2 rounded-md my-2`}

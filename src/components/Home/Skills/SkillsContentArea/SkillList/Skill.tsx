@@ -18,7 +18,7 @@ export default function Skill({ title, skillsTitleStyle, data }: ISkillProps) {
         {data.map((item) => {
           return (
             <div
-              key={item.id}
+              key={`skill-${item.id}`}
               className="flex flex-col justify-center items-center"
             >
               {item.icon}

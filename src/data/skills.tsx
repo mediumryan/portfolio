@@ -52,7 +52,7 @@ export const css = [
     icon: <SiStyledcomponents className={skillsIconStyle} />,
   },
   {
-    id: 0,
+    id: 1,
     name: 'Tailwind CSS',
     icon: <RiTailwindCssFill className={skillsIconStyle} />,
   },

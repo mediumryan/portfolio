@@ -15,7 +15,7 @@ const listStyle =
 export default function Header() {
   const pathName = usePathname();
 
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
 
   const toggleHeader = () => {
     setIsOpen(!isOpen);
@@ -26,7 +26,10 @@ export default function Header() {
   }, [pathName]);
 
   return (
-    <header className="sticky top-0 py-2 px-4 border-b-2 bg-white z-40">
+    <header
+      id="header"
+      className="sticky top-0 py-2 px-4 border-b-2 bg-white z-40"
+    >
       {/* header */}
       <div className="flex items-center justify-between mb-2">
         <div></div>
@@ -42,9 +45,9 @@ export default function Header() {
       </div>
       {/* header menu */}
       <ul
-        className={`${
-          isOpen ? 'flex' : 'hidden'
-        } flex-col items-center justify-center`}
+        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+          isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
+        } flex flex-col items-center justify-center`}
       >
         <li className={listStyle}>
           <Link href="/">Home</Link>
