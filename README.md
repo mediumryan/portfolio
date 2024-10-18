@@ -1,3 +1,5 @@
+<img width="1470" alt="스크린샷 2024-10-18 16 47 07" src="https://github.com/user-attachments/assets/0872aaf3-001f-4f79-9399-404a82223b7c">
+
 Jonghyeok Lee (Ryan)のポートフォリオをご覧いただきありがとうございます。
 
 私は
@@ -119,3 +121,13 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 내용
 
 - Coin Tracker(Next.js) 프로젝트 추가.
+
+---
+
+2024.10.18 포트폴리오 프로젝트 변경
+
+내용
+
+- 해당 프로젝트(포트폴리오)의 디자인이 개선되었습니다.
+- 기존 코드(React.js)에서 Next.js 및 TypeScrip를 사용한 코드로 변경되었습니다. 
+
