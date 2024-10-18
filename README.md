@@ -1,5 +1,7 @@
 <img width="1470" alt="스크린샷 2024-10-18 16 47 07" src="https://github.com/user-attachments/assets/0872aaf3-001f-4f79-9399-404a82223b7c">
 
+link : <a href="https://portfolio-bay-psi-98.vercel.app/" target="blank">Go to Link</a>
+
 Jonghyeok Lee (Ryan)のポートフォリオをご覧いただきありがとうございます。
 
 私は
