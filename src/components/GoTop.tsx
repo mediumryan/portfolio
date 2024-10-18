@@ -9,7 +9,7 @@ export default function GoTop() {
   };
 
   return (
-    <div className="fixed bottom-[10%] right-[5%] cursor-pointer">
+    <div className="fixed bottom-[5%] md:bottom-[10%] right-[5%] cursor-pointer">
       <FaArrowCircleUp
         onClick={goToTop}
         className="w-10 h-10 md:w-12 md:h-12 text-blue-400 hover:text-blue-600 duration-300"
