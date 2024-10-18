@@ -7,7 +7,7 @@ import { BsBox } from 'react-icons/bs';
 import { FaCaretDown } from 'react-icons/fa';
 import { IoCloseCircleSharp } from 'react-icons/io5';
 
-const toggleIconStyle = 'w-6 h-6 text-blue-400';
+const toggleIconStyle = 'w-6 h-6 text-blue-400 cursor-pointer';
 
 const listStyle =
   'text-center font-bold mx-auto my-1 p-1 border-b-2 border-blue-400 duration-300';

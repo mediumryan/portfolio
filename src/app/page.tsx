@@ -23,6 +23,11 @@ export default function Home() {
       </div>
       {/* Skills */}
       <Skills />
+      <div className="flex justify-center">
+        <a href="#skills">
+          <FaCaretDown className="my-6 w-6 h-6 text-blue-400 animate-bounce" />
+        </a>
+      </div>
       {/* Projects */}
       <Projects />
     </div>
