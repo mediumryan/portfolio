@@ -284,4 +284,4 @@ export const projects = [
     type: 'self_made',
     description: 'react-beautiful-dndを活用したKanbanボードアプリです。',
   },
-] as ProjectsType[];
+].reverse() as ProjectsType[];

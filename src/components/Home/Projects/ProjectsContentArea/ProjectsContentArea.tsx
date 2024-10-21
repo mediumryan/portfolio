@@ -3,9 +3,9 @@ import ProjectCarousel from './ProjectCarousel';
 import { projects } from '@/data/projects';
 
 export default function ProjectsContentArea() {
-  const projectData = projects.reverse();
-  const cloneData = projects.reverse().filter((p) => p.type === 'clone');
-  const selfMadeData = projects.reverse().filter((p) => p.type === 'self_made');
+  const projectData = projects;
+  const cloneData = projects.filter((p) => p.type === 'clone');
+  const selfMadeData = projects.filter((p) => p.type === 'self_made');
 
   return (
     <div>
