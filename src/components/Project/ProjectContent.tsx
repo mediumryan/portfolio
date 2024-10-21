@@ -3,9 +3,9 @@ import Projects from './Projects';
 import { projects } from '@/data/projects';
 
 export default function ProjectContent() {
-  const projectData = projects.reverse();
-  const cloneData = projects.reverse().filter((p) => p.type === 'clone');
-  const selfMadeData = projects.reverse().filter((p) => p.type === 'self_made');
+  const projectData = projects;
+  const cloneData = projects.filter((p) => p.type === 'clone');
+  const selfMadeData = projects.filter((p) => p.type === 'self_made');
 
   return (
     <div className="pb-32">
