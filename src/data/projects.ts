@@ -244,7 +244,7 @@ export const projects = [
     title: 'Ryan Fashion Store',
     github_link: 'https://github.com/mediumryan/ryan-shopping',
     tag: ['Next', 'TS', 'Supabase', 'EC'],
-    url_link: 'https://mediumryan.github.io/ryan-shopping/',
+    url_link: 'https://ryan-shopping.vercel.app/',
     image_path: ryan_shop,
     type: 'self_made',
     description: '個人ECサイトを作ってみました。',
