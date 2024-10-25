@@ -8,8 +8,6 @@ import calculator from '@/Images/projects/simple-calculator.png';
 import weather from '@/Images/projects/weather-app.png';
 import youtube from '@/Images/projects/youtube-clone.png';
 import w3c_fashion from '@/Images/projects/w3c-fashion.png';
-import coin_tracker from '@/Images/projects/coin-tracker.png';
-import ryanflix from '@/Images/projects/ryanflix.png';
 import habit from '@/Images/projects/66days.png';
 import owl from '@/Images/projects/owltastic.png';
 import toyota from '@/Images/projects/toyota_home.png';
@@ -19,7 +17,6 @@ import ryan_shop from '@/Images/projects/ryan-shop.png';
 import food_info from '@/Images/projects/food-info.png';
 import book_search from '@/Images/projects/book-search.png';
 import ryanflix_next from '@/Images/projects/ryanflix-next.png';
-import guestbook from '@/Images/projects/geustbook.png';
 import kanban from '@/Images/projects/kanban.png';
 import next_coin_tracker from '@/Images/projects/next-crypto.png';
 import { StaticImageData } from 'next/image';
@@ -192,59 +189,48 @@ export const projects = [
   },
   {
     id: 15,
-    title: 'GuestBook',
-    github_link: 'https://github.com/mediumryan/guestbook',
-    tag: ['Next', 'TS', 'MySQL'],
-    url_link: 'https://guestbook-liard-two.vercel.app/',
-    image_path: guestbook,
-    type: 'self_made',
-    description: 'Next.jsとMySQLを使用したゲストブックアプリです。',
-  },
-  {
-    id: 16,
     title: 'Kakao Simple EC Site',
     github_link: 'https://github.com/mediumryan/kakao-shop-demo',
-    tag: ['React'],
+    tag: ['React', 'EC'],
     url_link: 'https://mediumryan.github.io/kakao-shop-demo/',
     image_path: kakao_shop,
     type: 'self_made',
     description: 'シンプルなECサイトです。',
   },
   {
+    id: 16,
+    title: 'KanBan Board',
+    github_link: 'https://github.com/mediumryan/kanban-board',
+    tag: ['React', 'TS', 'ToDo'],
+    url_link: 'https://mediumryan.github.io/kanban-board/',
+    image_path: kanban,
+    type: 'self_made',
+    description: 'react-beautiful-dndを活用したKanbanボードアプリです。',
+  },
+  {
     id: 17,
-    title: 'Coin Tracker',
-    github_link: 'https://github.com/mediumryan/crypto_tracker',
-    tag: ['React'],
-    url_link: 'https://mediumryan.github.io/crypto_tracker',
-    image_path: coin_tracker,
+    title: 'Ryan Momentum',
+    github_link: 'https://github.com/mediumryan/ryan_momentum',
+    tag: ['React', 'OpenWeatherMap', 'ToDo'],
+    url_link: 'https://mediumryan.github.io/ryan_momentum/',
+    image_path: momentum,
     type: 'self_made',
     description:
-      '最大1,000種類の仮想通貨情報をグラフや数字で表示するトラッカーアプリです。',
+      "Chromeのイクステンション'Momentum'よりインスピレーションを得たアプリです。",
   },
   {
     id: 18,
-    title: 'Ryan Fashion Store',
-    github_link: 'https://github.com/mediumryan/ryan-shopping',
-    tag: ['React'],
-    url_link: 'https://mediumryan.github.io/ryan-shopping/',
-    image_path: ryan_shop,
+    title: 'Coin Tracker',
+    github_link: 'https://github.com/mediumryan/next_crypto_tracker',
+    tag: ['Next', 'TS', 'CoinGecko'],
+    url_link: 'https://crypto-tracker-nine-chi.vercel.app/',
+    image_path: next_coin_tracker,
     type: 'self_made',
-    description: '個人ECサイトを作ってみました。（Front Side only）',
+    description: 'Next.jsとcoingecko apiを活用したトラッカーアプリです。',
   },
   {
     id: 19,
     title: 'Ryanflix',
-    github_link: 'https://github.com/mediumryan/ryanflix',
-    tag: ['React', 'TMDB'],
-    url_link: 'https://mediumryan.github.io/ryanflix',
-    image_path: ryanflix,
-    type: 'self_made',
-    description:
-      'ネットフリックスよりインスピレーションを得たメデイア作品の紹介アプリです。',
-  },
-  {
-    id: 20,
-    title: 'Ryanflix(Next.js)',
     github_link: 'https://github.com/mediumryan/ryanflix',
     tag: ['Next', 'TS', 'TMDB'],
     url_link: 'https://ryanflix-pink.vercel.app/',
@@ -254,34 +240,13 @@ export const projects = [
       'ネットフリックスよりインスピレーションを得たメデイア作品の紹介アプリです。',
   },
   {
-    id: 21,
-    title: 'Coin Tracker(Next.js)',
-    github_link: 'https://github.com/mediumryan/next_crypto_tracker',
-    tag: ['Next', 'TS', 'CoinGecko'],
-    url_link: 'https://crypto-tracker-nine-chi.vercel.app/',
-    image_path: next_coin_tracker,
+    id: 20,
+    title: 'Ryan Fashion Store',
+    github_link: 'https://github.com/mediumryan/ryan-shopping',
+    tag: ['Next', 'TS', 'Supabase', 'EC'],
+    url_link: 'https://mediumryan.github.io/ryan-shopping/',
+    image_path: ryan_shop,
     type: 'self_made',
-    description: 'Next.jsとcoingecko apiを活用したトラッカーアプリです。',
-  },
-  {
-    id: 22,
-    title: 'Ryan Momentum',
-    github_link: 'https://github.com/mediumryan/ryan_momentum',
-    tag: ['React'],
-    url_link: 'https://mediumryan.github.io/ryan_momentum/',
-    image_path: momentum,
-    type: 'self_made',
-    description:
-      "Chromeのイクステンション'Momentum'よりインスピレーションを得たアプリです。",
-  },
-  {
-    id: 23,
-    title: 'KanBan Board',
-    github_link: 'https://github.com/mediumryan/kanban-board',
-    tag: ['React', 'TS'],
-    url_link: 'https://mediumryan.github.io/kanban-board/',
-    image_path: kanban,
-    type: 'self_made',
-    description: 'react-beautiful-dndを活用したKanbanボードアプリです。',
+    description: '個人ECサイトを作ってみました。',
   },
 ].reverse() as ProjectsType[];
