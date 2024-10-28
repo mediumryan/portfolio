@@ -131,7 +131,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 내용
 
 - 해당 프로젝트(포트폴리오)의 디자인이 개선되었습니다.
-- 기존 코드(React.js)에서 Next.js 및 TypeScrip를 사용한 코드로 변경되었습니다. 
+- 기존 코드(React.js)에서 Next.js 및 TypeScrip를 사용한 코드로 변경되었습니다.
 
 ---
 
@@ -139,7 +139,6 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 내용
 
-- Ryan Fashion Store 프로젝트 코드 변경 (React.js -> Next.js + Typescript)
+- Ryan Fashion Store 프로젝트 코드 변경 (React.js -> Next.js + Typescript)
 - 코드 변경 외에도 일부 디자인도 변경되었습니다.
 - 로그인 관련 기능이 storage가 아닌 supabase를 사용하도록 변경되었습니다.
-   

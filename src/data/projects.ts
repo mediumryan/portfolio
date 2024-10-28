@@ -244,7 +244,11 @@ export const projects = [
     title: 'Ryan Fashion Store',
     github_link: 'https://github.com/mediumryan/ryan-shopping',
     tag: ['Next', 'TS', 'Supabase', 'EC'],
+<<<<<<< HEAD
     url_link: 'https://ryan-shopping.vercel.app/',
+=======
+    url_link: 'https://mediumryan.github.io/ryan-shopping/',
+>>>>>>> 8e2d060 ([Update] 필요없는 이미지 삭제, 중복 프로젝트 제거 및 순번 조정)
     image_path: ryan_shop,
     type: 'self_made',
     description: '個人ECサイトを作ってみました。',
