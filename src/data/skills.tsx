@@ -12,6 +12,7 @@ import {
   SiStyledcomponents,
   SiTypescript,
   SiVisualstudiocode,
+  SiFlutter,
 } from 'react-icons/si';
 import { TbSql } from 'react-icons/tb';
 
@@ -42,6 +43,11 @@ export const skills = [
     id: 4,
     name: 'SQL',
     icon: <TbSql className={skillsIconStyle} />,
+  },
+  {
+    id: 5,
+    name: 'Flutter',
+    icon: <SiFlutter className={skillsIconStyle} />,
   },
 ];
 
