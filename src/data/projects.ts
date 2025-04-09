@@ -255,7 +255,7 @@ export const projects = [
     title: 'Ryan Seok Quiz!',
     github_link: 'https://github.com/mediumryan/ryan_quiz',
     tag: ['Next', 'TS', 'Supabase', 'Game'],
-    url_link: 'https://ryan-quiz-21wm08lnb-mediumryans-projects.vercel.app/',
+    url_link: 'https://ryan-quiz.vercel.app/',
     image_path: ryan_quiz,
     type: 'self_made',
     description: 'イメージを見て正解を当てるシンプルなクイズアプリです。',
