@@ -142,3 +142,14 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 - Ryan Fashion Store 프로젝트 코드 변경 (React.js -> Next.js + Typescript)
 - 코드 변경 외에도 일부 디자인도 변경되었습니다.
 - 로그인 관련 기능이 storage가 아닌 supabase를 사용하도록 변경되었습니다.
+
+---
+
+2025.04.13
+
+내용
+
+- Intro 파트의 PR 문장 내용을 약간 수정 하였습니다.
+- Skills 파트에 Flutter를 추가 하였습니다.
+- Skills 파트의 그래프 점수를 수정 하였습니다.
+- Footer 파트의 Rights 연도 표기를 정적 표기에서 동적 표기로 변경 하였습니다.
