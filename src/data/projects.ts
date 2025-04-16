@@ -19,6 +19,7 @@ import book_search from '@/Images/projects/book-search.png';
 import ryanflix_next from '@/Images/projects/ryanflix-next.png';
 import kanban from '@/Images/projects/kanban.png';
 import next_coin_tracker from '@/Images/projects/next-crypto.png';
+import ryan_quiz from '@/Images/projects/ryan-seok-quiz.png';
 import { StaticImageData } from 'next/image';
 
 export type ProjectsType = {
@@ -241,12 +242,22 @@ export const projects = [
   },
   {
     id: 20,
-    title: 'Ryan Fashion Store',
+    title: 'Ryan Mall',
     github_link: 'https://github.com/mediumryan/ryan-shopping',
     tag: ['Next', 'TS', 'Supabase', 'EC'],
     url_link: 'https://ryan-shopping.vercel.app/',
     image_path: ryan_shop,
     type: 'self_made',
     description: '個人ECサイトを作ってみました。',
+  },
+  {
+    id: 21,
+    title: 'Ryan Seok Quiz!',
+    github_link: 'https://github.com/mediumryan/ryan_quiz',
+    tag: ['Next', 'TS', 'Supabase', 'Game'],
+    url_link: 'https://ryan-quiz.vercel.app/',
+    image_path: ryan_quiz,
+    type: 'self_made',
+    description: 'イメージを見て正解を当てるシンプルなクイズアプリです。',
   },
 ].reverse() as ProjectsType[];

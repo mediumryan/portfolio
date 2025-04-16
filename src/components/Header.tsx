@@ -47,7 +47,7 @@ export default function Header() {
       </div>
       {/* header menu */}
       <ul
-        className={`overflow-hidden transition-all duration-300 ease-in-out ${
+        className={`overflow-hidden transition-all duration-500 ease-in-out ${
           isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
         } flex flex-col items-center justify-center`}
       >

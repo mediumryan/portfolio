@@ -7,7 +7,7 @@ import IntroWork from './IntroWork';
 import IntroStudy from './IntroStudy';
 
 const tabsIconStyle = 'mr-1';
-const tabsContentStyle = 'px-4 py-2 w-[340px] h-[440px] overflow-y-scroll';
+const tabsContentStyle = 'px-4 py-2 md:w-[450px] h-[440px] overflow-y-auto';
 
 export default function IntroContentsArea() {
   return (
@@ -27,7 +27,7 @@ export default function IntroContentsArea() {
         </TabsTrigger>
       </TabsList>
       <TabsContent value="0">
-        <div className={`${tabsContentStyle}`}>
+        <div className={`${tabsContentStyle} overflow-y-hidden`}>
           <IntroPR />
         </div>
       </TabsContent>
