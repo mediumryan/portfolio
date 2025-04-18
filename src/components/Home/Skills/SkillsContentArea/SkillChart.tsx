@@ -31,7 +31,7 @@ export default function SkillChart() {
           colors: '#999',
         },
       },
-      categories: ['JS', 'TS', 'React.js', 'Next.js', 'SQL'],
+      categories: ['JS', 'TS', 'React.js', 'Next.js', 'SQL', 'Flutter'],
     },
     yaxis: {
       labels: {
@@ -54,7 +54,7 @@ export default function SkillChart() {
       series={[
         {
           name: 'Skill Level',
-          data: [85, 70, 85, 80, 30],
+          data: [90, 90, 85, 80, 30, 15],
         },
       ]}
       options={chartOption}
