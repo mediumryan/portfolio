@@ -1,4 +1,5 @@
 import Contact from '@/components/Home/Contact/Contact';
+import GoDown from '@/components/Home/GoDown';
 import Greeting from '@/components/Home/Greeting/Greeting';
 import Introduce from '@/components/Home/Introduce/Introduce';
 import Projects from '@/components/Home/Projects/Projects';
@@ -16,32 +17,16 @@ export default function Home() {
     <div className="mx-8 my-4">
       {/* Greeting */}
       <Greeting />
-      <div className="flex justify-center">
-        <a href="#intro">
-          <FaCaretDown className="my-32 md:my-64 w-6 h-6 text-blue-400 animate-bounce" />
-        </a>
-      </div>
+      <GoDown sectionName="intro" />
       {/* Introduce */}
       <Introduce />
-      <div className="flex justify-center">
-        <a href="#skills">
-          <FaCaretDown className="my-16 md:my-4 w-6 h-6 text-blue-400 animate-bounce" />
-        </a>
-      </div>
+      <GoDown sectionName="skills" />
       {/* Skills */}
       <Skills />
-      <div className="flex justify-center">
-        <a href="#projects">
-          <FaCaretDown className="my-6 w-6 h-6 text-blue-400 animate-bounce" />
-        </a>
-      </div>
+      <GoDown sectionName="projects" />
       {/* Projects */}
       <Projects />
-      <div className="flex justify-center">
-        <a href="#contact">
-          <FaCaretDown className="my-16 w-6 h-6 text-blue-400 animate-bounce" />
-        </a>
-      </div>
+      <GoDown sectionName="contact" />
       <Contact />
     </div>
   );

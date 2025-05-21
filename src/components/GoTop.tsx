@@ -1,10 +1,13 @@
 'use client';
 
+import { isHeaderOpenA } from '@/data/atom';
+import { useSetAtom } from 'jotai';
 import React, { useEffect, useState } from 'react';
 import { FaArrowCircleUp } from 'react-icons/fa';
 
 export default function GoTop() {
   const [isVisible, setIsVisible] = useState(false);
+  const setIsOpen = useSetAtom(isHeaderOpenA);
 
   const handleScroll = () => {
     if (window.scrollY > 100) {
@@ -30,7 +33,10 @@ export default function GoTop() {
       }`}
     >
       <FaArrowCircleUp
-        onClick={goToTop}
+        onClick={() => {
+          goToTop();
+          setIsOpen(false);
+        }}
         className="w-10 h-10 md:w-12 md:h-12 text-blue-400 hover:text-blue-600 duration-300"
       />
     </div>

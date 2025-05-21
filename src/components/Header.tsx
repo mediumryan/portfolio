@@ -1,5 +1,7 @@
 'use client';
 
+import { isHeaderOpenA } from '@/data/atom';
+import { useAtom } from 'jotai';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
@@ -15,15 +17,11 @@ const listStyle =
 export default function Header() {
   const pathName = usePathname();
 
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useAtom(isHeaderOpenA);
 
   const toggleHeader = () => {
     setIsOpen(!isOpen);
   };
-
-  useEffect(() => {
-    setIsOpen(false);
-  }, [pathName]);
 
   return (
     <header
@@ -32,7 +30,6 @@ export default function Header() {
     >
       {/* header */}
       <div className="flex items-center justify-between mb-2">
-        <div></div>
         <Link href="/">
           <BsBox className={`w-8 h-8 text-blue-400 ml-4`} />
         </Link>
@@ -51,10 +48,10 @@ export default function Header() {
           isOpen ? 'max-h-40 opacity-100' : 'max-h-0 opacity-0'
         } flex flex-col items-center justify-center`}
       >
-        <li className={listStyle}>
+        <li onClick={() => setIsOpen(false)} className={listStyle}>
           <Link href="/">Home</Link>
         </li>
-        <li className={listStyle}>
+        <li onClick={() => setIsOpen(false)} className={listStyle}>
           <Link href="/project">Project</Link>
         </li>
       </ul>
