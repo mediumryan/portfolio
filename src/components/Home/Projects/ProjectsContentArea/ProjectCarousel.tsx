@@ -33,9 +33,11 @@ export default function ProjectCarousel({ data }: { data: ProjectsType[] }) {
                         alt={item.title}
                       />
                       <div className="group absolute font-extrabold text-blue-400 top-0 left-0 w-full h-full pt-4 px-4 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100">
-                        <h4 className="text-xl md:text-md">{item.title}</h4>
+                        <h4 className="text-xl md:text-md truncate text-center w-64">
+                          {item.title}
+                        </h4>
                         <div className="flex flex-wrap justify-center items-center gap-2 mt-2">
-                          {item.tag.map((tagItem, tagIndex) => {
+                          {item.tag.slice(0, 3).map((tagItem, tagIndex) => {
                             return (
                               <span
                                 key={`project-tag-${tagIndex}`}
