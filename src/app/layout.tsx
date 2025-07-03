@@ -1,3 +1,7 @@
+'use client';
+
+import { useState } from 'react';
+import IntroAnimation from '@/components/IntroAnimation';
 import './globals.css';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
@@ -14,13 +18,25 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const [showAnimation, setShowAnimation] = useState(true);
+
+  const handleAnimationComplete = () => {
+    setShowAnimation(false);
+  };
+
   return (
     <html lang="en">
       <body className={`${notoSansJp.className} relative antialiased`}>
-        <Header />
-        {children}
-        <Footer />
-        <GoTop />
+        {showAnimation ? (
+          <IntroAnimation onAnimationComplete={handleAnimationComplete} />
+        ) : (
+          <>
+            <Header />
+            {children}
+            <Footer />
+            <GoTop />
+          </>
+        )}
       </body>
     </html>
   );

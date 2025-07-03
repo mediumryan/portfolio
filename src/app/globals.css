@@ -17,6 +17,17 @@ body {
   }
 }
 
+@keyframes fall {
+  from {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100vh) translateX(-100vw) rotate(360deg);
+    opacity: 0;
+  }
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
