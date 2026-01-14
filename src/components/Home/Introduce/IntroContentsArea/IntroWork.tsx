@@ -13,7 +13,7 @@ export default function IntroWork() {
           >
             <p className=" flex items-center">
               <FaBuilding className="opacity-50 mr-2" />
-              <p className="font-extrabold">{work.company}</p>
+              <span className="font-extrabold">{work.company}</span>
             </p>
             <p className="text-sm text-gray-400">{work.work}</p>
             <p className="text-sm text-gray-400">{work.position}</p>

@@ -24,7 +24,7 @@ export const introPR1 = `私は現在、福岡でフロントエンド開発者�
 export const introPR2 =
   'React.js,Next.jsを使ったプロジェクト経験があり、簡単なSQL操作ができます。';
 
-export const introPR3 = '現在はNext.jsとFlutterに興味を持って学習しています。';
+export const introPR3 = '現在はReact.js, Flutterに興味を持って学習しています。';
 
 export const introWork = [
   {
@@ -53,7 +53,14 @@ export const introWork = [
     company: '西部電気工業株式会社',
     work: 'Webアプリ制作,ポーティング',
     position: 'フロントエンド',
-    period: '2024.11 ~ 　(予定)',
+    period: '2024.11 ~ 2025.12　(1年2ヶ月)',
+  },
+  {
+    id: 4,
+    company: '株式会社SRA西日本',
+    work: 'Webアプリ制作',
+    position: 'フロントエンド',
+    period: '2026.01 ~ 　(継続中)',
   },
 ];
 

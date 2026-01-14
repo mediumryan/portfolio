@@ -6,13 +6,13 @@ Jonghyeok Lee (Ryan)のポートフォリオをご覧いただきありがとう
 
 私は
 
-- 現在、フロントエンド開発者として働いています。
+- 3 年目のフロントエンドです。
 
 - コンピュータ工学の学位と観光日本語の学位を持っています。
 
 - 日本の福岡薬院に居住中です。
 
-- スキルセット : HTML、　 CSS、　 JavaScript、　 TypeScript、　 React.js、　 Next.js、　 Git、　 Github、　 AWS,　 Tortoise Git、　 PostgreSQL
+- スキルセット : HTML、　 CSS、　 JavaScript、　 TypeScript、　 React.js、　 Next.js、　 Flutter、　 Git、　 Github、　 AWS,　 Tortoise Git、　 PostgreSQL
 
 - ライブラリ : Axios,　 Styled-components,　 Tailwind CSS、　 React-router-dom、　 Tanstack-Table、　 Rechart、　 React-multi-caroucel、　 JS-cookie、　 Passport.js、　 Recoil,　 Jotai,　 Redux
 
@@ -26,13 +26,13 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 저는
 
-- 현 프론트엔드 개발자입니다.
+- 3년차 프론트엔드 엔지니어입니다.
 
-- 컴퓨터 공학 학위와 관광일본어 학위를 갖고 있습니다.
+- 컴퓨터 공학, 관광일본어 학위를 갖고 있습니다.
 
 - 일본 후쿠오카 야쿠인에 거주중입니다.
 
-- 스킬셋 : HTML、　 CSS、　 JavaScript、　 TypeScript、　 React.js、　 Next.js、　 Git、　 Github、　 AWS,　 Tortoise Git、　 PostgreSQL
+- 스킬셋 : HTML、　 CSS、　 JavaScript、　 TypeScript、　 React.js、　 Next.js、　 Flutter、　 Git、　 Github、　 AWS,　 Tortoise Git、　 PostgreSQL
 
 - 라이브러리 : Axios,　 Styled-components,　 Tailwind CSS、　 React-router-dom、　 Tanstack-Table、　 Rechart、　 React-multi-caroucel、　 JS-cookie、　 Passport.js、　 Recoil,　 Jotai,　 Redux
 
@@ -161,3 +161,11 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 - Skills 파트에 Flutter를 추가 하였습니다.
 - Skills 파트의 그래프 점수를 수정 하였습니다.
 - Footer 파트의 Rights 연도 표기를 정적 표기에서 동적 표기로 변경 하였습니다.
+
+  2026.01.14
+
+내용
+
+- Next.js 버전 업데이트 (16.0.10) - 보안취약성 관련 이슈 해결
+- GoldWay 화물관리 시스템 프로젝트 추가
+- Intro 직무경력 최신화.
