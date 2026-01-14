@@ -20,6 +20,7 @@ import ryanflix_next from '@/Images/projects/ryanflix-next.png';
 import kanban from '@/Images/projects/kanban.png';
 import next_coin_tracker from '@/Images/projects/next-crypto.png';
 import ryan_quiz from '@/Images/projects/ryan-seok-quiz.png';
+import gold_way from '@/Images/projects/gold_way.png';
 import { StaticImageData } from 'next/image';
 
 export type ProjectsType = {
@@ -259,5 +260,15 @@ export const projects = [
     image_path: ryan_quiz,
     type: 'self_made',
     description: 'イメージを見て正解を当てるシンプルなクイズアプリです。',
+  },
+  {
+    id: 22,
+    title: 'Gold_way Logistics',
+    github_link: 'https://github.com/mediumryan/goldway_test',
+    tag: ['Next', 'TS', 'Firebase', 'SES'],
+    url_link: 'https://mediumryan.github.io/goldway_test',
+    image_path: gold_way,
+    type: 'self_made',
+    description: 'Firebaseで認証＆データ管理を行う物流管理アプリです。',
   },
 ].reverse() as ProjectsType[];

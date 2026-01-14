@@ -1,4 +1,6 @@
-import React, { useEffect } from 'react';
+'use client';
+'use client';
+import React, { useEffect, useState } from 'react';
 
 interface IntroAnimationProps {
   onAnimationComplete: () => void;
@@ -9,7 +11,10 @@ const STAR_COUNT = 100;
 const IntroAnimation: React.FC<IntroAnimationProps> = ({
   onAnimationComplete,
 }) => {
+  const [mounted, setMounted] = useState(false);
+
   useEffect(() => {
+    setMounted(true);
     const animationDuration = 2500;
     const timer = setTimeout(() => {
       onAnimationComplete();
@@ -21,11 +26,11 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({
   const renderStars = () => {
     const stars = [];
     for (let i = 0; i < STAR_COUNT; i++) {
-      const size = Math.random() * 30 + 10; // 10px ~ 40px
-      const startPositionX = Math.random() * 100; // 0% ~ 100% (오른쪽)
-      const startPositionY = Math.random() * -50; // -50vh ~ 0 (화면 위쪽)
-      const animationDuration = Math.random() * 5 + 5; // 5초 ~ 10초
-      const animationDelay = Math.random() * 5; // 0초 ~ 5초 지연
+      const size = Math.random() * 30 + 10;
+      const startPositionX = Math.random() * 100;
+      const startPositionY = Math.random() * -50;
+      const animationDuration = Math.random() * 5 + 5;
+      const animationDelay = Math.random() * 5;
 
       stars.push(
         <svg
@@ -49,6 +54,10 @@ const IntroAnimation: React.FC<IntroAnimationProps> = ({
     }
     return stars;
   };
+
+  if (!mounted) {
+    return null; // Don't render anything on the server or before client mount
+  }
 
   return (
     <div className="fixed inset-0 bg-black overflow-hidden z-[9999]">
