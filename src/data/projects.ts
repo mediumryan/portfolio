@@ -21,6 +21,8 @@ import kanban from '@/Images/projects/kanban.png';
 import next_coin_tracker from '@/Images/projects/next-crypto.png';
 import ryan_quiz from '@/Images/projects/ryan-seok-quiz.png';
 import gold_way from '@/Images/projects/gold_way.png';
+import react_learning from '@/Images/projects/react-learning.png';
+import search_pokemon from '@/Images/projects/search-pokemon.png';
 import { StaticImageData } from 'next/image';
 
 export type ProjectsType = {
@@ -263,12 +265,34 @@ export const projects = [
   },
   {
     id: 22,
-    title: 'Gold_way Logistics',
+    title: '船舶用貨物管理アプリ',
     github_link: 'https://github.com/mediumryan/goldway_test',
-    tag: ['Next', 'TS', 'Firebase', 'SES'],
-    url_link: 'https://mediumryan.github.io/goldway_test',
+    tag: ['React', 'TS', 'Firebase'],
+    url_link: 'https://ryan-react-2ace0.web.app/',
     image_path: gold_way,
     type: 'self_made',
     description: 'Firebaseで認証＆データ管理を行う物流管理アプリです。',
+  },
+  {
+    id: 23,
+    title: 'React学習用アプリ',
+    github_link: 'https://github.com/mediumryan/learning_react',
+    tag: ['React', 'TS', 'Firebase'],
+    url_link: 'https://ryan-react-2ace0.web.app/',
+    image_path: react_learning,
+    type: 'self_made',
+    description:
+      '初心者向けのReact学習用アプリです。Reactの基本的な機能を学ぶことができます。',
+  },
+  {
+    id: 24,
+    title: 'ポケモン図鑑',
+    github_link: 'https://github.com/mediumryan/search_pokemon',
+    tag: ['React', 'TS', 'poke-api', 'github-actions'],
+    url_link: 'https://mediumryan.github.io/search_pokemon/',
+    image_path: search_pokemon,
+    type: 'self_made',
+    description:
+      '初心者向けのReact学習用アプリです。Reactの基本的な機能を学ぶことができます。',
   },
 ].reverse() as ProjectsType[];
