@@ -13,10 +13,10 @@ Jonghyeok Lee（Ryan）のポートフォリオをご覧いただき、ありが
 
 ### 技術スタック
 
-- **Languages / Technologies**
+- **Languages / Technologies**  
   HTML, CSS, JavaScript, TypeScript, React.js, Next.js, PHP, Git, GitHub, AWS, TortoiseGit, PostgreSQL
 
-- **Libraries / Tools**
+- **Libraries / Tools**  
   Axios, Styled-components, Tailwind CSS, shadcn/ui, Bootstrap, React Router DOM, TanStack Table, Recharts, React Multi Carousel, js-cookie, Passport.js, Recoil, Jotai, Redux
 
 今後は **React Native、Node.js** など、フロントエンドの領域をさらに広げる技術にも積極的に取り組んでいきたいと考えています。
@@ -38,10 +38,10 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ### 기술 스택
 
-- **Languages / Technologies**
+- **Languages / Technologies**  
   HTML, CSS, JavaScript, TypeScript, React.js, Next.js, PHP, Git, GitHub, AWS, TortoiseGit, PostgreSQL
 
-- **Libraries / Tools**
+- **Libraries / Tools**  
   Axios, Styled-components, Tailwind CSS, shadcn/ui, Bootstrap, React Router DOM, TanStack Table, Recharts, React Multi Carousel, js-cookie, Passport.js, Recoil, Jotai, Redux
 
 앞으로는 **React Native, Node.js** 등을 비롯해 프론트엔드 영역을 더욱 확장할 수 있는 기술들을 적극적으로 배우고 경험해보고 싶습니다.
@@ -52,7 +52,9 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2023.09.03 프로젝트를 리셋하였습니다.
+## Update Histories
+
+2023.09.03
 
 내용
 
@@ -64,7 +66,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2023.10.18 새로운 프로젝트가 추가되었습니다.
+2023.10.18
 
 내용
 
@@ -72,7 +74,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2023.10.24 새로운 프로젝트가 추가되었습니다.
+2023.10.24
 
 내용
 
@@ -80,7 +82,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2023.11.06 새로운 프로젝트가 추가되었습니다.
+2023.11.06
 
 내용
 
@@ -88,7 +90,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.07.21 새로운 프로젝트가 추가되었습니다.
+2024.07.21
 
 내용
 
@@ -96,7 +98,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.07.28 새로운 프로젝트가 추가되었습니다.
+2024.07.28
 
 내용
 
@@ -104,7 +106,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.08.17 새로운 프로젝트가 추가되었습니다.
+2024.08.17
 
 내용
 
@@ -112,7 +114,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.10.07 새로운 프로젝트가 추가되었습니다.
+2024.10.07
 
 내용
 
@@ -120,7 +122,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.10.09 새로운 프로젝트가 추가되었습니다.
+2024.10.09
 
 내용
 
@@ -128,7 +130,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.10.17 새로운 프로젝트가 추가되었습니다.
+2024.10.17
 
 내용
 
@@ -136,7 +138,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2025.04.06 새로운 프로젝트가 추가되었습니다.
+2025.04.06
 
 내용
 
@@ -144,7 +146,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.10.18 포트폴리오 프로젝트 변경
+2024.10.18
 
 내용
 
@@ -153,7 +155,7 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 ---
 
-2024.10.28 프로젝트 내용 변경
+2024.10.28
 
 내용
 
