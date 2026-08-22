@@ -2,7 +2,7 @@
 
 link : <a href="https://portfolio-bay-psi-98.vercel.app/" target="blank">Go to Link</a>
 
-J## 🇯🇵 日本語
+## 🇯🇵 日本語
 
 Jonghyeok Lee（Ryan）のポートフォリオをご覧いただき、ありがとうございます。
 
