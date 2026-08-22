@@ -2,43 +2,53 @@
 
 link : <a href="https://portfolio-bay-psi-98.vercel.app/" target="blank">Go to Link</a>
 
-Jonghyeok Lee (Ryan)のポートフォリオをご覧いただきありがとうございます。
+J## 🇯🇵 日本語
 
-私は
+Jonghyeok Lee（Ryan）のポートフォリオをご覧いただき、ありがとうございます。
 
-- 3 年目のフロントエンドです。
+私はフロントエンドエンジニアとして3年目になります。
+コンピュータ工学と観光日本語を専攻し、現在は日本・福岡の薬院に在住しています。
 
-- コンピュータ工学の学位と観光日本語の学位を持っています。
+これまで主にWebフロントエンド開発に携わり、ユーザーにとって使いやすく、保守・拡張しやすいWebアプリケーションの開発を意識してきました。
 
-- 日本の福岡薬院に居住中です。
+### 技術スタック
 
-- スキルセット : HTML、　 CSS、　 JavaScript、　 TypeScript、　 React.js、　 Next.js、　 Flutter、　 Git、　 Github、　 AWS,　 Tortoise Git、　 PostgreSQL
+- **Languages / Technologies**
+  HTML, CSS, JavaScript, TypeScript, React.js, Next.js, PHP, Git, GitHub, AWS, TortoiseGit, PostgreSQL
 
-- ライブラリ : Axios,　 Styled-components,　 Tailwind CSS、　 React-router-dom、　 Tanstack-Table、　 Rechart、　 React-multi-caroucel、　 JS-cookie、　 Passport.js、　 Recoil,　 Jotai,　 Redux
+- **Libraries / Tools**
+  Axios, Styled-components, Tailwind CSS, shadcn/ui, Bootstrap, React Router DOM, TanStack Table, Recharts, React Multi Carousel, js-cookie, Passport.js, Recoil, Jotai, Redux
 
-- 今後学びたい言語や技術には、React Native、NodeJs などがあります。
+今後は **React Native、Node.js** など、フロントエンドの領域をさらに広げる技術にも積極的に取り組んでいきたいと考えています。
 
-- 会社に必要な人材になるためには、どんな言語や技術も問わず学ぶつもりです。
+また、エンジニアとして成長するためには、特定の言語や技術にこだわらず、プロジェクトやチームに必要な技術を積極的に学ぶ姿勢が大切だと考えています。
+
+新しい技術を学び続けながら、チームや会社に貢献できるエンジニアを目指しています。
 
 ---
 
+## 🇰🇷 한국어
+
 Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
-저는
+저는 **프론트엔드 엔지니어로 3년째** 개발 업무를 하고 있습니다.
+컴퓨터공학과 관광일본어를 전공했으며, 현재 일본 후쿠오카 야쿠인에 거주하고 있습니다.
 
-- 3년차 프론트엔드 엔지니어입니다.
+그동안 주로 웹 프론트엔드 개발 업무를 담당하며, 사용자가 편리하게 사용할 수 있고 유지보수와 확장이 용이한 웹 애플리케이션을 만드는 것을 중요하게 생각해왔습니다.
 
-- 컴퓨터 공학, 관광일본어 학위를 갖고 있습니다.
+### 기술 스택
 
-- 일본 후쿠오카 야쿠인에 거주중입니다.
+- **Languages / Technologies**
+  HTML, CSS, JavaScript, TypeScript, React.js, Next.js, PHP, Git, GitHub, AWS, TortoiseGit, PostgreSQL
 
-- 스킬셋 : HTML、　 CSS、　 JavaScript、　 TypeScript、　 React.js、　 Next.js、　 Flutter、　 Git、　 Github、　 AWS,　 Tortoise Git、　 PostgreSQL
+- **Libraries / Tools**
+  Axios, Styled-components, Tailwind CSS, shadcn/ui, Bootstrap, React Router DOM, TanStack Table, Recharts, React Multi Carousel, js-cookie, Passport.js, Recoil, Jotai, Redux
 
-- 라이브러리 : Axios,　 Styled-components,　 Tailwind CSS、　 React-router-dom、　 Tanstack-Table、　 Rechart、　 React-multi-caroucel、　 JS-cookie、　 Passport.js、　 Recoil,　 Jotai,　 Redux
+앞으로는 **React Native, Node.js** 등을 비롯해 프론트엔드 영역을 더욱 확장할 수 있는 기술들을 적극적으로 배우고 경험해보고 싶습니다.
 
-- 앞으로 배우고 싶은 언어 및 기술로는 React Native, NodeJs등이 있습니다.
+또한 엔지니어로서 성장하기 위해서는 특정 언어나 기술에만 국한되지 않고, 프로젝트와 팀에 필요한 기술이라면 분야를 가리지 않고 적극적으로 배우는 자세가 중요하다고 생각합니다.
 
-- 회사에 필요한 인재가 되기 위해서라면 어떠한 언어나 기술도 마다하지 않고 배울 것입니다.
+새로운 기술을 꾸준히 학습하고 경험하며, 팀과 회사에 실질적으로 기여할 수 있는 엔지니어로 성장하는 것을 목표로 하고 있습니다.
 
 ---
 
@@ -180,3 +190,12 @@ Jonghyeok Lee (Ryan)의 포트폴리오를 봐주셔서 감사합니다.
 
 - 리액트 학습 앱 프로젝트 추가
 - 포켓몬 도감 프로젝트 추가
+
+---
+
+2026.08.22
+
+내용
+
+- 문명 게임 프로젝트 추가
+- Google AntiGravity를 이용한 전체적인 디자인 개선
