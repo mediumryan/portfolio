@@ -13,55 +13,58 @@ import { FaGithub, FaLocationArrow } from 'react-icons/fa';
 
 export default function ProjectCarousel({ data }: { data: ProjectsType[] }) {
   return (
-    <div className="w-full py-2">
-      <div className="w-full flex justify-center">
-        <Carousel className="w-3/4 md:w-full">
-          <CarouselContent className="-ml-1">
+    <div className="w-full py-6">
+      <div className="w-full flex justify-center px-4 md:px-12">
+        <Carousel className="w-full max-w-5xl">
+          <CarouselContent className="-ml-4">
             {data.map((item) => (
               <CarouselItem
                 key={`project-${item.id}`}
-                className="pl-1 md:basis-1/3"
+                className="pl-4 md:basis-1/2 lg:basis-1/3"
               >
-                <div className="p-1">
-                  <Card className="hover:-translate-y-4 duration-300">
-                    <CardContent className="group relative flex aspect-square items-center justify-center p-2 origin-bottom duration-300 ">
+                <div className="py-2">
+                  <Card className="overflow-hidden border-none shadow-sm hover:shadow-lg transition-all duration-300 rounded-2xl bg-white">
+                    <CardContent className="group relative flex aspect-[4/3] w-full items-center justify-center p-0">
                       <Image
                         fill={true}
-                        sizes="100%"
-                        className="group-hover:opacity-15 rounded-md"
+                        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                        className="object-cover transition-transform duration-700 group-hover:scale-110"
                         src={item.image_path}
                         alt={item.title}
                       />
-                      <div className="group absolute font-extrabold text-blue-400 top-0 left-0 w-full h-full pt-4 px-4 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100">
-                        <h4 className="text-xl md:text-md truncate text-center w-64">
+                      {/* Overlay */}
+                      <div className="absolute inset-0 bg-white/65 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-center justify-center p-6 text-center z-10">
+                        <h4 className="text-xl font-bold text-gray-800 mb-4 line-clamp-2">
                           {item.title}
                         </h4>
-                        <div className="flex flex-wrap justify-center items-center gap-2 mt-2">
+                        <div className="flex flex-wrap justify-center items-center gap-2 mb-6">
                           {item.tag.slice(0, 3).map((tagItem, tagIndex) => {
                             return (
                               <span
                                 key={`project-tag-${tagIndex}`}
-                                className="bg-blue-400 text-white text-xs p-1 rounded-sm"
+                                className="bg-blue-50 text-blue-600 text-xs font-semibold px-3 py-1 rounded-full"
                               >
                                 #{tagItem}
                               </span>
                             );
                           })}
                         </div>
-                        <div className="flex items-center mt-4 gap-2">
+                        <div className="flex items-center gap-4">
                           <a
-                            className="hidden group-hover:block"
                             href={item.github_link}
-                            target="blank"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-gray-500 hover:text-blue-600 transition-colors"
                           >
-                            <FaGithub className=" w-6 h-6 hover:scale-105 hover:rotate-12 hover:opacity-75 duration-300" />
+                            <FaGithub className="w-7 h-7 hover:scale-110 transition-transform" />
                           </a>
                           <a
-                            className="hidden group-hover:block"
                             href={item.url_link}
-                            target="blank"
+                            target="_blank"
+                            rel="noreferrer"
+                            className="text-gray-500 hover:text-blue-600 transition-colors"
                           >
-                            <FaLocationArrow className=" w-6 h-6 hover:scale-105 hover:rotate-12 hover:opacity-75 duration-300" />
+                            <FaLocationArrow className="w-7 h-7 hover:scale-110 transition-transform" />
                           </a>
                         </div>
                       </div>
@@ -71,8 +74,8 @@ export default function ProjectCarousel({ data }: { data: ProjectsType[] }) {
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
+          <CarouselPrevious className="hidden md:flex -left-12 bg-white hover:bg-blue-50 hover:text-blue-600 border-gray-200" />
+          <CarouselNext className="hidden md:flex -right-12 bg-white hover:bg-blue-50 hover:text-blue-600 border-gray-200" />
         </Carousel>
       </div>
     </div>

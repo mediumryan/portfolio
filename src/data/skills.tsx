@@ -1,3 +1,4 @@
+import { BiLogoMicrosoftTeams } from 'react-icons/bi';
 import {
   FaGithub,
   FaGoogle,
@@ -5,6 +6,7 @@ import {
   FaReact,
   FaSlack,
 } from 'react-icons/fa';
+import { GiTortoise } from 'react-icons/gi';
 import { RiTailwindCssFill } from 'react-icons/ri';
 import {
   SiNextdotjs,
@@ -12,7 +14,9 @@ import {
   SiStyledcomponents,
   SiTypescript,
   SiVisualstudiocode,
-  SiFlutter,
+  SiPhp,
+  SiShadcnui,
+  SiBootstrap,
 } from 'react-icons/si';
 import { TbSql } from 'react-icons/tb';
 
@@ -46,8 +50,8 @@ export const skills = [
   },
   {
     id: 5,
-    name: 'Flutter',
-    icon: <SiFlutter className={skillsIconStyle} />,
+    name: 'PHP',
+    icon: <SiPhp className={skillsIconStyle} />,
   },
 ];
 
@@ -61,6 +65,16 @@ export const css = [
     id: 1,
     name: 'Tailwind CSS',
     icon: <RiTailwindCssFill className={skillsIconStyle} />,
+  },
+  {
+    id: 2,
+    name: 'Shadcn/UI',
+    icon: <SiShadcnui className={skillsIconStyle} />,
+  },
+  {
+    id: 3,
+    name: 'Bootstrap',
+    icon: <SiBootstrap className={skillsIconStyle} />,
   },
 ];
 
@@ -89,5 +103,15 @@ export const others = [
     id: 4,
     name: 'Github',
     icon: <FaGithub className={skillsIconStyle} />,
+  },
+  {
+    id: 5,
+    name: 'TortoiseSVN',
+    icon: <GiTortoise className={skillsIconStyle} />,
+  },
+  {
+    id: 6,
+    name: 'MS Teams',
+    icon: <BiLogoMicrosoftTeams className={skillsIconStyle} />,
   },
 ];

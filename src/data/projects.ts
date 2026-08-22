@@ -23,6 +23,7 @@ import ryan_quiz from '@/Images/projects/ryan-seok-quiz.png';
 import gold_way from '@/Images/projects/gold_way.png';
 import react_learning from '@/Images/projects/react-learning.png';
 import search_pokemon from '@/Images/projects/search-pokemon.png';
+import civilization from '@/Images/projects/civilization.png';
 import { StaticImageData } from 'next/image';
 
 export type ProjectsType = {
@@ -268,7 +269,7 @@ export const projects = [
     title: '船舶用貨物管理アプリ',
     github_link: 'https://github.com/mediumryan/goldway_test',
     tag: ['React', 'TS', 'Firebase'],
-    url_link: 'https://ryan-react-2ace0.web.app/',
+    url_link: 'https://mediumryan.github.io/goldway_test/',
     image_path: gold_way,
     type: 'self_made',
     description: 'Firebaseで認証＆データ管理を行う物流管理アプリです。',
@@ -293,6 +294,17 @@ export const projects = [
     image_path: search_pokemon,
     type: 'self_made',
     description:
-      '初心者向けのReact学習用アプリです。Reactの基本的な機能を学ぶことができます。',
+      'poke-apiを活用したポケモン図鑑アプリです。ポケモンの名前やタイプで検索することができます。',
+  },
+  {
+    id: 25,
+    title: '文明',
+    github_link: 'https://github.com/mediumryan/ryan_civilization',
+    tag: ['React', 'JS', 'stateful app', 'github-actions'],
+    url_link: 'https://mediumryan.github.io/ryan_civilization/',
+    image_path: civilization,
+    type: 'self_made',
+    description:
+      '各種の資源を獲得し、それらを活用して文明を発展させていくゲームです。先史時代から始まり、現代まで文明を発展させていく過程を楽しむことができます。',
   },
 ].reverse() as ProjectsType[];

@@ -4,9 +4,11 @@ import ProjectsContentArea from './ProjectsContentArea/ProjectsContentArea';
 
 export default function Projects() {
   return (
-    <div id="projects" className="py-32 md:pb-16 md:w-1/2 md:mx-auto">
+    <div id="projects" className="py-24">
       <Title text="Projects" />
-      <ProjectsContentArea />
+      <div className="mt-12">
+        <ProjectsContentArea />
+      </div>
     </div>
   );
 }

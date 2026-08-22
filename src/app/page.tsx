@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <div className="mx-8 my-4">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl py-8">
       {/* Greeting */}
       <Greeting />
       <GoDown sectionName="intro" />
